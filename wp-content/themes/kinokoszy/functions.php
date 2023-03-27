@@ -35,6 +35,8 @@ add_action('init', function (){
         'has_archive' => true
     ));
 
+   
+
     
   
         
