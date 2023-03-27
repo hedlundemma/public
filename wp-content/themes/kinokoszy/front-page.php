@@ -1,3 +1,3 @@
-<?php
+<?php // landningssida
 
-// landningssida
+get_header();
