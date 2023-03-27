@@ -1,11 +1,16 @@
 <!DOCTYPE html>
+<header>
 
-<head>
-    <?php wp_head(); ?>
-</head>
+    <head>
+        <?php wp_head(); ?>
+    </head>
 
-<nav>
+    <body>
 
-    <h1>The_Title</h1>
 
-</nav>
+        <nav class="test">
+
+            <h1>The_Title</h1>
+
+        </nav>
+</header>
