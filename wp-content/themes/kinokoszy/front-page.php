@@ -8,3 +8,4 @@ get_header();
 
 <a href="home-joanna">JOANNA</a>
 <a href="home-kino"> KINO</a>
+<p>Hej!</p>

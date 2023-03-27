@@ -36,7 +36,9 @@ add_action('init', function () {
     ));
 });
 
-function custom_styles() {
-	wp_enqueue_style( 'footer', get_template_directory_uri() . '/assets/footer.css' );
+function custom_styles()
+{
+    wp_enqueue_style('footer', get_template_directory_uri() . '/assets/css/footer.css');
+    wp_enqueue_style('header', get_template_directory_uri() . '/assets/css/header.css');
 }
-add_action( 'wp_enqueue_scripts', 'custom_styles' );
+add_action('wp_enqueue_scripts', 'custom_styles');
