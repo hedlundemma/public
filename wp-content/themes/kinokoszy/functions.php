@@ -35,3 +35,8 @@ add_action('init', function () {
         'has_archive' => true
     ));
 });
+
+function custom_styles() {
+	wp_enqueue_style( 'footer', get_template_directory_uri() . '/assets/footer.css' );
+}
+add_action( 'wp_enqueue_scripts', 'custom_styles' );
