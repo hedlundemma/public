@@ -1,11 +1,6 @@
 <?php
 
-
-
-   
-    
-    
- // Create new custom type "books"
+// Create new custom types
 add_action('init', function (){
    
     register_post_type('book', array(
@@ -24,14 +19,14 @@ add_action('init', function (){
         'has_archive' => true
     ));
 
-    
-  
-        
-});
+    register_post_type('film,', array(
+        'labels' => array(
+            'name' => __('Film'),
+        ),
+        'public'=> true,
+        'has_archive' => true
+    ));
 
- // Create new custom type "books"
- add_action('init', function (){
-   
     register_post_type('exhibition', array(
         'labels' => array(
             'name' => __('Exhibition'),
@@ -39,6 +34,7 @@ add_action('init', function (){
         'public'=> true,
         'has_archive' => true
     ));
+
     
   
         
