@@ -1,6 +1,4 @@
-<?php wp_footer()?>
-<p>Hej
-<p>
-    </body>
+<p>Hej</p>
+</body>
 
-    </html>
+</html>
