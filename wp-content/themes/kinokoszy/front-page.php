@@ -1,5 +1,3 @@
-<?php /* Template Name: Front-page */ ?>
-
 <!DOCTYPE html>
 
 <head>
