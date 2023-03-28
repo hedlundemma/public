@@ -1,8 +1,8 @@
 <?php /* Template Name: Home-kino */ ?>
 
-<?php get_header();
+<?php is_front_page()?>
 
-the_content();
+<?php the_content();
 ?>
 
 <p> Home Kino</p>

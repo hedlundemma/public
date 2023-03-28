@@ -34,7 +34,8 @@ add_action('init', function () {
         'public' => true,
         'has_archive' => true
     ));
-                register_nav_menus(array(
+                register_nav_menus(
+                    array(
                 'kino-nav-menu' => __('Kino Nav-Menu'),
                 'joanna-nav-menu' => __('Joanna Nav-Menu')
                 
@@ -42,6 +43,16 @@ add_action('init', function () {
         
 
 });
+
+function praxis_wp_nav_menu_args( $args = '' ) {
+ 
+    if( is_front_page() ) { 
+        $args['kino-nav-menu'] = 'Kino Nav-Menu';
+    } else { 
+        $args['joanna-nav-menu'] = 'Joanna Nav-Menu';
+    } 
+        return $args;
+    }
 
 function custom_styles() {
     wp_enqueue_style( 'style', get_stylesheet_uri() );
