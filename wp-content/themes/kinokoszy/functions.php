@@ -34,6 +34,13 @@ add_action('init', function () {
         'public' => true,
         'has_archive' => true
     ));
+                register_nav_menus(array(
+                'kino-nav-menu' => __('Kino Nav-Menu'),
+                'joanna-nav-menu' => __('Joanna Nav-Menu')
+                
+            ));
+        
+    );
 });
 
 function custom_styles() {
