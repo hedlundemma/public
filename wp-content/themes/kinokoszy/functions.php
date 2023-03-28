@@ -40,7 +40,7 @@ add_action('init', function () {
                 
             ));
         
-    );
+
 });
 
 function custom_styles() {
