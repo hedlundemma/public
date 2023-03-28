@@ -3,5 +3,8 @@
 <?php get_header();
 
 the_content();
+?>
 
-get_footer();
+<p> About Us</p>
+<?php
+get_footer();?>
