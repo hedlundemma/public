@@ -34,18 +34,18 @@ add_action('init', function () {
         'public' => true,
         'has_archive' => true
     ));
-                register_nav_menus(array(
-                'kino-nav-menu' => __('Kino Nav-Menu'),
-                'joanna-nav-menu' => __('Joanna Nav-Menu')
-                
-            ));
-        
+    register_nav_menus(array(
+        'kino-nav-menu' => __('Kino Nav-Menu'),
+        'joanna-nav-menu' => __('Joanna Nav-Menu')
 
+    ));
 });
 
-function custom_styles() {
-    wp_enqueue_style( 'style', get_stylesheet_uri() );
-	wp_enqueue_style( 'footer', get_template_directory_uri() . '/assets/css/footer.css' );
-    wp_enqueue_style( 'front-page', get_template_directory_uri() . '/assets/css/front-page.css' );
+function custom_styles()
+{
+    wp_enqueue_style('style', get_stylesheet_uri());
+    wp_enqueue_style('header', get_template_directory_uri() . '/assets/css/header.css');
+    wp_enqueue_style('footer', get_template_directory_uri() . '/assets/css/footer.css');
+    wp_enqueue_style('front-page', get_template_directory_uri() . '/assets/css/front-page.css');
 }
 add_action('wp_enqueue_scripts', 'custom_styles');
