@@ -1,2 +1,10 @@
+<?php /* Template Name: Films*/ ?>
+
+<?php get_header();
+
+the_content();
+?>
+
+<p> Films</p>
 <?php
-// page for films 
+get_footer();?>

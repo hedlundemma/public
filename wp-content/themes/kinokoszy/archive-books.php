@@ -1,3 +1,1 @@
-<?php
-
-//page for books
+<?php 

@@ -1,10 +1,10 @@
-<?php /* Template Name: About-page */ ?>
+<?php /* Template Name: Contact */ ?>
 
 <?php get_header();
 
 the_content();
 ?>
 
-<p> About Us</p>
+<p> Contact Page</p>
 <?php
 get_footer();?>

@@ -1,3 +1,10 @@
 <?php /* Template Name: Home-joanna */ ?>
 
-<h1> HEJ</h1>
+<?php get_header();
+
+the_content();
+?>
+
+<p> Home Joanna</p>
+<?php
+get_footer();?>
