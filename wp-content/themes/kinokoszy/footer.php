@@ -1,6 +1,6 @@
 <section class="footer-section">
     <div class="logo-footer">
-        <img src="./assets/images/kino-logo.png" alt="logo kinokoszy" />
+        <img src="/wp-content/themes/kinokoszy/assets/images/kino-logo.png" alt="">
         <h2> KINO</h2>
         <h3> KOSZYK</h3>
 
