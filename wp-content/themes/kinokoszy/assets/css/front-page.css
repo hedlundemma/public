@@ -1,13 +1,51 @@
+@font-face {
+  font-family: "Neue Haas";
+  src: url("../fonts/NeueHaasDisplayMediu.ttf");
+}
+
+body {
+  margin: 0;
+}
+
+.front-page-main h2 {
+  font-size: 96px;
+  width: 376px;
+  margin-left: 60px;
+  margin-top: 78px;
+}
+
 .front-page-main {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  transition: 300ms;
+  font-family: "Neue Haas";
+  color: white;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+
+.front-page-kino-section {
   width: 100%;
-  height: 100%;
+  background-image: url("../KINO.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  grid-column: 1;
 }
 
-.front-page-kino-section{
- background-image: url('assets/');
+.front-page-main:has(.front-page-kino-section:hover) {
+  grid-template-columns: 2fr 1fr;
 }
 
-.front-page-joanna-section{
+.front-page-main:has(.front-page-joanna-section:hover) {
+  grid-template-columns: 1fr 2fr;
+}
 
+.front-page-joanna-section {
+  width: 100%;
+  background-image: url("../Ewa\ på\ Koksverket.\ utan\ ram.jpg");
+  background-repeat: no-repeat;
+
+  grid-column: 2;
 }

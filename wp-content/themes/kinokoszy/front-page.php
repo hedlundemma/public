@@ -8,9 +8,9 @@
 
 <main class="front-page-main">
     <div class="front-page-kino-section">
-        <h1>Kino Koszyk</h1>
+        <h2>Kino Koszyk</h2>
     </div>
     <div class="front-page-joanna-section">
-        <h1>JOANNA HELANDER</h1>
+        <h2>JOANNA HELANDER</h2>
     </div>
 </main>
