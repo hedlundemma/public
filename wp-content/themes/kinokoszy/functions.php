@@ -23,8 +23,12 @@ add_action('init', function () {
     register_post_type('film,', array(
         'labels' => array(
             'name' => __('Film'),
+            
+           
            
         ),
+        'rewrite' => array( 'slug' => 'kino/films' ),
+       
         'public' => true,
         'has_archive' => true
     ));

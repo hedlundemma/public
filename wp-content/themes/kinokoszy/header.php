@@ -14,7 +14,7 @@ $joanna_menu = wp_get_nav_menu_items('joanna-nav-menu');
     <header>
         <nav class="test">
             <div>
-                <?php if (is_page('kino') || is_page('kino/contact') || is_page('kino/about')  || is_page('films')): ?>
+                <?php if (is_page('kino') || is_page('kino/contact') || is_page('kino/about') || ( get_post_type() == 'film' )): ?>
                 <?php foreach ($kino_menu as $link) : ?>
                 <a title="<?= $link->title; ?>" class="<?= $current_page_id == $link->object_id ? 'underline' : ''; ?>"
                     href="<?= $link->url; ?>"><?= $link->title; ?></a>
@@ -30,6 +30,10 @@ $joanna_menu = wp_get_nav_menu_items('joanna-nav-menu');
             </div>
             <div>
                 <h1><?php WP_title(); ?></h1>
+
+
+
+
             </div>
 
 

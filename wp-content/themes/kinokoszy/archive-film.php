@@ -1,4 +1,4 @@
-<?php /* Template Name: Films */?>
+<?php /* Template Name: Films */ ?>
 <?php get_header()?>
 
 <?php if(have_posts() ) : ?>
