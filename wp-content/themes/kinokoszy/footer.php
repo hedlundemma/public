@@ -4,7 +4,6 @@ $kino_footer_menu= wp_get_nav_menu_items('kino-footer-menu');
 ?>
 
 
-
 <footer>
     <section class="footer-section">
         <div class="logo-footer">

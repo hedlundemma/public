@@ -75,4 +75,12 @@ function custom_styles()
     wp_enqueue_style('footer', get_template_directory_uri() . '/assets/css/footer.css');
     wp_enqueue_style('front-page', get_template_directory_uri() . '/assets/css/front-page.css');
 }
+
+function scripts()
+{
+    if (is_page('front-page')) {
+        wp_enqueue_script('front-page-script', get_template_directory_uri() . '/assets/js/front-page.js', array(), false, true);
+    }
+}
 add_action('wp_enqueue_scripts', 'custom_styles');
+add_action('wp_enqueue_scripts', 'scripts');

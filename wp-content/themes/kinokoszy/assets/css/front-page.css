@@ -7,48 +7,78 @@ body {
   margin: 0;
 }
 
-.front-page-main h2 {
+#front-page-main h2 {
   font-size: 96px;
   width: 376px;
   margin-left: 60px;
   margin-top: 78px;
 }
 
-.front-page-main {
+#front-page-main {
   display: grid;
   grid-template-columns: 50% 50%;
   transition: 300ms;
   font-family: "Neue Haas";
   color: white;
   flex-direction: row;
-  position:absolute;
-  top:0px;
-  right:0px;
-  bottom:0px;
-  left:0px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
 }
 
-.front-page-kino-section {
+#front-page-kino-section {
   width: 100%;
-  background-image: url("../KINO.png");
+  background-image: url("../images/KINO.png");
   background-repeat: no-repeat;
   background-size: cover;
 
   grid-column: 1;
 }
 
-.front-page-main:has(.front-page-kino-section:hover) {
-  grid-template-columns: 75% 25%;
+#front-page-main:has(#front-page-kino-section:hover) {
+  grid-template-columns: 60% 40%;
 }
 
-.front-page-main:has(.front-page-joanna-section:hover) {
-  grid-template-columns: 25% 75%;
+#front-page-main:has(#front-page-joanna-section:hover) {
+  grid-template-columns: 40% 60%;
 }
 
-.front-page-joanna-section {
+#front-page-joanna-section {
   width: 100%;
-  background-image: url("../Ewa\ på\ Koksverket.\ utan\ ram.jpg");
+  background-image: url("../images/Joanna-croped.jpg");
   background-repeat: no-repeat;
 
   grid-column: 2;
 }
+
+#front-page-kino-section,
+#front-page-joanna-section {
+  cursor: pointer;
+}
+
+.blur {
+  filter: blur(8px);
+}
+
+#wall {
+  position: absolute;
+  height: 100%;
+  width: 12.5rem;
+  z-index: 1;
+
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+/*
+#front-page-main span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+
+  z-index: 1;
+}
+*/
