@@ -16,6 +16,7 @@ add_action('init', function () {
         'labels' => array(
             'name' => __('Photo'),
         ),
+        'rewrite' => array( 'slug' => 'joanna/photos' ),
         'public' => true,
         'has_archive' => true
     ));
@@ -37,6 +38,7 @@ add_action('init', function () {
         'labels' => array(
             'name' => __('Exhibition'),
         ),
+        'rewrite' => array( 'slug' => 'joanna/exhibitions' ),
         'public' => true,
         'has_archive' => true
     ));

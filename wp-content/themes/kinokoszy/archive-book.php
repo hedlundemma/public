@@ -8,6 +8,8 @@
 
 the_title();?>
 
+
+
     <a href="<?php the_permalink();?>">titke</a>
 
     <?php
