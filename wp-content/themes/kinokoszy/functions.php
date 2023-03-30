@@ -7,6 +7,7 @@ add_action('init', function () {
         'labels' => array(
             'name' => __('Book'),
         ),
+		'rewrite' => array( 'slug' => 'joanna/books' ),
         'public' => true,
         'has_archive' => true
     ));
@@ -22,6 +23,7 @@ add_action('init', function () {
     register_post_type('film,', array(
         'labels' => array(
             'name' => __('Film'),
+           
         ),
         'public' => true,
         'has_archive' => true
