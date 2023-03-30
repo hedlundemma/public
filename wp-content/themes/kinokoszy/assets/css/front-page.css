@@ -21,8 +21,11 @@ body {
   font-family: "Neue Haas";
   color: white;
   flex-direction: row;
-  width: 100vw;
-  height: 100vh;
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
 }
 
 .front-page-kino-section {
@@ -35,11 +38,11 @@ body {
 }
 
 .front-page-main:has(.front-page-kino-section:hover) {
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 75% 25%;
 }
 
 .front-page-main:has(.front-page-joanna-section:hover) {
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 25% 75%;
 }
 
 .front-page-joanna-section {
