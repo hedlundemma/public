@@ -27,10 +27,10 @@ $joanna_menu = wp_get_nav_menu_items('joanna-nav-menu');
                 <?php endif ?>
             </div>
             <div>
-                <h1><?php WP_title(" "); ?></h1>
-
-
-
+                <img src="/wp-content/themes/kinokoszy/assets/images/Group 6.png" alt="">
+                <h1>
+                    <?php WP_title(" "); ?>
+                </h1>
 
             </div>
 
