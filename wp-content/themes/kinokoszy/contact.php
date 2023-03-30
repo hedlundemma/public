@@ -1,10 +1,10 @@
-<?php /* Template Name: Home-joanna */ ?>
+<?php /* Template Name: Contact */ ?>
 
 <?php get_header();
 
 the_content();
 ?>
 
-<p> Home Joanna</p>
+<p> Contact Page</p>
 <?php
 get_footer();?>
