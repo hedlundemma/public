@@ -42,7 +42,9 @@ add_action('init', function () {
     ));
     register_nav_menus(array(
         'kino-nav-menu' => __('Kino Nav-Menu'),
-        'joanna-nav-menu' => __('Joanna Nav-Menu')
+        'joanna-nav-menu' => __('Joanna Nav-Menu'),
+        'joanna-footer-menu' => __('Joanna Footer-Menu'),
+        'kino-footer-menu' => __('Kino Footer-Menu')
 
     ));
 });
