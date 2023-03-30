@@ -8,7 +8,7 @@
 
 <main class="front-page-main">
     <div class="front-page-kino-section">
-        <h2>Kino Koszyk</h2>
+        <h2>KINO KOSZYK</h2>
     </div>
     <div class="front-page-joanna-section">
         <h2>JOANNA HELANDER</h2>
