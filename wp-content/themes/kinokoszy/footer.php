@@ -28,6 +28,15 @@ $kino_footer_menu= wp_get_nav_menu_items('kino-footer-menu');
             <?php endforeach; ?>
             <?php endif ?>
         </div>
+        <div class="info-section-footer">
+            <p>BO PERSSON</p>
+            <p>JOANNA HELANDER </p>
+            <p> KINO.KOSZYK@GMAIL.COM</p>
+            <p>TEL: +46 768 32 74 55</p>
+        </div>
+        </div>
+
+
 
 
     </section>

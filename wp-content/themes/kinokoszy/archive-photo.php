@@ -1,7 +1,25 @@
-<?php /* Template Name: Photos*/ ?>
+<?php get_header()?>
 
-<?php get_header();?>
+<?php if(have_posts() ) : ?>
+
+<div>
+
+    <?php while (have_posts () ) : the_post();
 
 
 
-<?php get_footer();?>
+the_title()
+
+?>
+
+
+
+    <?php
+endwhile;
+endif;
+
+?>
+
+
+    <?php get_footer()?>
+</div>
