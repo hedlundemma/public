@@ -9,7 +9,8 @@ add_action('init', function () {
         ),
 		'rewrite' => array( 'slug' => 'joanna/books' ),
         'public' => true,
-        'has_archive' => true
+        'has_archive' => true,
+        'supports' => array('custom-field', 'title')
     ));
 
     register_post_type('photo', array(
@@ -31,7 +32,8 @@ add_action('init', function () {
         'rewrite' => array( 'slug' => 'kino/films' ),
        
         'public' => true,
-        'has_archive' => true
+        'has_archive' => true,
+        'supports' => array('custom-field', 'title')
     ));
 
     register_post_type('exhibition', array(

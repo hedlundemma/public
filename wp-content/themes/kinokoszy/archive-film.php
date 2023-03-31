@@ -9,6 +9,9 @@
 
 the_title();?>
 
+
+
+
     <a href="<?php the_permalink();?>">title</a>
 
     <?php

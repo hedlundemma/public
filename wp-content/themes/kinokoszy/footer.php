@@ -2,9 +2,6 @@
 $kino_footer_menu= wp_get_nav_menu_items('kino-footer-menu');
 
 ?>
-
-
-
 <footer>
     <section class="footer-section">
         <div class="logo-footer">
@@ -29,17 +26,32 @@ $kino_footer_menu= wp_get_nav_menu_items('kino-footer-menu');
             <?php endif ?>
         </div>
         <div class="info-section-footer">
+            <?php if (is_page('kino') || is_page('kino/contact') || is_page('kino/about')) :?>
             <p>BO PERSSON</p>
+            <?php endif ?>
             <p>JOANNA HELANDER </p>
             <p> KINO.KOSZYK@GMAIL.COM</p>
             <p>TEL: +46 768 32 74 55</p>
         </div>
+
+    </section>
+    <section class="lower-footer-section">
+
+        <div class="copy-section">
+            <p> Copyright © 2023 · All Rights Reserved</p>
+        </div>
+        <div class="facebook-logo">
+            <img src="/wp-content/themes/kinokoszy/assets/images/facebook-ikon.svg" alt="logo kinokoszy" />
         </div>
 
 
-
-
+        </div>
     </section>
+
+
+
+
+
 </footer>
 </body>
 
