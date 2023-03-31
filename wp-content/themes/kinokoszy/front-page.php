@@ -6,11 +6,15 @@
     <?php wp_head(); ?>
 </head>
 
-<main class="front-page-main">
-    <div class="front-page-kino-section">
+<main id="front-page-main">
+    <div id="front-page-kino-section">
         <h2>KINO KOSZYK</h2>
     </div>
-    <div class="front-page-joanna-section">
+    <div id="front-page-joanna-section">
         <h2>JOANNA HELANDER</h2>
     </div>
 </main>
+
+<div id='wall'></div>
+
+<?php wp_footer(); ?>

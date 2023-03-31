@@ -12,8 +12,8 @@ $joanna_menu = wp_get_nav_menu_items('joanna-nav-menu');
     <?php wp_body_open(); ?>
 
     <header>
-        <nav class="test">
-            <div>
+        <nav>
+            <div class="nav-links-container">
                 <?php if (is_page('kino') || is_page('kino/contact') || is_page('kino/about') || (get_post_type() == 'film')) : ?>
                     <?php foreach ($kino_menu as $link) : ?>
                         <a title="<?= $link->title; ?>" class="<?= $current_page_id == $link->object_id ? 'underline' : ''; ?>" href="<?= $link->url; ?>"><?= $link->title; ?></a>
@@ -26,7 +26,7 @@ $joanna_menu = wp_get_nav_menu_items('joanna-nav-menu');
                     <?php endforeach; ?>
                 <?php endif ?>
             </div>
-            <div>
+            <div class="title-container">
                 <img src="/wp-content/themes/kinokoszy/assets/images/Group 6.png" alt="">
                 <h1>
                     <?php WP_title(" "); ?>
