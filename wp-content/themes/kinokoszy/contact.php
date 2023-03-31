@@ -1,10 +1,24 @@
 <?php /* Template Name: Contact */ ?>
 
-<?php get_header();
+<?php get_header();?>
 
-the_content();
-?>
+<h2 class="contact-heading"> HAVE A QUESTION? ASK US!</h2>
 
-<p> Contact Page</p>
+<section class="images-section">
+    <div class="image-container-one">
+        <img src="/wp-content/themes/kinokoszy/assets/images/contact-bo.jpg" alt="Bo persson" />
+        <p> BO PERSSON </p>
+    </div>
+    <div src="imgage-container-two">
+        <img src="/wp-content/themes/kinokoszy/assets/images/contact-joanna.jpg" alt="Joanna Helander" />
+        <p> JOANNA HELANDER</p>
+    </div>
+</section>
+
+
+
+<?php the_content()?>
+
+
 <?php
 get_footer();?>
