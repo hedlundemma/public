@@ -48,6 +48,8 @@
     color: white;
     font-family: "Neue Haas";
     letter-spacing: 0.6rem;
+    margin-top: 32px;
+    
    
 }
 
@@ -59,14 +61,15 @@
     margin-top: 20px;
     font-family: "Neue Haas";
     letter-spacing: 0.6rem;
+    margin-bottom: 32px;
 }
 
 .info-section-footer p {
     color: white;
     font-size: 20px;
     font-weight: 400;
-    line-height: 25px;
-    top: 64px;
+    line-height: 62px;
+ 
     font-family: "Neue Haas";
 
 }
@@ -86,14 +89,15 @@
     display:grid;
     grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr;
     gap: 32px;
-    margin-top: 32px;
+   margin: 32px;
    
     
 
 }
 
 .info-section-footer{
-    margin-top: 40px;
+   margin-top: 15px;
     margin-right: 32px;
+   
 }
 
