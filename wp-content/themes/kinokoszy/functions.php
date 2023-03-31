@@ -7,7 +7,7 @@ add_action('init', function () {
         'labels' => array(
             'name' => __('Book'),
         ),
-		'rewrite' => array( 'slug' => 'joanna/books' ),
+        'rewrite' => array('slug' => 'joanna/books'),
         'public' => true,
         'has_archive' => true,
         'supports' => array('custom-field', 'title')
@@ -17,20 +17,21 @@ add_action('init', function () {
         'labels' => array(
             'name' => __('Photo'),
         ),
-        'rewrite' => array( 'slug' => 'joanna/photos' ),
+        'rewrite' => array('slug' => 'joanna/photos'),
         'public' => true,
-        'has_archive' => true
+        'has_archive' => true,
+        'supports' => array('custom-field')
     ));
 
     register_post_type('film,', array(
         'labels' => array(
             'name' => __('Film'),
-            
-           
-           
+
+
+
         ),
-        'rewrite' => array( 'slug' => 'kino/films' ),
-       
+        'rewrite' => array('slug' => 'kino/films'),
+
         'public' => true,
         'has_archive' => true,
         'supports' => array('custom-field', 'title')
@@ -40,7 +41,7 @@ add_action('init', function () {
         'labels' => array(
             'name' => __('Exhibition'),
         ),
-        'rewrite' => array( 'slug' => 'joanna/exhibitions' ),
+        'rewrite' => array('slug' => 'joanna/exhibitions'),
         'public' => true,
         'has_archive' => true
     ));
@@ -73,16 +74,17 @@ function praxis_wp_nav_menu_args($args = '')
 function custom_styles()
 {
     wp_enqueue_style('style', get_stylesheet_uri());
-    wp_enqueue_style('main', get_template_directory_uri() . "/assets/css/main.css");
+    wp_enqueue_style('main', get_template_directory_uri() . '/assets/css/main.css');
     wp_enqueue_style('header', get_template_directory_uri() . '/assets/css/header.css');
     wp_enqueue_style('footer', get_template_directory_uri() . '/assets/css/footer.css');
+    wp_enqueue_style('contact', get_template_directory_uri() . '/assets/css/contact.css');
     wp_enqueue_style('front-page', get_template_directory_uri() . '/assets/css/front-page.css');
     wp_enqueue_style('home-kino', get_template_directory_uri() . '/assets/css/home-kino.css');
 }
 
 function scripts()
 {
-        wp_enqueue_script('front-page-script', get_template_directory_uri() . '/assets/js/front-page.js', array(), false, true);
+    wp_enqueue_script('front-page-script', get_template_directory_uri() . '/assets/js/front-page.js', array(), false, true);
 }
 add_action('wp_enqueue_scripts', 'custom_styles');
 add_action('wp_enqueue_scripts', 'scripts');

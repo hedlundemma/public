@@ -1,0 +1,23 @@
+input[type="text"], input[type="email"], input[type="textarea your-message"]
+{
+   
+   
+}
+
+input[type="submit"]{
+
+}
+
+.contact-heading{
+    font-size: 96px;
+    color: black;
+  
+}
+
+.images-section img {
+    width: 346px;
+    height: 504px;
+}
+
+
+

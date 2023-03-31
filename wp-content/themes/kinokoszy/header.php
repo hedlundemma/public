@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <?php $kino_menu = wp_get_nav_menu_items('kino-nav-menu');
 $joanna_menu = wp_get_nav_menu_items('joanna-nav-menu');
+$page_id = $wp_query->get_queried_object_id()
+
 
 ?>
 
@@ -26,15 +28,6 @@ $joanna_menu = wp_get_nav_menu_items('joanna-nav-menu');
                     <?php endforeach; ?>
                 <?php endif ?>
             </div>
-            <div class="title-container">
-                <img src="/wp-content/themes/kinokoszy/assets/images/Group 6.png" alt="">
-                <h1>
-                    <?php WP_title(" "); ?>
-                </h1>
-
-            </div>
-
-
         </nav>
     </header>
 

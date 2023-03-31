@@ -4,12 +4,30 @@
   }
 
 body {
-
-    margin: 0 auto;   
+  margin: 0 auto;
 }
 
 p{
     font-size: 36px;
     font-family: "Neue Haas";
 
+}
+/*hero-section*/
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  align-self: center;
+  background-color: black;
+}
+
+.title-container img {
+  height: 66px;
+  margin-top: 6.5%;
+}
+
+.title-container h1 {
+  font-size: 180px;
+  color: rgba(255, 255, 255, 1);
 }

@@ -1,6 +1,10 @@
 <?php /* Template Name: Home-kino */ ?>
 
-<?php get_header();?>
+<?php get_header() ?>
+<div class="title-container">
+    <img src="/wp-content/themes/kinokoszy/assets/images/Group 6.png" alt="">
+    <h1>KINO KOSZYK</h1>
+</div>
 
 <main>
     <p>
@@ -8,6 +12,8 @@
 
         Founded in 1987. Based in Göteborg, Sweden.
     </p>
+
+    </section>
 
     <section id="home-kino-movie-section">
         <h2>Movie</h2>

@@ -11,7 +11,7 @@ $kino_footer_menu= wp_get_nav_menu_items('kino-footer-menu');
 
         </div>
         <div class="menu-footer">
-            <?php if (is_page('kino') || is_page('kino/contact') || is_page('kino/about')) :?>
+            <?php if (is_page('kino') || is_page('kino/contact') || is_page('kino/about') || (get_post_type() == 'film')) : ?>
             <?php foreach ($kino_footer_menu as $link) : ?>
             <a title="<?= $link->title; ?>" class="<?= $current_page_id == $link->object_id ? 'underline' : ''; ?>"
                 href="<?= $link->url; ?>"><?= $link->title; ?></a>
@@ -26,7 +26,7 @@ $kino_footer_menu= wp_get_nav_menu_items('kino-footer-menu');
             <?php endif ?>
         </div>
         <div class="info-section-footer">
-            <?php if (is_page('kino') || is_page('kino/contact') || is_page('kino/about')) :?>
+            <?php if (is_page('kino') || is_page('kino/contact') || is_page('kino/about') || (get_post_type() == 'film')) : ?>
             <p>BO PERSSON</p>
             <?php endif ?>
             <p>JOANNA HELANDER </p>
@@ -41,7 +41,10 @@ $kino_footer_menu= wp_get_nav_menu_items('kino-footer-menu');
             <p> Copyright © 2023 · All Rights Reserved</p>
         </div>
         <div class="facebook-logo">
-            <img src="/wp-content/themes/kinokoszy/assets/images/facebook-ikon.svg" alt="logo kinokoszy" />
+            <a href="https://www.facebook.com/emma.hedlund.37" class="svg">
+
+                <img src="/wp-content/themes/kinokoszy/assets/images/facebook-ikon.svg" alt="facebook logo link" />
+            </a>
         </div>
 
 
