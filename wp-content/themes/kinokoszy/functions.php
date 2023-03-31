@@ -43,7 +43,9 @@ add_action('init', function () {
         ),
         'rewrite' => array('slug' => 'joanna/exhibitions'),
         'public' => true,
-        'has_archive' => true
+        'has_archive' => true,
+        'supports' => array('custom-field', 'title')
+        
     ));
     register_nav_menus(array(
         'kino-nav-menu' => __('Kino Nav-Menu'),
@@ -54,16 +56,17 @@ add_action('init', function () {
     ));
 });
 
-function praxis_wp_nav_menu_args($args = '')
-{
+// Register theme support
+add_action('after_setup_theme', function () {
+    add_theme_support('image');
+    add_theme_support('paragraph');
+    
+    add_theme_support('url');
+});
 
-    if (is_front_page()) {
-        $args['kino-nav-menu'] = 'Kino Nav-Menu';
-    } else {
-        $args['joanna-nav-menu'] = 'Joanna Nav-Menu';
-    }
-    return $args;
-}
+
+
+
 
 // function custom_styles()
 // {
@@ -79,6 +82,7 @@ function custom_styles()
     wp_enqueue_style('footer', get_template_directory_uri() . '/assets/css/footer.css');
     wp_enqueue_style('contact', get_template_directory_uri() . '/assets/css/contact.css');
     wp_enqueue_style('front-page', get_template_directory_uri() . '/assets/css/front-page.css');
+    wp_enqueue_style('home-kino', get_template_directory_uri() . '/assets/css/home-kino.css');
 }
 
 function scripts()

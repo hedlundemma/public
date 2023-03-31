@@ -12,6 +12,8 @@
 
             the_title(); ?>
 
+    <?php the_field('paragraph')?>
+
 
 
 
