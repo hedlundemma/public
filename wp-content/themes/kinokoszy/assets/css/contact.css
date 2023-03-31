@@ -5,6 +5,9 @@ input[type="text"], input[type="email"], input[type="textarea your-message"]
 }
 
 input[type="submit"]{
+  font-size: 20px;
+  line-height: 24px;
+  border: none;
 
 }
 
@@ -13,10 +16,18 @@ input[type="submit"]{
     color: black;
   
 }
-
+.images-section{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:536px;
+   
+}
 .images-section img {
     width: 346px;
     height: 504px;
+    
+
 }
 
 

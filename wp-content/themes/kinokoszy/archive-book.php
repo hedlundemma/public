@@ -5,15 +5,23 @@
 </div>
 <?php if (have_posts()) : ?>
 
-    <div>
+<div>
 
-        <?php while (have_posts()) : the_post();
+    <?php while (have_posts()) : the_post();
 
-            the_title(); ?>
+    
+
+the_title();?>
+    <?php
+$image = get_field('image');
+if( !empty( $image ) ): ?>
+    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+    <?php endif;?>
+    the_title(); ?>
 
 
 
-            <a href="<?php the_permalink(); ?>">titke</a>
+    <a href="<?php the_permalink(); ?>">titke</a>
 
     <?php
         endwhile;
@@ -23,6 +31,6 @@
 
 
 
-    </div>
+</div>
 
-    <?php get_footer() ?>
+<?php get_footer() ?>
