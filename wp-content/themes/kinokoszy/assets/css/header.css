@@ -6,13 +6,9 @@
 
 nav {
   background-color: black;
-  height: 552px;
+  height: 60px;
   display: flex;
   flex-direction: column;
-}
-
-h1 {
-  color: rgba(255, 255, 255, 1);
 }
 
 .nav-links-container {
@@ -32,7 +28,7 @@ h1 {
   text-decoration: underline;
 }
 
-.title-container {
+/* .title-container {
   margin-top: 20px;
   display: flex;
   flex-direction: row;
@@ -49,4 +45,5 @@ h1 {
 
 .title-container h1 {
   font-size: 180px;
-}
+  color: rgba(255, 255, 255, 1);
+} */
