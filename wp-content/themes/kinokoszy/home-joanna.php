@@ -2,8 +2,11 @@
 
 <?php get_header(); ?>
 <div class="title-container">
-    <img src="/wp-content/themes/kinokoszy/assets/images/Group 6.png" alt="">
-    <h1>JOANNA HELANDER</h1>
+
+    <h1>
+        <img src="/wp-content/themes/kinokoszy/assets/images/Group 6.png" alt="">
+        JOANNA HELANDER
+    </h1>
 </div>
 <?php
 the_content();
