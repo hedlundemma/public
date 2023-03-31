@@ -1,0 +1,35 @@
+p{
+    margin: 5rem 5rem;
+    
+}
+
+#home-kino-movie-section{
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+}
+
+#home-kino-movie-section h2{
+    position: absolute;
+    font-size: 64px;
+    margin: auto;    
+}
+
+#home-kino-books-section{
+    margin-top: 2rem;
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+}
+
+#home-kino-books-section h2{
+    position: absolute;
+    font-size: 64px;
+    margin: auto;
+}
+
+#home-kino-awards-section{
+    width: 100%;
+    height: 400px;
+}
+

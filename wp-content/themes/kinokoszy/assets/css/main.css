@@ -1,4 +1,15 @@
+@font-face {
+    font-family: "Neue Haas";
+    src: url("../fonts/NeueHaasDisplayMediu.ttf");
+  }
+
 body {
 
     margin: 0 auto;   
+}
+
+p{
+    font-size: 36px;
+    font-family: "Neue Haas";
+
 }
