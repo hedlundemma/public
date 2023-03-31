@@ -3,28 +3,29 @@
 <div class="title-container">
     <img src="/wp-content/themes/kinokoszy/assets/images/Group 6.png" alt="">
     <h1>FILMS</h1>
+</div>
 
-    <?php if(have_posts() ) : ?>
+<?php if(have_posts() ) : ?>
 
-    <div>
 
-        <?php while (have_posts () ) : the_post();
+
+<?php while (have_posts () ) : the_post();
 
 the_title();
 
 
 $image = get_field('image');
 if( !empty( $image ) ): ?>
-        <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-        <?php endif;?>
+<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+<?php endif;?>
 
 
 
-        <?php 
+<?php 
 $link = get_field('url');
 if( $link ): ?>
-        <a class="button" href="<?php echo esc_url( $link ); ?>">Trailer</a>
-        <?php endif; ?>
+<a class="button" href="<?php echo esc_url( $link ); ?>">Trailer</a>
+<?php endif; ?>
 
 
 
@@ -32,9 +33,9 @@ if( $link ): ?>
 
 
 
-        <a href="<?php the_permalink();?>">title</a>
+<a href="<?php the_permalink();?>">title</a>
 
-        <?php
+<?php
 endwhile;
 endif;
 
@@ -42,6 +43,6 @@ endif;
 
 
 
-    </div>
 
-    <?php get_footer() ?>
+
+<?php get_footer() ?>
