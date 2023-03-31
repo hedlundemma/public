@@ -6,8 +6,10 @@
 
 <section class="images-section">
     <div class="image-container-one">
+        <?php if (is_page('kino') || is_page('kino/contact') || is_page('kino/about') || (get_post_type() == 'film')) : ?>
         <img src="/wp-content/themes/kinokoszy/assets/images/contact-bo.jpg" alt="Bo persson" />
         <p> BO PERSSON </p>
+        <?php endif?>
     </div>
     <div src="imgage-container-two">
         <img src="/wp-content/themes/kinokoszy/assets/images/contact-joanna.jpg" alt="Joanna Helander" />

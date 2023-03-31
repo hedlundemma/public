@@ -7,6 +7,11 @@
     <?php while (have_posts () ) : the_post();
 
 the_title();?>
+    <?php
+$image = get_field('image');
+if( !empty( $image ) ): ?>
+    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+    <?php endif;?>
 
 
 

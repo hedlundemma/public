@@ -7,7 +7,24 @@
 
     <?php while (have_posts () ) : the_post();
 
-the_title();?>
+the_title();
+
+
+$image = get_field('image');
+if( !empty( $image ) ): ?>
+    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+    <?php endif;?>
+
+
+
+    <?php 
+$link = get_field('url');
+if( $link ): ?>
+    <a class="button" href="<?php echo esc_url( $link ); ?>">Trailer</a>
+    <?php endif; ?>
+
+
+
 
 
 
