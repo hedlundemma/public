@@ -1,6 +1,10 @@
 <?php /* Template Name: Contact */ ?>
 
-<?php get_header();?>
+<?php get_header(); ?>
+<div class="title-container">
+    <img src="/wp-content/themes/kinokoszy/assets/images/Group 6.png" alt="">
+    <h1>CONTACT</h1>
+</div>
 
 <h2 class="contact-heading"> HAVE A QUESTION? ASK US!</h2>
 
@@ -19,8 +23,8 @@
 
 
 
-<?php the_content()?>
+<?php the_content() ?>
 
 
 <?php
-get_footer();?>
+get_footer(); ?>

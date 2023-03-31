@@ -1,12 +1,16 @@
-<?php get_header()?>
+<?php get_header() ?>
+<div class="title-container">
+    <img src="/wp-content/themes/kinokoszy/assets/images/Group 6.png" alt="">
+    <h1>EXHIBITIONS</h1>
+</div>
 
-<?php if(have_posts() ) : ?>
+<?php if (have_posts()) : ?>
 
-<div>
+    <div>
 
-    <?php while (have_posts () ) : the_post();
+        <?php while (have_posts()) : the_post();
 
-the_title();?>
+            the_title(); ?>
 
     <?php the_field('paragraph')?>
 
@@ -14,10 +18,10 @@ the_title();?>
 
 
     <?php
-endwhile;
-endif;
+        endwhile;
+    endif;
 
-?>
-</div>
+    ?>
+    </div>
 
-<?php get_footer ()?>
+    <?php get_footer() ?>

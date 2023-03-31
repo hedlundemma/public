@@ -1,11 +1,15 @@
 <?php get_header(); ?>
+<div class="title-container">
+    <img src="/wp-content/themes/kinokoszy/assets/images/Group 6.png" alt="">
+    <h1>FILMS</h1>
+</div>
 
 
 <?php if (have_posts()) : ?>
 
 <?php while (have_posts()) : the_post();
 
-?>
+    ?>
 
 <h1><?php the_title(); ?></h1><?php
 $image = get_field('image');
@@ -17,6 +21,6 @@ if( !empty( $image ) ): ?>
 
 
 <?php endwhile;
-endif;?>
+endif; ?>
 
 <?php get_footer(); ?>
