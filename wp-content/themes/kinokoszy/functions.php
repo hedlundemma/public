@@ -31,7 +31,6 @@ add_action('init', function () {
 
         ),
         'rewrite' => array('slug' => 'kino/films'),
-
         'public' => true,
         'has_archive' => true,
         'supports' => array('custom-field', 'title')
@@ -45,7 +44,7 @@ add_action('init', function () {
         'public' => true,
         'has_archive' => true,
         'supports' => array('custom-field', 'title')
-        
+
     ));
     register_nav_menus(array(
         'kino-nav-menu' => __('Kino Nav-Menu'),
@@ -60,7 +59,7 @@ add_action('init', function () {
 add_action('after_setup_theme', function () {
     add_theme_support('image');
     add_theme_support('paragraph');
-    
+
     add_theme_support('url');
 });
 
@@ -83,6 +82,7 @@ function custom_styles()
     wp_enqueue_style('contact', get_template_directory_uri() . '/assets/css/contact.css');
     wp_enqueue_style('front-page', get_template_directory_uri() . '/assets/css/front-page.css');
     wp_enqueue_style('home-kino', get_template_directory_uri() . '/assets/css/home-kino.css');
+    wp_enqueue_style('film', get_template_directory_uri() . '/assets/css/film.css');
 }
 
 function scripts()

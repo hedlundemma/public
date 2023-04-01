@@ -1,0 +1,35 @@
+.hero-films {
+  width: 100%;
+  height: 43rem;
+  background-color: #d8d8d8;
+}
+
+.film-selection-flex-images {
+  width: 100%;
+  padding: 11rem 0;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  padding: 0 2rem;
+  gap: 1.25rem;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  max-height: 37rem;
+  overflow: hidden;
+  transition: width 0.3s ease;
+}
+
+.image-container img {
+  width: auto;
+  height: auto;
+}
+
+.image-container:hover {
+  width: 50%;
+}
