@@ -28,9 +28,11 @@
         <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
         <?php endif;?>
 
+
     </div>
     <div class="archive-book-paragraphs">
         <h4><?php the_title()?></h4>
+
 
 
         <p>// <a href="<?php the_permalink(); ?>">INFO</a>
@@ -46,6 +48,6 @@
 
 
 
-    </div>
+</div>
 
-    <?php get_footer() ?>
+<?php get_footer() ?>
