@@ -1,26 +1,25 @@
-#home-partners-section{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+#home-partners-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
-#home-news-section{
-    font-size: 64px;
-    margin: 3rem 2rem;
-    text-align: right;
-
+#home-news-section {
+  font-size: 64px;
+  margin: 3rem 2rem;
+  text-align: right;
 }
 
-#home-news-section img{
-    margin: auto;
-    display: block;
+#home-news-section img {
+  margin: auto;
+  display: block;
 }
 
-.home-partner-card{
-    height: 14.625rem;
-    background-color: grey;  
+.home-partner-card {
+  height: 14.625rem;
+  background-color: grey;
 }
 
 .home-main p {

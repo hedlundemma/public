@@ -38,18 +38,7 @@
     <section id="home-kino-awards-section">
         <div class="awards-container">
             <div class="sliding-content">
-    <section id="home-awards-section">
 
-        <div class="awards-container">
-            <img src="/wp-content/themes/kinokoszy/assets/images/home-kino/Artvizje-Film-Festival.png" alt="">
-            <img src="/wp-content/themes/kinokoszy/assets/images/home-kino/Krakow-Film-Festival.png" alt="">
-            <img src="/wp-content/themes/kinokoszy/assets/images/home-kino/T8D.png" alt="">
-            <img src="/wp-content/themes/kinokoszy/assets/images/home-kino/Two-Riversides-Film-Festival.png" alt="">
-            <img src="/wp-content/themes/kinokoszy/assets/images/home-kino/Artvizje-Film-Festival.png" alt="">
-            <img src="/wp-content/themes/kinokoszy/assets/images/home-kino/Krakow-Film-Festival.png" alt="">
-            <img src="/wp-content/themes/kinokoszy/assets/images/home-/T8D.png" alt="">
-            <img src="/wp-content/themes/koszy/assets/images/home-/Two-Riversides-Film-Festival.png" alt="">
-        </div>
 
             </div>
         </div>
@@ -57,12 +46,24 @@
 
     <h2>Partners</h2>
     <section id="home-partners-section">
-        <div class="home-partner-card"><p>text</p></div>
-        <div class="home-partner-card"><p>text</p></div>
-        <div class="home-partner-card"><p>text</p></div>
-        <div class="home-partner-card"><p>text</p></div>
-        <div class="home-partner-card"><p>text</p></div>
-        <div class="home-partner-card"><p>text</p></div>
+        <div class="home-partner-card">
+            <p>text</p>
+        </div>
+        <div class="home-partner-card">
+            <p>text</p>
+        </div>
+        <div class="home-partner-card">
+            <p>text</p>
+        </div>
+        <div class="home-partner-card">
+            <p>text</p>
+        </div>
+        <div class="home-partner-card">
+            <p>text</p>
+        </div>
+        <div class="home-partner-card">
+            <p>text</p>
+        </div>
     </section>
 
     <section id="home-news-section">
