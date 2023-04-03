@@ -24,13 +24,12 @@
     <?php if (have_posts()) : ?>
 
 
-        <?php while (have_posts()) : the_post(); ?>
-            <div class="exhibitions-post">
-                <h3><?php the_title(); ?></h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut inventore minima vel! Facere neque corrupti aliquam doloremque natus pariatur non distinctio architecto sequi mollitia, similique veniam cupiditate possimus animi minus.
-                    Harum quibusdam dolorum optio! Perspiciatis eveniet repellendus, iure sapiente reiciendis doloribus inventore et quaerat
-                </p>
-            </div>
+    <?php while (have_posts()) : the_post(); ?>
+    <div class="exhibitions-post">
+        <h3><?php the_title(); ?></h3>
+        <p><?php the_field('paragraph')?>
+        </p>
+    </div>
 
 
 
