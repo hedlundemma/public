@@ -13,7 +13,7 @@ body {
   display: grid;
   grid-template-columns: 50% 50%;
   transition: 300ms;
-  font-family: "Neue Haas";
+  font-family: "Neue Haas Grotesk-Medium";
   color: white;
   flex-direction: row;
   position: absolute;
