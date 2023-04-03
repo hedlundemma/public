@@ -17,7 +17,7 @@
 
 </section>
 
-<main>
+<main class="home-main">
     <p>
         We are Kino Koszyk, an independent film company with our lense focused on social injustice and inspiring people. We produces creative documentaries for cinema and television, books and exhibitions.<br><br>
 
@@ -26,11 +26,11 @@
 
     </section>
 
-    <section id="home-kino-movie-section">
+    <section id="home-movie-section">
         <h2>Movie</h2>
     </section>
 
-    <section id="home-kino-books-section">
+    <section id="home-books-section">
         <h2>Books</h2>
     </section>
 
@@ -38,13 +38,44 @@
     <section id="home-kino-awards-section">
         <div class="awards-container">
             <div class="sliding-content">
+    <section id="home-awards-section">
+
+        <div class="awards-container">
+            <img src="/wp-content/themes/kinokoszy/assets/images/home-kino/Artvizje-Film-Festival.png" alt="">
+            <img src="/wp-content/themes/kinokoszy/assets/images/home-kino/Krakow-Film-Festival.png" alt="">
+            <img src="/wp-content/themes/kinokoszy/assets/images/home-kino/T8D.png" alt="">
+            <img src="/wp-content/themes/kinokoszy/assets/images/home-kino/Two-Riversides-Film-Festival.png" alt="">
+            <img src="/wp-content/themes/kinokoszy/assets/images/home-kino/Artvizje-Film-Festival.png" alt="">
+            <img src="/wp-content/themes/kinokoszy/assets/images/home-kino/Krakow-Film-Festival.png" alt="">
+            <img src="/wp-content/themes/kinokoszy/assets/images/home-/T8D.png" alt="">
+            <img src="/wp-content/themes/koszy/assets/images/home-/Two-Riversides-Film-Festival.png" alt="">
+        </div>
 
             </div>
         </div>
     </section>
 
-    <section id=" home-kino-partners-section">
+    <h2>Partners</h2>
+    <section id="home-partners-section">
+        <div class="home-partner-card"><p>text</p></div>
+        <div class="home-partner-card"><p>text</p></div>
+        <div class="home-partner-card"><p>text</p></div>
+        <div class="home-partner-card"><p>text</p></div>
+        <div class="home-partner-card"><p>text</p></div>
+        <div class="home-partner-card"><p>text</p></div>
+    </section>
 
+    <section id="home-news-section">
+        <div>
+            <h2>KEEP UP WITH <br>OUR LATEST NEWS</h2>
+        </div>
+        <hr>
+        <div>
+            <p>Find out news and read more about us on facebook</p>
+            <a href="https://sv-se.facebook.com/">
+                <img src="/wp-content/themes/kinokoszy/assets/images/facebook.png" alt="facebook">
+            </a>
+        </div>
     </section>
 </main>
 

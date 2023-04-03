@@ -14,11 +14,11 @@
 
 <?php if (have_posts()) : ?>
 
-    <?php while (have_posts()) : the_post();
+<?php while (have_posts()) : the_post();
 
     ?>
 
-<h1><?php the_title(); ?></h1>
+
 <section class="archive-book-post">
     <div class="books-image-section">
         <?php
@@ -31,10 +31,27 @@ if( !empty( $image ) ): ?>
 if( !empty( $image ) ): ?>
         <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
         <?php endif;?>
-
-        <p><?php the_field('paragraph'); ?></p>
     </div>
 </section>
+<div class="single-books-container">
+    <h1 class="single-books-heading"><?php the_title(); ?></h1>
+
+</div>
+<div class="single-book-paragraph">
+    <p><?php the_field('paragraph'); ?></p>
+</div>
+
+
+
+<!--- Navigation previous and next for the books -->
+<div class="books-navigation">
+    <?PHP  the_post_navigation( array(
+    'prev_text'  => __( '<< PREVIOUS BOOK'),
+    'next_text'  => __( 'NEXT BOOK >>' ),
+    )); ?>
+</div>
+
+
 
 
 <?php endwhile;
