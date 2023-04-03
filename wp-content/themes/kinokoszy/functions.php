@@ -45,7 +45,7 @@ add_action('init', function () {
         'public' => true,
         'has_archive' => true,
         'supports' => array('custom-field', 'title')
-        
+
     ));
     register_nav_menus(array(
         'kino-nav-menu' => __('Kino Nav-Menu'),
@@ -60,7 +60,7 @@ add_action('init', function () {
 add_action('after_setup_theme', function () {
     add_theme_support('image');
     add_theme_support('paragraph');
-    
+
     add_theme_support('url');
 });
 
@@ -77,6 +77,7 @@ add_action('after_setup_theme', function () {
 function custom_styles()
 {
     wp_enqueue_style('style', get_stylesheet_uri());
+    wp_enqueue_style('exhibition', get_template_directory_uri() . '/assets/css/exhibition.css');
     wp_enqueue_style('main', get_template_directory_uri() . '/assets/css/main.css');
     wp_enqueue_style('header', get_template_directory_uri() . '/assets/css/header.css');
     wp_enqueue_style('footer', get_template_directory_uri() . '/assets/css/footer.css');

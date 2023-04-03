@@ -1,12 +1,18 @@
 <?php /* Template Name: About-page */ ?>
 
 <?php get_header(); ?>
+<section class="hero-section">
+    <div class="arrow-container">
+        <img src="/wp-content/themes/kinokoszy/assets/images/Group 6.png" alt="">
+    </div>
+    <div class="title-container">
+        <h1>
+            ABOUT
+        </h1>
 
-<div class="title-container">
-    <img src="/wp-content/themes/kinokoszy/assets/images/Group 6.png" alt="">
-    <h1>ABOUT</h1>
-</div>
+    </div>
 
+</section>
 <?php
 the_content();
 ?>
