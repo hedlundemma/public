@@ -1,10 +1,10 @@
 .archive-book-post {
   margin-top: 5rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
   display:flex;
   flex-direction: column;
-  width: auto;
+ 
+ 
+  
   
 }
 
@@ -13,6 +13,7 @@
   justify-content: center;
   gap: 1.25rem;
   height: 37.5rem;
+  width: auto;
 
 }
 
@@ -22,6 +23,8 @@
   justify-content: space-between;
   margin-top: 2rem;
   margin-bottom: 11rem;
+  margin-left: 9.5rem;
+  margin-right: 9.5rem;
 }
 
 .archive-book-paragraph h4 {
@@ -33,6 +36,13 @@
   display:flex;
   justify-content: space-around;
   width: 8.3rem;
+}
+
+.section-paragraph a, .section-paragraph p{
+  text-decoration: none;
+  font-family: "Neue Haas Grotesk-Roman";
+  color: #000000;
+  font-size:20px;
 }
 
 
@@ -86,12 +96,7 @@ margin-left: 6.5rem;
 margin-top: 3rem; 
 }
 
-.section-paragraph a, .section-paragraph p{
-  text-decoration: none;
-  font-family: "Neue Haas Grotesk-Roman";
-  color: #000000;
-  font-size:20px;
-}
+
 
 
 .single-books-container{
