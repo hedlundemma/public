@@ -13,7 +13,7 @@ body {
   font-family: "Neue Haas";
 }
 
-p {
+/* p {
   font-size: 36px;
   font-family: "Neue Haas";
   src: url("../fonts/NeueHaasDisplayThin.ttf");
@@ -22,8 +22,8 @@ p {
 p {
   font-size: 36px;
   font-family: "Neue Haas";
-}
-*/
+} */
+
 /*hero-section*/
 
 .hero-section {
@@ -59,3 +59,5 @@ p {
   right: 1rem;
   margin: auto 0;
 }
+
+

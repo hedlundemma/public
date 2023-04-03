@@ -77,8 +77,8 @@ add_action('after_setup_theme', function () {
 function custom_styles()
 {
     wp_enqueue_style('style', get_stylesheet_uri());
-    wp_enqueue_style('exhibition', get_template_directory_uri() . '/assets/css/exhibition.css');
     wp_enqueue_style('main', get_template_directory_uri() . '/assets/css/main.css');
+    wp_enqueue_style('exhibition', get_template_directory_uri() . '/assets/css/exhibition.css');
     wp_enqueue_style('header', get_template_directory_uri() . '/assets/css/header.css');
     wp_enqueue_style('footer', get_template_directory_uri() . '/assets/css/footer.css');
     wp_enqueue_style('contact', get_template_directory_uri() . '/assets/css/contact.css');
