@@ -7,38 +7,13 @@
     background-color: rgb(0,0,0);
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
-   
-   
-    
+    justify-content: space-between;  
 }
 
-.lower-footer-section{
-    background-color: rgb(0,0,0);
-    display: flex;
-    flex-direction: row;
-    margin-top: 0.1rem;
-    justify-content: space-between;
-   
 
-}
-
-.copy-section p{
-    color: white;
-    margin-top: 64px;
-    margin-left: 32px;
-    font-size: 20px;
-    font-family: "Neue Haas";
-    font-weight: 400;
-
-}
-
-.facebook-logo{
-   margin: 32px;
-}
 .logo-footer{
-    margin-top: 32px;
-    margin-left: 35px;
+    margin-top: 2rem;
+    margin-left: 2.1rem;
 }
 
 .footer-section h2{
@@ -48,7 +23,7 @@
     color: white;
     font-family: "Neue Haas";
     letter-spacing: 0.6rem;
-    margin-top: 32px;
+    margin-top: 2rem;
     
    
 }
@@ -58,10 +33,10 @@
     line-height: 30px;
     font-weight: 600;
     color: white;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     font-family: "Neue Haas";
     letter-spacing: 0.6rem;
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
 }
 
 .info-section-footer p {
@@ -69,7 +44,7 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 62px;
- 
+    text-align: right;
     font-family: "Neue Haas";
 
 }
@@ -79,25 +54,39 @@
     text-decoration: none;
     font-family: "Neue Haas";
     line-height:28px;
-    font-size: 20px;
-   
-  
-  
+    font-size: 20px; 
 }
 
 .menu-footer{
     display:grid;
     grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr;
-    gap: 32px;
-   margin: 32px;
-   
-    
-
+    margin-top: 2rem;
 }
 
 .info-section-footer{
-   margin-top: 15px;
-    margin-right: 32px;
+   margin-top: 0.9rem;
+    margin-right: 2rem;
+}
+
+.lower-footer-section{
+    background-color: rgb(0,0,0);
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.1rem;
+    justify-content: space-between;
    
+}
+
+.copy-section p{
+    color: white;
+   margin-top: 4rem;
+    margin-left: 2rem;
+    font-size: 20px;
+    font-family: "Neue Haas";
+    font-weight: 400;
+
+}
+.facebook-logo{
+   margin: 2rem;
 }
 

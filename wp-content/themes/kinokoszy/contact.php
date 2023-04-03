@@ -5,26 +5,45 @@
     <img src="/wp-content/themes/kinokoszy/assets/images/Group 6.png" alt="">
     <h1>CONTACT</h1>
 </div>
+<section class="contact-heading-section">
+    <h2 class="contact-heading">HAVE A QUESTION? </h2>
+    <?php if (is_page('kino/contact')) : ?>
+    <h2 class="contact-heading">CONTACT US!</h2>
+    <?php else :?>
+    <h2 class="contact-heading">CONTACT ME!</h2>
+    <?php endif ?>
 
-<h2 class="contact-heading"> HAVE A QUESTION? ASK US!</h2>
-
-<section class="images-section">
-    <div class="image-container-one">
-        <?php if (is_page('kino') || is_page('kino/contact') || is_page('kino/about') || (get_post_type() == 'film')) : ?>
-        <img src="/wp-content/themes/kinokoszy/assets/images/contact-bo.jpg" alt="Bo persson" />
-        <p> BO PERSSON </p>
-        <?php endif?>
-    </div>
-    <div src="imgage-container-two">
-        <img src="/wp-content/themes/kinokoszy/assets/images/contact-joanna.jpg" alt="Joanna Helander" />
-        <p> JOANNA HELANDER</p>
-    </div>
 </section>
 
 
-
 <?php the_content() ?>
-
+<?php if (is_page('kino/contact')) : ?>
+<section class="images-section">
+    <div class="image-container-one">
+        <img src="/wp-content/themes/kinokoszy/assets/images/contact-bo.jpg" alt="Bo persson" />
+        <div class="image-paragraphs-contact">
+            <p>//</p>
+            <p> BO PERSSON </p>
+        </div>
+    </div>
+    <div class="imgage-container-two">
+        <img src="/wp-content/themes/kinokoszy/assets/images/contact-joanna.jpg" alt="Joanna Helander" />
+        <div class="image-paragraphs-contact">
+            <p>//</p>
+            <p> JOANNA HELANDER</p>
+        </div>
+</section>
+<?php else : ?>
+<section class="image-section-only-joanna">
+    <div class="image-container-one">
+        <img src="/wp-content/themes/kinokoszy/assets/images/contact-joanna.jpg" alt="Joanna Helander" />
+        <div class="image-paragraphs-contact">
+            <p>//</p>
+            <p>JOANNA HELANDER</p>
+        </div>
+    </div>
+    <?php endif?>
+</section>
 
 <?php
 get_footer(); ?>

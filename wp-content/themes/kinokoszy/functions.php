@@ -83,6 +83,7 @@ function custom_styles()
     wp_enqueue_style('contact', get_template_directory_uri() . '/assets/css/contact.css');
     wp_enqueue_style('front-page', get_template_directory_uri() . '/assets/css/front-page.css');
     wp_enqueue_style('home-kino', get_template_directory_uri() . '/assets/css/home-kino.css');
+    wp_enqueue_style('books', get_template_directory_uri() . '/assets/css/books.css');
 }
 
 function scripts()

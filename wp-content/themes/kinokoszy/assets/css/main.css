@@ -3,15 +3,21 @@
     src: url("../fonts/NeueHaasDisplayMediu.ttf");
   }
 
+  @font-face {
+    font-family: "Neue Haas-bold";
+    src: url("../fonts/NeueHaasDisplayBold.ttf");
+  }
+
 body {
   margin: 0 auto;
+  font-family: "Neue Haas";
 }
-
-p{
+/* kommenterade ut denna för alla p är inte 36px, det är h3
+/* p{
     font-size: 36px;
     font-family: "Neue Haas";
 
-}
+} */
 /*hero-section*/
 .title-container {
   display: flex;
