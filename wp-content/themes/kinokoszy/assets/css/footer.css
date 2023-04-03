@@ -49,6 +49,7 @@
   display: grid;
   grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr;
   margin-top: 2rem;
+  column-gap: 2rem;
 }
 
 .info-section-footer {
