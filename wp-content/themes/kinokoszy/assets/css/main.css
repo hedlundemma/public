@@ -12,28 +12,50 @@ body {
   margin: 0 auto;
   font-family: "Neue Haas";
 }
-/* kommenterade ut denna för alla p är inte 36px, det är h3
-/* p{
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: "Neue Haas";
+  src: url("../fonts/NeueHaasDisplayThin.ttf");
+}
+
+p{
     font-size: 36px;
     font-family: "Neue Haas";
 
 } */
 /*hero-section*/
+
+.hero-section {
+  width: 100%;
+}
 .title-container {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  width: 100%;
-  align-self: center;
-  background-color: black;
+  background-color: rgb(129, 12, 12);
 }
 
-.title-container img {
+/* .title-container img {
   height: 66px;
-  margin-top: 6.5%;
-}
+  margin-top: 5%;
+} */
 
 .title-container h1 {
   font-size: 180px;
   color: rgba(255, 255, 255, 1);
+  font-family: "Neue Haas";
+  position: relative;
+  float: right;
+  text-align: right;
+}
+
+.title-container img {
+  position: absolute;
+  top: 40%;
+  left: 0px;
 }

@@ -2,8 +2,8 @@
 
 <?php get_header(); ?>
 <div class="title-container">
-    <img src="/wp-content/themes/kinokoszy/assets/images/Group 6.png" alt="">
-    <h1>CONTACT</h1>
+
+    <h1><img src="/wp-content/themes/kinokoszy/assets/images/Group 6.png" alt="">CONTACT</h1>
 </div>
 <section class="contact-heading-section">
     <h2 class="contact-heading">HAVE A QUESTION? </h2>
