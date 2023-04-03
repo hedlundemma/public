@@ -24,3 +24,76 @@
   font-size: 20px;
   font-family: "Neue Haas Grotesk-Medium";
 }
+
+
+/* styling för single-book*/
+
+.nav-links,
+.posts-navigation .nav-links,
+.post-navigation .nav-links {
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+   
+}
+.navigation, .post-navigation{
+  background-color: white;
+  margin-top: 5rem;
+  margin-left: 4.7rem;
+  margin-right: 4.7rem;
+  margin-bottom: 5.8rem;
+}
+
+.navigation, .post-navigation a{
+ text-decoration: none;
+ color:black;
+ font-size: 36px;
+ font-family: "Neue Haas Grotesk-Light";
+}
+ 
+.nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+    flex: 1 0 50%;
+    text-decoration: none;
+   
+}
+ 
+.nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+    text-align: end;
+    flex: 1 0 50%;
+}
+
+.single-book-paragraph{
+  display:flex;
+
+  justify-content: center;
+  font-size: 36px;
+margin-right: 6.5rem;
+margin-left: 6.5rem;
+margin-top: 3rem;
+
+
+  
+}
+
+.single-books-container{
+  width:100%;
+  padding: 80px 2rem;
+border-bottom: 2px solid #000000;
+
+}
+
+.single-books-heading{
+  display:flex;
+  font-size: 96px;
+  font-family: "Neue Haas Grotesk-Medium";
+  padding-right: 2rem;
+  justify-content: right;
+
+
+
+}
+

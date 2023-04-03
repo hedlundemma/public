@@ -9,6 +9,10 @@ input[type="textarea your-message"] {
   outline:none;
 }
 
+input:focus::placeholder {
+  color: transparent;
+}
+
 
 
 input[type="submit"] {
