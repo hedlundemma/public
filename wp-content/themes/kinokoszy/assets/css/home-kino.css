@@ -31,17 +31,18 @@ main p {
   width: 100%;
   height: 400px;
   position: relative;
+  overflow: hidden;
 }
 
 /*awards section */
 @keyframes roll {
   0% {
-    left: 0px;
+    left: -600px;
     top: 0px;
   }
 
   100% {
-    left: 800px;
+    left: 600px;
     top: 0px;
   }
 }
@@ -57,13 +58,14 @@ main p {
   gap: 30px;
   justify-content: center;
   width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   animation-name: roll;
-  animation-duration: 40s;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
   position: absolute;
 }
 
 .awards-container img {
   border: 1px solid white;
 }
-
