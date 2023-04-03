@@ -52,21 +52,30 @@
   margin: auto;
 }
 
-#home-awards-section {
+#home-kino-awards-section {
   width: 100%;
   position: relative;
-  height: 500px;
   display: flex;
   padding: 0 2rem 0 2rem;
 }
 
+.awards-heading {
+  /* font-family: Neue Haas Grotesk Display Pro; */
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 112px;
+  padding: 0rem 2rem 0rem 2rem;
+}
 .awards-container {
   overflow: hidden;
 }
 
 .sliding-content {
   background: url("../images/awards.png") repeat-x;
-  height: 500px;
+  height: 300px;
   width: 3699px; /* The image width times 3 */
   animation: roll 10s linear infinite;
 }

@@ -3,7 +3,7 @@
 <?php get_header() ?>
 <section class="hero-section">
     <div class="arrow-container">
-        <img src="/wp-content/themes/assets/images/Group 6.png" alt="">
+        <img src="/wp-content/themes/kinokoszy/assets/images/Group 6.png" alt="">
     </div>
     <div class="title-container">
         <h1>
@@ -36,12 +36,24 @@
 
     <h2>Partners</h2>
     <section id="home-partners-section">
-        <div class="home-partner-card"><p>text</p></div>
-        <div class="home-partner-card"><p>text</p></div>
-        <div class="home-partner-card"><p>text</p></div>
-        <div class="home-partner-card"><p>text</p></div>
-        <div class="home-partner-card"><p>text</p></div>
-        <div class="home-partner-card"><p>text</p></div>
+        <div class="home-partner-card">
+            <p>text</p>
+        </div>
+        <div class="home-partner-card">
+            <p>text</p>
+        </div>
+        <div class="home-partner-card">
+            <p>text</p>
+        </div>
+        <div class="home-partner-card">
+            <p>text</p>
+        </div>
+        <div class="home-partner-card">
+            <p>text</p>
+        </div>
+        <div class="home-partner-card">
+            <p>text</p>
+        </div>
     </section>
 
     <section id="home-news-section">

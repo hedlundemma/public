@@ -34,12 +34,10 @@
         <h2>Books</h2>
     </section>
 
-    <h1>AWARDS</h1>
+    <h1 class="awards-heading">AWARDS</h1>
     <section id="home-kino-awards-section">
         <div class="awards-container">
             <div class="sliding-content">
-
-
             </div>
         </div>
     </section>
