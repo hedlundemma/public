@@ -1,92 +1,76 @@
-@font-face {
-    font-family: "Neue Haas";
-    src: url("../fonts/NeueHaasDisplayThin.ttf");
-  }
-
-.footer-section{
-    background-color: rgb(0,0,0);
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;  
+.footer-section {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-
-.logo-footer{
-    margin-top: 2rem;
-    margin-left: 2.1rem;
+.logo-footer {
+  margin-top: 2rem;
+  margin-left: 2.1rem;
 }
 
-.footer-section h2{
-    font-size: 53px;
-    line-height: 30px;
-    font-weight: 600;
-    color: white;
-    font-family: "Neue Haas";
-    letter-spacing: 0.6rem;
-    margin-top: 2rem;
-    
-   
+.footer-section h2 {
+  font-size: 53px;
+  line-height: 30px;
+  color: white;
+  font-family: "Neue Haas Grotesk-Medium";
+  letter-spacing: 0.6rem;
+  margin-top: 2rem;
 }
 
-.footer-section h3{
-    font-size: 40px;
-    line-height: 30px;
-    font-weight: 600;
-    color: white;
-    margin-top: 1.25rem;
-    font-family: "Neue Haas";
-    letter-spacing: 0.6rem;
-    margin-bottom: 2rem;
+.footer-section h3 {
+  font-size: 40px;
+  line-height: 30px;
+  color: white;
+  margin-top: 1.25rem;
+  font-family: "Neue Haas Grotesk-Medium";
+  letter-spacing: 0.6rem;
+  margin-bottom: 2rem;
 }
 
 .info-section-footer p {
-    color: white;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 62px;
-    text-align: right;
-    font-family: "Neue Haas";
-
+  color: white;
+  font-size: 20px;
+  line-height: 62px;
+  text-align: right;
+  font-family: "Neue Haas Grotesk-Roman";
 }
 
 .menu-footer a {
-    color: white;
-    text-decoration: none;
-    font-family: "Neue Haas";
-    line-height:28px;
-    font-size: 20px; 
+  color: white;
+  text-decoration: none;
+  font-family: "Neue Haas Grotesk-Roman";
+  line-height: 28px;
+  font-size: 20px;
 }
 
-.menu-footer{
-    display:grid;
-    grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr;
-    margin-top: 2rem;
+.menu-footer {
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr;
+  margin-top: 2rem;
 }
 
-.info-section-footer{
-   margin-top: 0.9rem;
-    margin-right: 2rem;
+.info-section-footer {
+  margin-top: 0.9rem;
+  margin-right: 2rem;
 }
 
-.lower-footer-section{
-    background-color: rgb(0,0,0);
-    display: flex;
-    flex-direction: row;
-    margin-top: 0.1rem;
-    justify-content: space-between;
-   
+.lower-footer-section {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.1rem;
+  justify-content: space-between;
 }
 
-.copy-section p{
-    color: white;
-   margin-top: 4rem;
-    margin-left: 2rem;
-    font-size: 20px;
-    font-family: "Neue Haas";
-    font-weight: 400;
-
+.copy-section p {
+  color: white;
+  margin-top: 4rem;
+  margin-left: 2rem;
+  font-size: 20px;
+  font-family: "Neue Haas Grotesk-Roman";
 }
-.facebook-logo{
-   margin: 2rem;
+.facebook-logo {
+  margin: 2rem;
 }
-

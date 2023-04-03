@@ -1,49 +1,34 @@
-@font-face {
-    font-family: "Neue Haas-medium";
-    src: url("../fonts/NeueHaasDisplayMediu.ttf");
-  }
-
-  @font-face {
-    font-family: "Neue Haas";
-    src: url("../fonts/NeueHaasDisplay.ttf");
-  }
-
-
-  @font-face {
-    font-family: "Neue Haas-Bold";
-    src: url("../fonts/NeueHaasDisplayBold.ttf");
-  }
-
-
-input[type="text"], input[type="email"], input[type="textarea your-message"]
-{
-   color: #939191;
-    font-size: 20px;
-    border:none;
-    font-family: "Neue Haas"; 
-    outline: none; 
+input[type="text"],
+input[type="email"],
+input[type="textarea your-message"] {
+  color: #939191;
+  font-size: 20px;
+  border: none;
+  margin-left: 4.75rem;
+  font-family: "Neue Haas Grotesk-Roman";
+  outline:none;
 }
 
-input[type="submit"]{
-    font-size: 20px;
-    line-height: 24px;
-    border: none;
-    background-color: white;
-    border-bottom: 2px solid black;
-    width: 6rem;
-    text-align: right;
-    cursor: pointer;
-    font-weight: 600;
-    font-family:"Neue Haas";
-    margin-left: 3rem;
-   
-  
-  }
-  
-  input[type="submit"]:hover{
-      font-family:"Neue Haas-medium";
-  
-  }
+
+
+input[type="submit"] {
+  font-size: 20px;
+  line-height: 24px;
+  border: none;
+  background-color: white;
+ 
+  margin-left: 3rem;
+  margin-top: 2rem;
+  border-bottom: 2px solid black;
+  width: 6rem;
+  text-align: right;
+  cursor: pointer;
+  font-family: "Neue Haas Grotesk-Roman";
+}
+
+input[type="submit"]:hover {
+  font-family: "Neue Haas Grotesk-Medium";
+}
 
   .wpcf7-form-control-wrap{
       display:flex;
@@ -74,8 +59,9 @@ input[type="submit"]{
 .wpcf7-response-output{
     border: none !important;
     font-size: 20px;
-    font-family:"Neue Haas-medium";
+    font-family:"Neue Haas Grotesk-Medium";
     border-color: white;
+    margin-top: 2rem;
     
 
 }
@@ -84,15 +70,15 @@ input[type="submit"]{
 .wpcf7 form.sent .wpcf7-response-output{
     border:none;
     font-size: 20px;
-    font-family:"Neue Haas-medium";
-    margin-top: 1rem;
+    font-family:"Neue Haas Grotesk-Medium";
+    margin-top: 0.5rem;
     margin-left: 2rem;
 }
 
 .wpcf7-not-valid-tip{
     margin-left: 4.5rem;
     font-size: 20px;
-    font-family:"Neue Haas-medium";
+    font-family:"Neue Haas Grotesk-Medium";
 }
 
 .contact-heading{
@@ -101,7 +87,7 @@ input[type="submit"]{
     text-align: right;
     padding-right: 2rem;
     font-weight: 600;
-    font-family: "Neue Haas-Medium";
+    font-family: "Neue Haas Grotesk-Medium";
    
 }
 
@@ -122,21 +108,22 @@ input[type="submit"]{
     margin-top: 8.25rem;
 }
 .images-section img {
-    width: 346px;
-    height: 405px;
-    margin-bottom: 2rem;
+  width: 346px;
+  height: 405px;
+  margin-bottom: 2rem;
 }
 
-.images-section, .image-section-only-joanna p{
-    font-size: 20px;
-    text-align: right;
-    margin-bottom: 3.3rem;
+.images-section,
+.image-section-only-joanna p {
+  font-size: 20px;
+  text-align: right;
+  margin-bottom: 3.3rem;
 }
 
-.image-paragraphs-contact{
-    display:flex;
-    flex-direction: row;
-   justify-content: space-between;
+.image-paragraphs-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .image-section-only-joanna{
     display:flex;
@@ -146,17 +133,7 @@ input[type="submit"]{
 }
 
 .image-section-only-joanna img {
-    width: 346px;
-    height: 405px;
-    margin-bottom: 2rem;
-
+  width: 346px;
+  height: 405px;
+  margin-bottom: 2rem;
 }
-
-
-
-
-
-
-
-
-
