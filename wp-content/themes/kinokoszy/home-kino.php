@@ -17,7 +17,7 @@
 
 </section>
 
-<main>
+<main class="home-kino-main">
     <p>
         We are Kino Koszyk, an independent film company with our lense focused on social injustice and inspiring people. We produces creative documentaries for cinema and television, books and exhibitions.<br><br>
 
@@ -50,8 +50,27 @@
 
     </section>
 
-    <section id=" home-kino-partners-section">
+    <h2>Partners</h2>
+    <section id="home-kino-partners-section">
+        <div class="home-kino-partner-card"><p>text</p></div>
+        <div class="home-kino-partner-card"><p>text</p></div>
+        <div class="home-kino-partner-card"><p>text</p></div>
+        <div class="home-kino-partner-card"><p>text</p></div>
+        <div class="home-kino-partner-card"><p>text</p></div>
+        <div class="home-kino-partner-card"><p>text</p></div>
+    </section>
 
+    <section id="home-kino-news-section">
+        <div>
+            <h2>KEEP UP WITH <br>OUR LATEST NEWS</h2>
+        </div>
+        <hr>
+        <div>
+            <p>Find out news and read more about us on facebook</p>
+            <a href="https://sv-se.facebook.com/">
+                <img src="/wp-content/themes/kinokoszy/assets/images/home-kino/facebook.png" alt="facebook">
+            </a>
+        </div>
     </section>
 </main>
 
