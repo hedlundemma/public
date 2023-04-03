@@ -43,8 +43,16 @@
 </div>
 
 <div class="exhibition-image-container">
-    <img src="/wp-content/themes/kinokoszy/assets/images/teater.jpg" alt="">
-    <img src="/wp-content/themes/kinokoszy/assets/images/arvikaBib.jpg" alt="">
+    <?php $image = get_field('image');
+        if( !empty( $image ) ): ?>
+    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']);?>" />
+    <?php endif;?>
+
+    <?php $image = get_field('image');
+        if( !empty( $image ) ): ?>
+    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']);?>" />
+    <?php endif;?>
+
 </div>
 
 
