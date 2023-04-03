@@ -24,13 +24,12 @@
     <?php if (have_posts()) : ?>
 
 
-        <?php while (have_posts()) : the_post(); ?>
-            <div class="exhibitions-post">
-                <h3><?php the_title(); ?></h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut inventore minima vel! Facere neque corrupti aliquam doloremque natus pariatur non distinctio architecto sequi mollitia, similique veniam cupiditate possimus animi minus.
-                    Harum quibusdam dolorum optio! Perspiciatis eveniet repellendus, iure sapiente reiciendis doloribus inventore et quaerat
-                </p>
-            </div>
+    <?php while (have_posts()) : the_post(); ?>
+    <div class="exhibitions-post">
+        <h3><?php the_title(); ?></h3>
+        <p><?php the_field('paragraph')?>
+        </p>
+    </div>
 
 
 
@@ -44,8 +43,16 @@
 </div>
 
 <div class="exhibition-image-container">
-    <img src="/wp-content/themes/kinokoszy/assets/images/teater.jpg" alt="">
-    <img src="/wp-content/themes/kinokoszy/assets/images/arvikaBib.jpg" alt="">
+    <?php $image = get_field('image');
+        if( !empty( $image ) ): ?>
+    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']);?>" />
+    <?php endif;?>
+
+    <?php $image = get_field('image');
+        if( !empty( $image ) ): ?>
+    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']);?>" />
+    <?php endif;?>
+
 </div>
 
 

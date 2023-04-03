@@ -5,19 +5,19 @@ input[type="textarea your-message"] {
   font-size: 20px;
   border: none;
   margin-left: 4.75rem;
-  border-bottom: 1px solid black;
-  width: 94rem;
-  margin-top: 2rem;
   font-family: "Neue Haas Grotesk-Roman";
+  outline:none;
 }
+
+
 
 input[type="submit"] {
   font-size: 20px;
   line-height: 24px;
   border: none;
   background-color: white;
-  margin-bottom: 7rem;
-  margin-left: 4.75rem;
+ 
+  margin-left: 3rem;
   margin-top: 2rem;
   border-bottom: 2px solid black;
   width: 6rem;
@@ -27,52 +27,85 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  font-family: "Neue Haas-medium";
+  font-family: "Neue Haas Grotesk-Medium";
 }
 
+  .wpcf7-form-control-wrap{
+      display:flex;
+      margin-bottom: 2rem;
+      margin-left: 4.75rem;
+      width: 94rem;
+      margin-left: 3.2rem;
+      border-bottom: 1px solid black;
+  }
+  .wpcf7-form-control-wrap::before{
+      content: "//";
+      margin-right: 2rem;
+      font-size: 20px; 
+  }
+
+  .wpcf7-form {
+      margin-top: 1rem;
+  }
+
 /*invalid reponse message form*/
-.wpcf7 form.invalid .wpcf7-response-output {
-  border: none;
-  margin-left: 3.2rem;
-  font-size: 20px;
-  font-family: "Neue Haas Grotesk-Medium";
-  margin-top: -4rem;
+.wpcf7 form.invalid {
+    font-size: 20px;
+    font-family:"Neue Haas-medium";
+    
+    
+}
+
+.wpcf7-response-output{
+    border: none !important;
+    font-size: 20px;
+    font-family:"Neue Haas Grotesk-Medium";
+    border-color: white;
+    margin-top: 2rem;
+    
+
 }
 
 /*conformation message form*/
-.wpcf7 form.sent .wpcf7-response-output {
-  border: none;
-  margin-left: 3.2rem;
-  font-size: 20px;
-  font-family: "Neue Haas Grotesk-Medium";
-  margin-top: -4rem;
+.wpcf7 form.sent .wpcf7-response-output{
+    border:none;
+    font-size: 20px;
+    font-family:"Neue Haas Grotesk-Medium";
+    margin-top: 0.5rem;
+    margin-left: 2rem;
 }
 
-.wpcf7-not-valid-tip {
-  margin-left: 4.5rem;
-  font-size: 20px;
-  margin-top: 2rem;
-  font-family: "Neue Haas Grotesk-Medium";
+.wpcf7-not-valid-tip{
+    margin-left: 4.5rem;
+    font-size: 20px;
+    font-family:"Neue Haas Grotesk-Medium";
 }
 
-.contact-heading {
-  font-size: 96px;
-  color: black;
-  text-align: right;
-  margin-right: 2rem;
-  font-weight: 600;
-  font-family: "Neue Haas Grotesk-Medium";
+.contact-heading{
+    font-size: 96px;
+    color: black;
+    text-align: right;
+    padding-right: 2rem;
+    font-weight: 600;
+    font-family: "Neue Haas Grotesk-Medium";
+   
 }
 
-.contact-heading-section {
-  margin-right: 2rem;
-  margin-top: 4.8rem;
+.contact-heading-section{
+    margin-right: 2rem; 
+    margin-top: 4.8rem;
+    padding: 80px 2rem;
+    border-bottom: 2px solid #000000;
+    width: 100%;
+    margin-bottom: 2rem;
+
 }
-.images-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 40rem;
+.images-section{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40rem;
+    margin-top: 8.25rem;
 }
 .images-section img {
   width: 346px;
@@ -92,10 +125,11 @@ input[type="submit"]:hover {
   flex-direction: row;
   justify-content: space-between;
 }
-.image-section-only-joanna {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.image-section-only-joanna{
+    display:flex;
+    flex-direction: row;
+    justify-content: center; 
+    margin-top: 8.25rem;
 }
 
 .image-section-only-joanna img {
