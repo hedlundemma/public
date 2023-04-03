@@ -30,4 +30,40 @@ main p {
 #home-kino-awards-section {
   width: 100%;
   height: 400px;
+  position: relative;
 }
+
+/*awards section */
+@keyframes roll {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  100% {
+    left: 800px;
+    top: 0px;
+  }
+}
+/* The element to apply the animation to */
+/* div {
+  width: 100px;
+  height: 100px;
+  animation-name: roll;
+  animation-duration: 4s;
+} */
+.awards-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+  animation-name: roll;
+  animation-duration: 40s;
+  position: absolute;
+}
+
+.awards-container img {
+  border: 1px solid white;
+}
+
