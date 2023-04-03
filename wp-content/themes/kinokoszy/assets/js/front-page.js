@@ -20,9 +20,9 @@ joannaSection.addEventListener("mouseleave", function (e) {
 
 //remember to write the URL to the home pages
 kinoSection.addEventListener("click", function (e) {
-  window.location.href = "kino/home";
+  window.location.href = "http://kinokos.local/kino/";
 });
 
 joannaSection.addEventListener("click", function (e) {
-  window.location.href = "joanna/home";
+  window.location.href = "http://kinokos.local/joanna/";
 });
