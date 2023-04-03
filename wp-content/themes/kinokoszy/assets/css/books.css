@@ -8,19 +8,18 @@
   display: flex;
   justify-content: center;
   gap: 1.25rem;
+  height: 37.5rem;
 }
 
-.archive-book-paragraphs {
+.archive-book-paragraph {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-left: 7.5rem;
-  margin-right: 7.5rem;
   margin-top: 2rem;
   margin-bottom: 11rem;
 }
 
-.archive-book-paragraphs h4 {
+.archive-book-paragraph h4 {
   font-size: 20px;
   font-family: "Neue Haas Grotesk-Medium";
 }
