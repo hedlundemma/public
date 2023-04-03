@@ -34,11 +34,23 @@
         <h2>Books</h2>
     </section>
 
+    <h1>AWARDS</h1>
     <section id="home-kino-awards-section">
+
+        <div class="awards-container">
+            <img src="/wp-content/themes/kinokoszy/assets/images/home-kino/Artvizje-Film-Festival.png" alt="">
+            <img src="/wp-content/themes/kinokoszy/assets/images/home-kino/Krakow-Film-Festival.png" alt="">
+            <img src="/wp-content/themes/kinokoszy/assets/images/home-kino/T8D.png" alt="">
+            <img src="/wp-content/themes/kinokoszy/assets/images/home-kino/Two-Riversides-Film-Festival.png" alt="">
+            <img src="/wp-content/themes/kinokoszy/assets/images/home-kino/Artvizje-Film-Festival.png" alt="">
+            <img src="/wp-content/themes/kinokoszy/assets/images/home-kino/Krakow-Film-Festival.png" alt="">
+            <img src="/wp-content/themes/kinokoszy/assets/images/home-kino/T8D.png" alt="">
+            <img src="/wp-content/themes/kinokoszy/assets/images/home-kino/Two-Riversides-Film-Festival.png" alt="">
+        </div>
 
     </section>
 
-    <section id="home-kino-partners-section">
+    <section id=" home-kino-partners-section">
 
     </section>
 </main>
