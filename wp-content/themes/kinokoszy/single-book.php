@@ -32,14 +32,15 @@ if( !empty( $image ) ): ?>
         <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
         <?php endif;?>
     </div>
-</section>
-<div class="single-books-container">
-    <h1 class="single-books-heading"><?php the_title(); ?></h1>
 
-</div>
-<div class="single-book-paragraph">
-    <p><?php the_field('paragraph'); ?></p>
-</div>
+    <div class="single-books-container">
+        <h1 class="single-books-heading"><?php the_title(); ?></h1>
+
+    </div>
+    <div class="single-book-paragraph">
+        <p><?php the_field('paragraph'); ?></p>
+    </div>
+</section>
 
 
 
@@ -47,6 +48,7 @@ if( !empty( $image ) ): ?>
 <div class="books-navigation">
     <?PHP  the_post_navigation( array(
     'prev_text'  => __( '<< PREVIOUS BOOK'),
+    
     'next_text'  => __( 'NEXT BOOK >>' ),
     )); ?>
 </div>

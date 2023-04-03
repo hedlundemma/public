@@ -13,33 +13,35 @@
 </section>
 <?php if (have_posts()) : ?>
 
-    <?php while (have_posts()) : the_post(); ?>
-        <section class="archive-book-post">
-            <div class="books-image-section">
+<?php while (have_posts()) : the_post(); ?>
+<section class="archive-book-post">
+    <div class="books-image-section">
 
-                <?php $image = get_field('image_large');
+        <?php $image = get_field('image_large');
                 if (!empty($image)) : ?>
-                    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-                <?php endif; ?>
+        <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+        <?php endif; ?>
 
 
-                <?php $image = get_field('image_small');
+        <?php $image = get_field('image_small');
                 if (!empty($image)) : ?>
-                    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-                <?php endif; ?>
+        <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+        <?php endif; ?>
 
 
-            </div>
-            <div class="archive-book-paragraph">
-                <h4><?php the_title() ?></h4>
+    </div>
+    <div class="archive-book-paragraph">
+        <h4><?php the_title() ?></h4>
 
 
+        <div class="section-paragraph">
+            <p>//</p>
+            <a href="<?php the_permalink(); ?>">INFO</a>
+        </div>
+    </div>
 
-                <p>// <a href="<?php the_permalink(); ?>">INFO</a>
-            </div>
 
-
-        </section>
+</section>
 <?php
     endwhile;
 endif;
