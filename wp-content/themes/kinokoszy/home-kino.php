@@ -1,10 +1,21 @@
 <?php /* Template Name: Home-kino */ ?>
 
 <?php get_header() ?>
-<div class="title-container">
-    <img src="/wp-content/themes/kinokoszy/assets/images/Group 6.png" alt="">
-    <h1>KINO KOSZYK</h1>
-</div>
+<section class="hero-section">
+    <div class="arrow-container">
+        <img src="/wp-content/themes/kinokoszy/assets/images/Group 6.png" alt="">
+    </div>
+    <div class="title-container">
+        <h1>
+            KINO
+        </h1>
+        <h1>
+            KOSZYK
+        </h1>
+
+    </div>
+
+</section>
 
 <main>
     <p>
@@ -32,4 +43,4 @@
     </section>
 </main>
 
-<?php get_footer();?>
+<?php get_footer(); ?>

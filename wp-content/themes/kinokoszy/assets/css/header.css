@@ -11,16 +11,22 @@
 
 nav {
   background-color: black;
-  height: 60px;
+  height: 93px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  margin-left: 2rem;
 }
 
 .nav-links-container {
   display: flex;
   justify-content: flex-end;
   gap: 48px;
-  margin-right: 48px;
+  margin-right: 2rem;
 }
 
 .nav-links-container a {
@@ -34,22 +40,5 @@ nav {
   text-decoration: underline;
 }
 
-/* .title-container {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  margin-top: 10%;
-  width: 80%;
-  align-self: center;
-}
 
-.title-container img {
-  height: 66px;
-  margin-top: 6.5%;
-}
 
-.title-container h1 {
-  font-size: 180px;
-  color: rgba(255, 255, 255, 1);
-} */

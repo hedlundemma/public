@@ -1,18 +1,36 @@
 <?php get_header() ?>
-<div class="title-container">
-    <img src="/wp-content/themes/kinokoszy/assets/images/Group 6.png" alt="">
-    <h1>EXHIBITIONS</h1>
-</div>
+<section class="hero-section">
+    <div class="arrow-container">
+        <img src="/wp-content/themes/kinokoszy/assets/images/Group 6.png" alt="">
+    </div>
+    <div class="title-container">
+        <h1>
+            EXHIBITONS
+        </h1>
 
-<?php if (have_posts()) : ?>
+    </div>
 
-    <div>
+</section>
 
-        <?php while (have_posts()) : the_post();
+<section class="exhibitions">
+    <div class="exhibition-heading">
+        <h2>EXHIBITIONS</h2>
+        <h2>JOANNA HELANDER 2008</h2>
+    </div>
+</section>
 
-            the_title(); ?>
+<div class="exhibitions-grid">
 
-    <?php the_field('paragraph')?>
+    <?php if (have_posts()) : ?>
+
+
+        <?php while (have_posts()) : the_post(); ?>
+            <div class="exhibitions-post">
+                <h3><?php the_title(); ?></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut inventore minima vel! Facere neque corrupti aliquam doloremque natus pariatur non distinctio architecto sequi mollitia, similique veniam cupiditate possimus animi minus.
+                    Harum quibusdam dolorum optio! Perspiciatis eveniet repellendus, iure sapiente reiciendis doloribus inventore et quaerat
+                </p>
+            </div>
 
 
 
@@ -22,6 +40,14 @@
     endif;
 
     ?>
-    </div>
 
-    <?php get_footer() ?>
+</div>
+
+<div class="exhibition-image-container">
+    <img src="/wp-content/themes/kinokoszy/assets/images/teater.jpg" alt="">
+    <img src="/wp-content/themes/kinokoszy/assets/images/arvikaBib.jpg" alt="">
+</div>
+
+
+
+<?php get_footer() ?>
