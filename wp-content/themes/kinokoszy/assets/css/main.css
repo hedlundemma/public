@@ -1,28 +1,28 @@
+/* Inter-regular*/
 @font-face {
-  font-family: "Neue Haas";
-  src: url("../fonts/NeueHaasDisplayMediu.ttf");
+  font-family: "Neue Haas Grotesk-Light";
+  src: url("../fonts/NeueHaasDisplayLight.woff") format("woff"),
+    url("../fonts/NeueHaasDisplayLight.woff2") format("woff2");
 }
 
+/* Inter-light*/
 @font-face {
-  font-family: "Neue Haas-bold";
-  src: url("../fonts/NeueHaasDisplayBold.ttf");
+  font-family: "Neue Haas Grotesk-Roman";
+  src: url("../fonts/NeueHaasDisplayRoman.woff") format("woff"),
+    url("../fonts/NeueHaasDisplayRoman.woff2") format("woff2");
+}
+
+/*Inter-medium*/
+@font-face {
+  font-family: "Neue Haas Grotesk-Medium";
+  src: url("../fonts/NeueHaasDisplayMediu.woff") format("woff"),
+    url("../fonts/NeueHaasDisplayMediu.woff2") format("woff2");
 }
 
 body {
   margin: 0 auto;
-  font-family: "Neue Haas";
+  font-family: "Neue Haas Grotesk-Roman";
 }
-
-/* p {
-  font-size: 36px;
-  font-family: "Neue Haas";
-  src: url("../fonts/NeueHaasDisplayThin.ttf");
-}
-
-p {
-  font-size: 36px;
-  font-family: "Neue Haas";
-} */
 
 /*hero-section*/
 
@@ -33,6 +33,7 @@ p {
   background-color: rgb(0, 0, 0);
   padding: 90px 0 36px 0;
 }
+
 .title-container {
   display: flex;
   flex-direction: column;
@@ -42,10 +43,11 @@ p {
   flex-grow: 100;
   position: relative;
 }
+
 .title-container h1 {
   font-size: 180px;
   color: rgba(255, 255, 255, 1);
-  font-family: "Neue Haas";
+  font-family: "Neue Haas Grotesk-Roman";
   text-align: right;
   margin-right: 2rem;
   line-height: 172px;
