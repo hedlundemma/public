@@ -18,15 +18,23 @@
 
     ?>
 
-        <h1><?php the_title(); ?></h1>
-
+<h1><?php the_title(); ?></h1>
+<section class="archive-book-post">
+    <div class="books-image-section">
         <?php
-        $image = get_field('image');
-        if (!empty($image)) : ?>
-            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-        <?php endif; ?>
+$image = get_field('image_large');
+if( !empty( $image ) ): ?>
+        <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+        <?php endif;?>
+
+        <?php $image = get_field('image_small');
+if( !empty( $image ) ): ?>
+        <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+        <?php endif;?>
 
         <p><?php the_field('paragraph'); ?></p>
+    </div>
+</section>
 
 
 <?php endwhile;

@@ -3,14 +3,27 @@
   src: url("../fonts/NeueHaasDisplayMediu.ttf");
 }
 
+@font-face {
+  font-family: "Neue Haas-bold";
+  src: url("../fonts/NeueHaasDisplayBold.ttf");
+}
+
 body {
   margin: 0 auto;
+  font-family: "Neue Haas";
+}
+
+p {
+  font-size: 36px;
+  font-family: "Neue Haas";
+  src: url("../fonts/NeueHaasDisplayThin.ttf");
 }
 
 p {
   font-size: 36px;
   font-family: "Neue Haas";
 }
+*/
 /*hero-section*/
 
 .hero-section {
