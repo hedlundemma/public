@@ -29,43 +29,28 @@ main p {
 
 #home-kino-awards-section {
   width: 100%;
-  height: 400px;
   position: relative;
+  height: 500px;
+  display: flex;
+  padding: 0 2rem 0 2rem;
+}
+
+.awards-container {
   overflow: hidden;
 }
 
-/*awards section */
+.sliding-content {
+  background: url("../images/awards.png") repeat-x;
+  height: 500px;
+  width: 3699px; /* The image width times 3 */
+  animation: roll 10s linear infinite;
+}
+
 @keyframes roll {
   0% {
-    left: -600px;
-    top: 0px;
+    transform: translate3d(0, 0, 0);
   }
-
   100% {
-    left: 600px;
-    top: 0px;
+    transform: translate3d(-1233px, 0, 0); /* The image width */
   }
-}
-/* The element to apply the animation to */
-/* div {
-  width: 100px;
-  height: 100px;
-  animation-name: roll;
-  animation-duration: 4s;
-} */
-.awards-container {
-  display: flex;
-  gap: 30px;
-  justify-content: center;
-  width: 100%;
-  /* overflow: hidden; */
-  animation-name: roll;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  position: absolute;
-}
-
-.awards-container img {
-  border: 1px solid white;
 }

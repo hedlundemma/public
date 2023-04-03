@@ -24,12 +24,12 @@
     <?php if (have_posts()) : ?>
 
 
-    <?php while (have_posts()) : the_post(); ?>
-    <div class="exhibitions-post">
-        <h3><?php the_title(); ?></h3>
-        <p><?php the_field('paragraph')?>
-        </p>
-    </div>
+        <?php while (have_posts()) : the_post(); ?>
+            <div class="exhibitions-post">
+                <h3><?php the_title(); ?></h3>
+                <p><?php the_field('paragraph') ?>
+                </p>
+            </div>
 
 
 
@@ -43,15 +43,9 @@
 </div>
 
 <div class="exhibition-image-container">
-    <?php $image = get_field('image');
-        if( !empty( $image ) ): ?>
-    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']);?>" />
-    <?php endif;?>
+    <img src="/wp-content/themes/kinokoszy/assets/images/teater.jpg" alt="" />
 
-    <?php $image = get_field('image');
-        if( !empty( $image ) ): ?>
-    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']);?>" />
-    <?php endif;?>
+    <img src="/wp-content/themes/kinokoszy/assets/images/arvikaBib.jpg" alt="" />
 
 </div>
 
