@@ -2,19 +2,29 @@
   margin-top: 5rem;
   display:flex;
   flex-direction: column;
- 
- 
+  margin-left: 2rem;
+  margin-right: 2rem;
+  
   
   
 }
 
+
+.single-book-one img, .single-book-two img{
+  object-fit:cover;
+  object-position: center;
+  max-width: 100%;
+  height: auto;
+  
+
+}
 .books-image-section {
   display: flex;
-  justify-content: center;
   gap: 1.25rem;
-  height: 37.5rem;
-  width: auto;
-
+  width: 100%;
+ 
+  
+  
 }
 
 .archive-book-paragraph {
@@ -22,9 +32,8 @@
   flex-direction: row;
   justify-content: space-between;
   margin-top: 2rem;
-  margin-bottom: 11rem;
-  margin-left: 9.5rem;
-  margin-right: 9.5rem;
+  margin-bottom: 4rem;
+ 
 }
 
 .archive-book-paragraph h4 {
