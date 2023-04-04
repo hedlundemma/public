@@ -1,30 +1,33 @@
 .archive-book-post {
   margin-top: 5rem;
-  display:flex;
+  display: flex;
   flex-direction: column;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  
-  
-  
+  padding: 0 2rem;
 }
 
-
-.single-book-one img, .single-book-two img{
-  object-fit:cover;
-  object-position: center;
-  max-width: 100%;
-  height: auto;
-  
-
-}
 .books-image-section {
   display: flex;
+  justify-content: center;
   gap: 1.25rem;
+  height: 100%;
   width: 100%;
- 
-  
-  
+}
+
+.left-book-image-container {
+  width: 63%;
+  height: fit-content;
+}
+
+.right-book-image-container {
+  width: 30%;
+  height: fit-content;
+}
+
+.books-image-section img {
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
 }
 
 .archive-book-paragraph {
@@ -33,7 +36,6 @@
   justify-content: space-between;
   margin-top: 2rem;
   margin-bottom: 4rem;
- 
 }
 
 .archive-book-paragraph h4 {
@@ -41,31 +43,31 @@
   font-family: "Neue Haas Grotesk-Medium";
 }
 
-.section-paragraph{
-  display:flex;
+.section-paragraph {
+  display: flex;
   justify-content: space-around;
   width: 8.3rem;
 }
 
-.section-paragraph a, .section-paragraph p{
+.section-paragraph a,
+.section-paragraph p {
   text-decoration: none;
   font-family: "Neue Haas Grotesk-Roman";
   color: #000000;
-  font-size:20px;
+  font-size: 20px;
 }
-
 
 /* styling för single-book*/
 
 .nav-links,
 .posts-navigation .nav-links,
 .post-navigation .nav-links {
-    display: flex;
-    justify-content: space-between;
-    width:100%;
-   
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
-.navigation, .post-navigation{
+.navigation,
+.post-navigation {
   background-color: white;
   margin-top: 5rem;
   margin-left: 4.7rem;
@@ -73,57 +75,49 @@
   margin-bottom: 5.8rem;
 }
 
-.navigation, .post-navigation a{
- text-decoration: none;
- color:black;
- font-size: 36px;
- font-family: "Neue Haas Grotesk-Light";
+.navigation,
+.post-navigation a {
+  text-decoration: none;
+  color: black;
+  font-size: 36px;
+  font-family: "Neue Haas Grotesk-Light";
 }
- 
+
 .nav-previous,
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
-    flex: 1 0 50%;
-    text-decoration: none;
-   
+  flex: 1 0 50%;
+  text-decoration: none;
 }
- 
+
 .nav-next,
 .posts-navigation .nav-next,
 .post-navigation .nav-next {
-    text-align: end;
-    flex: 1 0 50%;
+  text-align: end;
+  flex: 1 0 50%;
 }
 
-.single-book-paragraph{
-  display:flex;
+.single-book-paragraph {
+  display: flex;
 
   justify-content: center;
   font-size: 36px;
   flex-direction: column;
-margin-right: 6.5rem;
-margin-left: 6.5rem;
-margin-top: 3rem; 
+  margin-right: 6.5rem;
+  margin-left: 6.5rem;
+  margin-top: 3rem;
 }
 
-
-
-
-.single-books-container{
-  width:100%;
+.single-books-container {
+  width: 100%;
   padding: 80px 2rem;
-border-bottom: 2px solid #000000;
-
+  border-bottom: 2px solid #000000;
 }
 
-.single-books-heading{
-  display:flex;
+.single-books-heading {
+  display: flex;
   font-size: 96px;
   font-family: "Neue Haas Grotesk-Medium";
   padding-right: 2rem;
   justify-content: right;
-
-
-
 }
-
