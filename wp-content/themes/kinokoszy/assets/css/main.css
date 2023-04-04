@@ -54,10 +54,18 @@ body {
   font-weight: 500;
 }
 
-.arrow-container img {
+/* .arrow-container img {
   position: absolute;
   top: 0px;
   bottom: 0px;
   right: 1rem;
   margin: auto 0;
+} */
+
+.arrow-container img {
+  position: absolute;
+  /* top: 0px; */
+  bottom: 50px;
+  right: 3rem;
+  /* margin: auto 0; */
 }

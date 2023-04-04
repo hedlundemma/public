@@ -108,20 +108,20 @@ input[type="submit"]:hover {
     display:flex;
     flex-direction: row;
     justify-content: center;
-    gap: 40rem;
-    margin-top: 8.25rem;
+    gap: 25rem;
+   
+    margin-top: 6.5rem;
 }
 .images-section img {
-  width: 346px;
-  height: 405px;
   margin-bottom: 2rem;
+  width: 100%
 }
 
 .images-section,
 .image-section-only-joanna p {
   font-size: 20px;
   text-align: right;
-  margin-bottom: 3.3rem;
+  margin-bottom: 4rem;
 }
 
 .image-paragraphs-contact {
@@ -133,11 +133,15 @@ input[type="submit"]:hover {
     display:flex;
     flex-direction: row;
     justify-content: center; 
-    margin-top: 8.25rem;
+    margin-top: 6.5rem;
 }
 
 .image-section-only-joanna img {
-  width: 346px;
-  height: 405px;
   margin-bottom: 2rem;
+  width: 100%;
+}
+
+.image-container-one, .image-container-two{
+  width: 30rem;
+  object-fit: cover;
 }

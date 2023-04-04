@@ -18,11 +18,12 @@ joannaSection.addEventListener("mouseleave", function (e) {
   kinoSection.classList.remove("blur");
 });
 
-//remember to write the URL to the home pages
+// need to change url when we deploy
 kinoSection.addEventListener("click", function (e) {
   window.location.href = "kino/home";
 });
 
+// need to change url when we deploy
 joannaSection.addEventListener("click", function (e) {
   window.location.href = "joanna/home";
 });

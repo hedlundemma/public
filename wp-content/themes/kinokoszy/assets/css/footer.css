@@ -8,24 +8,26 @@
 .logo-footer {
   margin-top: 2rem;
   margin-left: 2.1rem;
+  
 }
 
 .footer-section h2 {
-  font-size: 53px;
-  line-height: 30px;
+  font-size: 75px;
+  line-height: 32.4px;
   color: white;
   font-family: "Neue Haas Grotesk-Medium";
-  letter-spacing: 0.6rem;
+  letter-spacing: 0.4rem;
   margin-top: 2rem;
 }
 
 .footer-section h3 {
-  font-size: 40px;
-  line-height: 30px;
+  font-size: 41px;
+  line-height: 32.4px;
   color: white;
   margin-top: 1.25rem;
   font-family: "Neue Haas Grotesk-Medium";
-  letter-spacing: 0.6rem;
+  letter-spacing: 0.4rem;
+  line-height: 32.5px;
   margin-bottom: 2rem;
 }
 
