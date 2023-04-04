@@ -41,7 +41,7 @@ if( !empty( $image ) ): ?>
         <p>Av: <?php the_field('writer'); ?></p> <br>
         <p>Foto: <?php the_field('foto'); ?></p><br>
         <p>Bokförlag: <?php the_field('bokforlag'); ?></p><br>
-        <p>SBN: <?php the_field('sbn'); ?></p><br>
+        <p>ISBN: <?php the_field('sbn'); ?></p><br>
 
 
     </div>
@@ -53,11 +53,11 @@ if( !empty( $image ) ): ?>
 <div class="books-navigation">
     <?PHP  the_post_navigation( array(
     'prev_text'  => __( '<< PREVIOUS BOOK'),
-  
-    
     'next_text'  => __( 'NEXT BOOK >>' ),
     )); ?>
 </div>
+
+
 
 
 
