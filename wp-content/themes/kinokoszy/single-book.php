@@ -21,16 +21,19 @@
 
 <section class="archive-book-post">
     <div class="books-image-section">
-        <?php
+        <div class="single-book-one">
+            <?php
 $image = get_field('image_large');
 if( !empty( $image ) ): ?>
-        <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-        <?php endif;?>
-
-        <?php $image = get_field('image_small');
+            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+            <?php endif;?>
+        </div>
+        <div class="single-book-two">
+            <?php $image = get_field('image_small');
 if( !empty( $image ) ): ?>
-        <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-        <?php endif;?>
+            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+            <?php endif;?>
+        </div>
     </div>
 
     <div class="single-books-container">
@@ -52,8 +55,8 @@ if( !empty( $image ) ): ?>
 <!--- Navigation previous and next for the books -->
 <div class="books-navigation">
     <?PHP  the_post_navigation( array(
-    'prev_text'  => __( '<< PREVIOUS BOOK'),
-    'next_text'  => __( 'NEXT BOOK >>' ),
+    'prev_text'  => __( '<<   PREVIOUS BOOK'),
+    'next_text'  => __( 'NEXT BOOK   >>' ),
     )); ?>
 </div>
 

@@ -6,31 +6,20 @@
     <div class="title-container">
         <h1>
             PHOTOS
-        </h1>
-
     </div>
-
 </section>
 <?php if (have_posts()) : ?>
 
-    <div>
-
+    <div id="photos-img-grid" >
         <?php while (have_posts()) : the_post();
+            $image = get_field('image');
+            if (!empty($image)) : ?>
 
-
-
-            the_title()
-
-        ?>
-
-
-
-    <?php
-        endwhile;
-    endif;
-
-    ?>
-
+            <img src="<?php echo esc_url($image['url']) ?>" alt= "<?php echo esc_attr($image['alt']) ?>">
+            
+            <?php endif ?>
+        <?php endwhile; endif; ?>
+    
+    </div>
 
     <?php get_footer() ?>
-    </div>

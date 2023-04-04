@@ -5,8 +5,8 @@ $kino_footer_menu= wp_get_nav_menu_items('kino-footer-menu');
 <footer>
     <section class="footer-section">
         <div class="logo-footer">
-            <img src="/wp-content/themes/kinokoszy/assets/images/kino-logo.png" alt="logo kinokoszy" />
-            <h2> K I N O</h2>
+            <img src="/wp-content/themes/kinokoszy/assets/images/logo.png" alt="logo kinokoszy" width="180px" />
+            <h2> KINO</h2>
             <h3> KOSZYK</h3>
 
         </div>
