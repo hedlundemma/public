@@ -13,7 +13,9 @@
 </section>
 
 <section class="hero-films">
-    <iframe class="responsive-iframe" src="//player.vimeo.com/video/150078754" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+    <div class="iframe-container">
+        <iframe class="responsive-iframe" src="//player.vimeo.com/video/150078754" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+    </div>
 </section>
 
 <section class="film-selection-flex-images">
