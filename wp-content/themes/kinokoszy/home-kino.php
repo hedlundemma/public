@@ -73,9 +73,15 @@
         <hr>
         <div>
             <p>Find out news and read more about us on facebook</p>
-            <a href="https://sv-se.facebook.com/">
-                <img src="/wp-content/themes/kinokoszy/assets/images/facebook.png" alt="facebook">
-            </a>
+            <div id="home-news-grid">
+
+                <a class="home-news-facebook" href="https://sv-se.facebook.com/">
+                    <img src="/wp-content/themes/kinokoszy/assets/images/facebook.png" alt="facebook">
+                </a>
+                <a class="home-news-arrow">
+                    <img class="home-news-arrow-img" src="/wp-content/themes/kinokoszy/assets/images/pil.png" alt="facebook">
+                </a>
+            </div>
         </div>
     </section>
 </main>
