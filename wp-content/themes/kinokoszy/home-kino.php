@@ -34,7 +34,7 @@
         <h2>Books</h2>
     </section>
 
-    <h1 class="awards-heading">AWARDS</h1>
+    <h2 class="awards-heading">AWARDS</h2>
     <section id="home-kino-awards-section">
         <div class="awards-container">
             <div class="sliding-content">
