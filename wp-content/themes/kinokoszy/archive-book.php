@@ -16,17 +16,20 @@
 <?php while (have_posts()) : the_post(); ?>
 <section class="archive-book-post">
     <div class="books-image-section">
+        <div class="single-book-one">
 
-        <?php $image = get_field('image_large');
+            <?php $image = get_field('image_large');
                 if (!empty($image)) : ?>
-        <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-        <?php endif; ?>
+            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+            <?php endif; ?>
+        </div>
 
-
-        <?php $image = get_field('image_small');
+        <div class="single-book-two">
+            <?php $image = get_field('image_small');
                 if (!empty($image)) : ?>
-        <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-        <?php endif; ?>
+            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+            <?php endif; ?>
+        </div>
 
 
     </div>
