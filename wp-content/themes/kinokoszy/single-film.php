@@ -1,3 +1,10 @@
+<?php
+$articles = get_field('FilmArticles');
+?>
+
+
+
+
 <?php get_header(); ?>
 <section class="hero-section">
     <div class="arrow-container">
@@ -27,9 +34,16 @@
         <?php endif; ?>
 
         <p><?php the_field('paragraph'); ?></p>
+        <?php foreach ($articles as $article) : ?>
+            <h1><?php echo $article->post_title ?></h1>
+        <?php endforeach ?>
+
+
+
 
 
 <?php endwhile;
 endif; ?>
+
 
 <?php get_footer(); ?>
