@@ -19,7 +19,8 @@
 
 <main class="home-main">
     <p>
-        We are Kino Koszyk, an independent film company with our lense focused on social injustice and inspiring people. We produces creative documentaries for cinema and television, books and exhibitions.<br><br>
+        We are Kino Koszyk, an independent film company with our lense focused on social injustice and inspiring people.
+        We produces creative documentaries for cinema and television, books and exhibitions.<br><br>
 
         Founded in 1987. Based in Göteborg, Sweden.
     </p>
@@ -27,12 +28,10 @@
     </section>
 
     <section id="home-movie-section">
-        <h2>Movie</h2>
+        <h2>FILMS</h2>
     </section>
 
-    <section id="home-books-section">
-        <h2>Books</h2>
-    </section>
+
 
     <h1 class="awards-heading">AWARDS</h1>
     <section id="home-kino-awards-section">
