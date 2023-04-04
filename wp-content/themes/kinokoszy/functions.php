@@ -91,6 +91,7 @@ wp_enqueue_style('front-page', get_template_directory_uri() . '/assets/css/front
 wp_enqueue_style('home-kino', get_template_directory_uri() . '/assets/css/home-kino.css');
 wp_enqueue_style('film', get_template_directory_uri() . '/assets/css/film.css');
 wp_enqueue_style('books', get_template_directory_uri() . '/assets/css/books.css');
+wp_enqueue_style('photos', get_template_directory_uri() . '/assets/css/photos.css');
 }
 
 function scripts()
