@@ -19,13 +19,13 @@
     </div>
 </section>
 
-<div class="exhibitions-grid">
+<div class="articles-grid">
 
     <?php if (have_posts()) : ?>
 
 
         <?php while (have_posts()) : the_post(); ?>
-            <div class="exhibitions-post">
+            <div class="articles-post">
                 <h3><?php the_title(); ?></h3>
                 <p><?php the_field('paragraph') ?>
                 </p>
