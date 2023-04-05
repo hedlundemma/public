@@ -25,6 +25,9 @@ $articles = get_field('FilmArticles');
 
 
         <h1><?php the_title(); ?></h1>
+        <?php $image = the_field('image'); ?>
+
+        <img src="<?php echo esc_url($image['url']) ?>" alt="">
 
 
         <p><?php the_field('paragraph'); ?></p>
