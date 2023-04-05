@@ -23,12 +23,17 @@ $articles = get_field('FilmArticles');
 
     <?php while (have_posts()) : the_post(); ?>
 
+        <?php
+        $image = get_field('image');
+        if (!empty($image)) : ?>
+            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+        <?php endif; ?>
 
-        <h1><?php the_title(); ?></h1>
-        <?php $image = the_field('image'); ?>
-
-        <img src="<?php echo esc_url($image['url']) ?>" alt="">
-
+        <section class="exhibitions">
+            <div class="exhibition-heading">
+                <h2><?php the_title(); ?></h2>
+            </div>
+        </section>
 
         <p><?php the_field('paragraph'); ?></p>
 
