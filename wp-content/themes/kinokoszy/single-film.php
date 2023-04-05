@@ -21,29 +21,27 @@ $articles = get_field('FilmArticles');
 
 <?php if (have_posts()) : ?>
 
-    <?php while (have_posts()) : the_post();
+    <?php while (have_posts()) : the_post(); ?>
 
-    ?>
 
         <h1><?php the_title(); ?></h1>
 
-        <?php
-        $image = get_field('image');
-        if (!empty($image)) : ?>
-            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-        <?php endif; ?>
 
         <p><?php the_field('paragraph'); ?></p>
-        <?php foreach ($articles as $article) : ?>
-            <h1><?php echo $article->post_title ?></h1>
+
+        <?php foreach ($articles as $featured_post) :
+            $permalink = get_permalink($featured_post->ID);
+            $title = get_the_title($featured_post->ID);
+            $custom_field = get_field('article_paragraph', $featured_post->ID); ?>
+            <h1><?php echo $title ?></h1>
+            <p><?php echo $custom_field ?></p>
+
+
+
         <?php endforeach ?>
 
 
-
-
-
-<?php endwhile;
-endif; ?>
-
+    <?php endwhile; ?>
+<?php endif; ?>
 
 <?php get_footer(); ?>
