@@ -78,7 +78,7 @@ $the_query = new WP_Query($args); ?>
                 <?php $image = get_field('image_film'); ?>
 
                 <a href="<?php the_permalink() ?>">
-                    <img class="single-film-image" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+                    <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
                 </a>
                 <p><span>//</span><span><a href="<?php the_permalink() ?>"><?php the_title() ?></a></span></p>
             </div>

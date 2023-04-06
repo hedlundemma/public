@@ -144,9 +144,15 @@
   display: flex;
   flex-direction: row;
   gap: 20px;
+  overflow-x: scroll;
+  padding-left: 2%;
 }
-
 .single-film-link-container {
+}
+.single-film-link-container a img {
+  height: 40vw;
+  width: 23vw;
+  object-fit: cover;
 }
 
 .single-film-link-container p {
