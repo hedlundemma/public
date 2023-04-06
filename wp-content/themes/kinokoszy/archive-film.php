@@ -18,8 +18,7 @@
 <section class="hero-films">
 
     <div class="iframe-container">
-        <iframe class="responsive-iframe" src="//player.vimeo.com/video/150078754" frameborder="0"
-            allowfullscreen="allowfullscreen"></iframe>
+        <iframe class="responsive-iframe" src="//player.vimeo.com/video/150078754" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
     </div>
 
 </section>
@@ -49,7 +48,7 @@
 
                 <?php
 
-                $image = get_field('image');
+                $image = get_field('image_film');
                 if (!empty($image)) : ?>
                     <div class="featured-film-image-container">
                         <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />

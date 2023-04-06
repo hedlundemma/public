@@ -1,6 +1,6 @@
 .hero-films {
   /* background-color: rgb(0, 0, 0); */
-  width: 100;
+  width: 100%;
   padding: 2rem 0;
   display: flex;
   justify-content: center;
@@ -75,7 +75,7 @@
 
 .featured-film-image-container {
   width: 100%;
-  max-height: 80%;
+  height: 80%;
 }
 
 .featured-film-image-container img {
@@ -86,8 +86,8 @@
 }
 
 .featured-film-links {
+  padding-top: 2rem;
   display: flex;
-  align-items: center;
   flex-grow: 1;
   text-transform: uppercase;
 }
@@ -109,6 +109,7 @@
   display: flex;
   justify-content: flex-end;
 }
+
 .single-film-heading h2 {
   font-family: "Neue Haas Grotesk-Medium";
   font-size: 96px;
@@ -133,7 +134,6 @@
   display: flex;
   justify-content: center;
   text-align: left;
-
   font-size: 36px;
   font-weight: 500;
   line-height: 44px;
