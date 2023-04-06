@@ -31,7 +31,7 @@ $articles = get_field('FilmArticles');
 
         <section>
             <div class="single-film-heading">
-                <h2> Watching the moon at night</h2>
+                <h2><?php the_title() ?></h2>
 
             </div>
         </section>

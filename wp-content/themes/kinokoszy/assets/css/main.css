@@ -52,6 +52,8 @@ body {
   margin-right: 2rem;
   line-height: 172px;
   font-weight: 500;
+
+  word-break: break-all;
 }
 
 .arrow-container img {
@@ -93,4 +95,7 @@ body {
   font-family: "Neue Haas Grotesk-Roman";
   font-size: 20px;
   line-height: 28px;
+}
+
+@media only screen and (max-width: 1200px) {
 }
