@@ -102,6 +102,7 @@ function custom_styles()
 function scripts()
 {
     wp_enqueue_script('front-page-script', get_template_directory_uri() . '/assets/js/front-page.js', array(), false, true);
+    wp_enqueue_script('single-film-script', get_template_directory_uri() . '/assets/js/single-film.js', array(), false, true);
 }
 add_action('wp_enqueue_scripts', 'custom_styles');
 add_action('wp_enqueue_scripts', 'scripts');
