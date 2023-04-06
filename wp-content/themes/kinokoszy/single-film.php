@@ -38,17 +38,19 @@ $articles = get_field('FilmArticles');
 
         <p class="single-film-paragraph"><?php the_field('film_paragraph') ?>
         <div class="articles-grid">
-            <?php foreach ($articles as $featured_post) :
-                $permalink = get_permalink($featured_post->ID);
-                $title = get_the_title($featured_post->ID);
-                $custom_field = get_field('article_paragraph', $featured_post->ID); ?>
+            <?php if (!empty($articles)) :
+                foreach ($articles as $featured_post) :
+                    $permalink = get_permalink($featured_post->ID);
+                    $title = get_the_title($featured_post->ID);
+                    $custom_field = get_field('article_paragraph', $featured_post->ID); ?>
 
-                <div class="articles-post">
-                    <h3><?php echo $title ?></h3>
-                    <p><?php echo $custom_field ?></p>
-                </div>
+                    <div class="articles-post">
+                        <h3><?php echo $title ?></h3>
+                        <p><?php echo $custom_field ?></p>
+                    </div>
 
-            <?php endforeach ?>
+                <?php endforeach ?>
+            <?php endif ?>
         </div>
 
 
@@ -58,6 +60,37 @@ $articles = get_field('FilmArticles');
     <?php endwhile; ?>
 <?php endif; ?>
 
+<?php
+$args = array(
+    "post_type" => "film",
+    "orderby" => "date",
+    "order" => "DESC",
+);
+// The Query
+$the_query = new WP_Query($args);
+
+// The Loop
+if ($the_query->have_posts()) {
+
+    while ($the_query->have_posts()) {
+        $the_query->the_post();
+        $image = get_field('image_film'); ?>
+
+        <a href="<?php the_permalink() ?>">
+            <img class="single-film-image" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+        </a>
+        <a href="<?php the_permalink() ?>"><?php the_title() ?></a>
+<?php
 
 
-<?php get_footer(); ?>
+    }
+} else {
+    // no posts found
+}
+/* Restore original Post Data */
+wp_reset_postdata();
+
+
+// $articles = get_field('FilmArticles');
+
+get_footer(); ?>
