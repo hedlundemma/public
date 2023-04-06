@@ -21,41 +21,41 @@ $articles = get_field('FilmArticles');
 
 <?php if (have_posts()) : ?>
 
-<?php while (have_posts()) : the_post(); ?>
+    <?php while (have_posts()) : the_post(); ?>
 
-<?php
+        <?php
         $image = get_field('image_film');
         if (!empty($image)) : ?>
-<img class="single-film-image" src="<?php echo esc_url($image['url']); ?>"
-    alt="<?php echo esc_attr($image['alt']); ?>" />
-<?php endif; ?>
+            <img class="single-film-image" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+        <?php endif; ?>
 
         <section>
             <div class="single-film-heading">
                 <h2><?php the_title() ?></h2>
 
-    </div>
-</section>
+            </div>
+        </section>
 
-<p class="single-film-paragraph"><?php the_field('film_paragraph')?>
-    <?php foreach ($articles as $featured_post) :
+        <p class="single-film-paragraph"><?php the_field('film_paragraph') ?>
+        <div class="articles-grid">
+            <?php foreach ($articles as $featured_post) :
                 $permalink = get_permalink($featured_post->ID);
                 $title = get_the_title($featured_post->ID);
                 $custom_field = get_field('article_paragraph', $featured_post->ID); ?>
 
-<div class="articles-post">
-    <h3><?php echo $title ?></h3>
-    <p><?php echo $custom_field ?></p>
-</div>
+                <div class="articles-post">
+                    <h3><?php echo $title ?></h3>
+                    <p><?php echo $custom_field ?></p>
+                </div>
 
-<?php endforeach ?>
-</div>
-
-
+            <?php endforeach ?>
+        </div>
 
 
 
-<?php endwhile; ?>
+
+
+    <?php endwhile; ?>
 <?php endif; ?>
 
 
