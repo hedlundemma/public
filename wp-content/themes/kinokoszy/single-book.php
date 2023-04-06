@@ -23,13 +23,13 @@
     <div class="books-image-section">
         <div class="left-book-image-container">
             <?php
-$image = get_field('image_large');
+$image = get_field('left_image_books');
 if( !empty( $image ) ): ?>
             <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
             <?php endif;?>
         </div>
         <div class="right-book-image-container">
-            <?php $image = get_field('image_small');
+            <?php $image = get_field('right_image_books');
 if( !empty( $image ) ): ?>
             <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
             <?php endif;?>
@@ -43,9 +43,9 @@ if( !empty( $image ) ): ?>
     </div>
     <div class="single-book-paragraph">
         <p>Av: <?php the_field('writer'); ?></p> <br>
-        <p>Foto: <?php the_field('foto'); ?></p><br>
-        <p>Bokförlag: <?php the_field('bokforlag'); ?></p><br>
-        <p>ISBN: <?php the_field('sbn'); ?></p><br>
+        <p>Foto: <?php the_field('photo_by'); ?></p><br>
+        <p>Publisher: <?php the_field('publisher'); ?></p><br>
+        <p>ISBN: <?php the_field('isbn'); ?></p><br>
 
 
     </div>
