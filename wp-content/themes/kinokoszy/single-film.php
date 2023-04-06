@@ -67,28 +67,29 @@ $args = array(
     "order" => "DESC",
 );
 // The Query
-$the_query = new WP_Query($args);
+$the_query = new WP_Query($args); ?>
 
-// The Loop
-if ($the_query->have_posts()) {
+<div class="single-film-links-container">
+    <?php if ($the_query->have_posts()) :
 
-    while ($the_query->have_posts()) {
-        $the_query->the_post();
-        $image = get_field('image_film'); ?>
+        while ($the_query->have_posts()) :
+            $the_query->the_post(); ?>
+            <div class="single-film-link-container">
+                <?php $image = get_field('image_film'); ?>
 
-        <a href="<?php the_permalink() ?>">
-            <img class="single-film-image" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-        </a>
-        <a href="<?php the_permalink() ?>"><?php the_title() ?></a>
+                <a href="<?php the_permalink() ?>">
+                    <img class="single-film-image" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+                </a>
+                <p><span>//</span><span><a href="<?php the_permalink() ?>"><?php the_title() ?></a></span></p>
+            </div>
+        <?php endwhile ?>
+
+
+
+    <?php endif ?>
+</div>
 <?php
-
-
-    }
-} else {
-    // no posts found
-}
-/* Restore original Post Data */
-wp_reset_postdata();
+// wp_reset_postdata();
 
 
 // $articles = get_field('FilmArticles');

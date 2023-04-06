@@ -140,3 +140,16 @@
   letter-spacing: 0em;
   text-align: left;
 }
+.single-film-links-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.single-film-link-container {
+}
+
+.single-film-link-container p {
+  display: flex;
+  justify-content: space-between;
+}
