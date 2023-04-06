@@ -18,7 +18,8 @@
 <section class="hero-films">
 
     <div class="iframe-container">
-        <iframe class="responsive-iframe" src="//player.vimeo.com/video/150078754" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+        <iframe class="responsive-iframe" src="//player.vimeo.com/video/150078754" frameborder="0"
+            allowfullscreen="allowfullscreen"></iframe>
     </div>
 
 </section>
@@ -26,11 +27,13 @@
 <!--Section with four flexing images (still shots) from selected films. -->
 <section class="film-selection-flex-images">
 
+
     <div class="flex-image-row">
         <div class="flex-image-container"><img src="/wp-content/themes/kinokoszy/assets/images/films/Optimized-ach-jakze-szwecja-avdammad.png" alt="" srcset=""></div>
         <div class="flex-image-container"><img src="/wp-content/themes/kinokoszy/assets/images/films/Optimized-poster_the_return.png" alt="" srcset=""></div>
         <div class="flex-image-container"><img src="/wp-content/themes/kinokoszy/assets/images/films/Optimized-T8D_affisch.png" alt="" srcset=""></div>
         <div class="flex-image-container"><img src="/wp-content/themes/kinokoszy/assets/images/films/Optimized-Tvillingarna från Krakow med cellisten.png" alt="" srcset=""></div>
+
     </div>
 
 </section>
@@ -71,5 +74,6 @@
     endif; ?>
 
 </section>
+
 <?php
 get_footer() ?>
