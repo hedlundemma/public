@@ -5,7 +5,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if ( ! class_exists( 'acf_admin_tools' ) ) :
-	#[AllowDynamicProperties]
+
 	class acf_admin_tools {
 
 
@@ -32,9 +32,10 @@ if ( ! class_exists( 'acf_admin_tools' ) ) :
 		function __construct() {
 
 			// actions
-			add_action( 'admin_menu', array( $this, 'admin_menu' ), 15 );
+			add_action( 'admin_menu', array( $this, 'admin_menu' ) );
 
 		}
+
 
 		/**
 		 *  register_tool
@@ -137,8 +138,6 @@ if ( ! class_exists( 'acf_admin_tools' ) ) :
 
 		function load() {
 
-			add_action( 'admin_body_class', array( $this, 'admin_body_class' ) );
-
 			// disable filters (default to raw data)
 			acf_disable_filters();
 
@@ -153,18 +152,6 @@ if ( ! class_exists( 'acf_admin_tools' ) ) :
 
 		}
 
-		/**
-		 * Modifies the admin body class.
-		 *
-		 * @since 6.0.0
-		 *
-		 * @param string $classes Space-separated list of CSS classes.
-		 * @return string
-		 */
-		public function admin_body_class( $classes ) {
-			$classes .= ' acf-admin-page';
-			return $classes;
-		}
 
 		/**
 		 *  include_tools
@@ -258,7 +245,7 @@ if ( ! class_exists( 'acf_admin_tools' ) ) :
 			}
 
 			// view
-			acf_get_view( 'tools/tools', $view );
+			acf_get_view( 'html-admin-tools', $view );
 
 		}
 

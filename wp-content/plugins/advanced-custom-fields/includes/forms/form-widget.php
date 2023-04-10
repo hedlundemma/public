@@ -12,7 +12,6 @@
 
 if ( ! class_exists( 'acf_form_widget' ) ) :
 
-	#[AllowDynamicProperties]
 	class acf_form_widget {
 
 
