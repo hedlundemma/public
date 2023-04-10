@@ -26,9 +26,6 @@ add_action('init', function () {
     register_post_type('film,', array(
         'labels' => array(
             'name' => __('Film'),
-
-
-
         ),
         'rewrite' => array('slug' => 'kino/films'),
         'public' => true,
@@ -67,11 +64,6 @@ the_post_navigation( array(
     'prev_text'  => __( '<< PREVIOUS BOOK'),
     'next_text'  => __( 'NEXT BOOK >>' ),
     ) );
-   
-
-
-
-
 
 // function custom_styles()
 // {
