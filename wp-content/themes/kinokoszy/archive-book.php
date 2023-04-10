@@ -17,7 +17,7 @@
         <section class="archive-book-post">
             <div class="books-image-section">
 
-                <?php $image = get_field('image_large');
+                <?php $image = get_field('left_image_books');
                 if (!empty($image)) : ?>
                     <div class="left-book-image-container">
                         <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
@@ -25,13 +25,12 @@
                 <?php endif; ?>
 
 
-                <?php $image = get_field('image_small');
+                <?php $image = get_field('right_image_books');
                 if (!empty($image)) : ?>
                     <div class="right-book-image-container">
                         <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
                     </div>
                 <?php endif; ?>
-
 
             </div>
             <div class="archive-book-paragraph">
@@ -44,15 +43,12 @@
                 </div>
             </div>
 
-
         </section>
 <?php
     endwhile;
 endif;
 
 ?>
-
-
 
 </div>
 

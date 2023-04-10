@@ -65,7 +65,7 @@
   width: 100%;
   position: relative;
   display: flex;
-  padding: 0 2rem 0 2rem;
+  /* padding: 0 2rem 0 2rem; */
 }
 
 #home-news-grid {
@@ -101,7 +101,7 @@
   letter-spacing: 0em;
   text-align: left;
   margin-top: 112px;
-  padding: 0rem 2rem 0rem 2rem;
+  /* padding: 0rem 2rem 0rem 2rem; */
 }
 .awards-container {
   overflow: hidden;
