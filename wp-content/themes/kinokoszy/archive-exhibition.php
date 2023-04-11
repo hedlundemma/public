@@ -24,12 +24,12 @@
     <?php if (have_posts()) : ?>
 
 
-        <?php while (have_posts()) : the_post(); ?>
-            <div class="articles-post">
-                <h3><?php the_title(); ?></h3>
-                <p><?php the_field('exhibition_paragraph') ?>
-                </p>
-            </div>
+    <?php while (have_posts()) : the_post(); ?>
+    <div class="articles-post">
+        <h3><?php the_title(); ?></h3>
+        <p><?php the_field('exhibition_paragraph') ?>
+        </p>
+    </div>
 
 
 
@@ -43,9 +43,9 @@
 </div>
 
 <div class="exhibition-image-container">
-    <img src="/wp-content/themes/kinokoszy/assets/images/teater.jpg" alt="" />
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teater.jpg" alt="" />
 
-    <img src="/wp-content/themes/kinokoszy/assets/images/arvikaBib.jpg" alt="" />
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/arvikaBib.jpg" alt="" />
 
 </div>
 
