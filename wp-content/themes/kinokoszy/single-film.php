@@ -5,7 +5,7 @@ $articles = get_field('FilmArticles');
 <?php get_header(); ?>
 <section class="hero-section">
     <div class="arrow-container">
-        <img src="" <?php echo get_template_directory_uri(); ?>/assets/images/Group 6.png" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Group 6.png" alt="">
     </div>
     <div class="title-container">
         <h1>
@@ -19,7 +19,6 @@ $articles = get_field('FilmArticles');
 <?php if (have_posts()) : ?>
 
     <?php while (have_posts()) : the_post(); ?>
-
 
         <?php
         $image = get_field('image_film');
@@ -51,10 +50,6 @@ $articles = get_field('FilmArticles');
             <?php endif ?>
         </div>
 
-
-
-
-
     <?php endwhile; ?>
 <?php endif; ?>
 
@@ -69,9 +64,9 @@ $the_query = new WP_Query($args); ?>
 <div class="links-wrapper">
     <div class="single-film-links-container">
         <div class="arrows-container">
-            <div><img class="left-arrow" src="/wp-content/themes/kinokoszy/assets/images/films/leftarrow.png
+            <div><img class="left-arrow" src="<?php echo get_template_directory_uri(); ?>/assets/images/films/leftarrow.png
             " alt=""></div>
-            <div><img class="right-arrow" src="/wp-content/themes/kinokoszy/assets/images/films/rightarrow.png
+            <div><img class="right-arrow" src="<?php echo get_template_directory_uri(); ?>/assets/images/films/rightarrow.png
             " alt=""></div>
         </div>
         <?php if ($the_query->have_posts()) :
@@ -88,11 +83,10 @@ $the_query = new WP_Query($args); ?>
                 </div>
             <?php endwhile ?>
 
-
-
         <?php endif ?>
     </div>
 </div>
 <?php
 wp_footer();
+
 get_footer(); ?>
