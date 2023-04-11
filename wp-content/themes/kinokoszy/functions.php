@@ -106,4 +106,3 @@ function scripts()
 }
 add_action('wp_enqueue_scripts', 'custom_styles');
 add_action('wp_enqueue_scripts', 'scripts');
-

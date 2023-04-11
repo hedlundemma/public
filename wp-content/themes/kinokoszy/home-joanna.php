@@ -19,7 +19,8 @@
 
 <main class="home-main">
     <p>
-        We are Kino, an independent film company with our lense focused on social injustice and inspiring people. We produces creative documentaries for cinema and television, books and exhibitions.<br><br>
+        We are Kino, an independent film company with our lense focused on social injustice and inspiring people. We
+        produces creative documentaries for cinema and television, books and exhibitions.<br><br>
 
         Founded in 1987. Based in Göteborg, Sweden.
     </p>
@@ -31,7 +32,9 @@
     </section>
 
     <section class="home-content-section home-content-section-books">
-        <h2>Books</h2>
+
+        <h2>BOOKS</h2>
+
     </section>
 
     <h2>Partners</h2>
@@ -64,13 +67,14 @@
         <div>
             <p>Find out news and read more about us on facebook</p>
             <div id="home-news-grid">
-            <div  class="home-news-facebook">
-                <a href="https://sv-se.facebook.com/">
-                    <img src="/wp-content/themes/kinokoszy/assets/images/facebook.png" alt="facebook">
-                </a>
-            </div>
+                <div class="home-news-facebook">
+                    <a href="https://sv-se.facebook.com/">
+                        <img src="/wp-content/themes/kinokoszy/assets/images/facebook.png" alt="facebook">
+                    </a>
+                </div>
                 <a class="home-news-arrow">
-                    <img class="home-news-arrow-img" src="/wp-content/themes/kinokoszy/assets/images/pil.png" alt="facebook">
+                    <img class="home-news-arrow-img" src="/wp-content/themes/kinokoszy/assets/images/pil.png"
+                        alt="facebook">
                 </a>
             </div>
         </div>
