@@ -28,7 +28,9 @@
     </section>
 
     <section id="home-movie-section">
-        <h2>FILMS</h2>
+        <a href="http://kinokos.local/kino/films/">
+            <h2>FILMS</h2>
+        </a>
     </section>
 
 
@@ -41,7 +43,7 @@
         </div>
     </section>
 
-    <h2>Partners</h2>
+    <h2 class="partners-heading">PARTNERS</h2>
     <section id="home-partners-section">
         <div class="home-partner-card">
             <p>text</p>
