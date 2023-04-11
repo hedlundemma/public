@@ -6,17 +6,36 @@
         <img src="/wp-content/themes/kinokoszy/assets/images/Group 6.png" alt="">
     </div>
     <div class="title-container">
-        <h1>
-            ABOUT
-        </h1>
+
+        <?php
+        // This checks if the parent page is "Kino" or something else ("Joanna"). Different headings will be used on respective different "about" pages.
+        $parent_title = get_the_title($post->post_parent);
+
+        if ($parent_title == "Kino") {
+            echo "<h1>About us</h1>";
+        } else {
+            echo "<h1>About</h1>";
+        }
+        ?>
 
     </div>
+</section>
 
+<section class="about-heading-section">
+    <div class="about-heading">
+        <h2><?php the_title() ?></h2>
+    </div>
+</section>
+
+<section class="about-content">
+    <article class="about-text-and-images">
+        <?php
+
+        the_content();
+
+        ?>
+    </article>
 </section>
 <?php
-the_content();
-?>
 
-<p> About Us</p>
-<?php
 get_footer(); ?>

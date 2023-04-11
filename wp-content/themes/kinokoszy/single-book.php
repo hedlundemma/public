@@ -42,9 +42,9 @@ if( !empty( $image ) ): ?>
 
     </div>
     <div class="single-book-paragraph">
-        <p>Av: <?php the_field('writer'); ?></p> <br>
-        <p>Foto: <?php the_field('photo_by'); ?></p><br>
-        <p>Publisher: <?php the_field('publisher'); ?></p><br>
+        <p>BY: <?php the_field('writer'); ?></p> <br>
+        <p>PHOTO: <?php the_field('photo_by'); ?></p><br>
+        <p>PUBLISHER: <?php the_field('publisher'); ?></p><br>
         <p>ISBN: <?php the_field('isbn'); ?></p><br>
 
 
