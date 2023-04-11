@@ -5,7 +5,7 @@
     </div>
     <div class="title-container">
         <h1>
-            EXHIBITONS
+            EXHIBITIONS
         </h1>
 
     </div>
@@ -24,12 +24,12 @@
     <?php if (have_posts()) : ?>
 
 
-    <?php while (have_posts()) : the_post(); ?>
-    <div class="articles-post">
-        <h3><?php the_title(); ?></h3>
-        <p><?php the_field('exhibition_paragraph') ?>
-        </p>
-    </div>
+        <?php while (have_posts()) : the_post(); ?>
+            <div class="articles-post">
+                <h3><?php the_title(); ?></h3>
+                <p><?php the_field('exhibition_paragraph') ?>
+                </p>
+            </div>
 
 
 
