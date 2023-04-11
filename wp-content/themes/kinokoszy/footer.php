@@ -1,33 +1,31 @@
 <?php $joanna_footer_menu = wp_get_nav_menu_items('joanna-footer-menu');
-$kino_footer_menu= wp_get_nav_menu_items('kino-footer-menu');
+$kino_footer_menu = wp_get_nav_menu_items('kino-footer-menu');
 
 ?>
 <footer>
     <section class="footer-section">
         <div class="logo-footer">
-            <img src="/wp-content/themes/kinokoszy/assets/images/logo.png" alt="logo kinokoszy" width="180px" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="logo kinokoszy" width="180px" />
             <h2> KINO</h2>
             <h3> KOSZYK</h3>
 
         </div>
         <div class="menu-footer">
             <?php if (is_page('kino') || is_page('kino/contact') || is_page('kino/about') || (get_post_type() == 'film')) : ?>
-            <?php foreach ($kino_footer_menu as $link) : ?>
-            <a title="<?= $link->title; ?>" class="<?= $current_page_id == $link->object_id ? 'underline' : ''; ?>"
-                href="<?= $link->url; ?>"><?= $link->title; ?></a>
-            <?php endforeach; ?>
+                <?php foreach ($kino_footer_menu as $link) : ?>
+                    <a title="<?= $link->title; ?>" class="<?= $current_page_id == $link->object_id ? 'underline' : ''; ?>" href="<?= $link->url; ?>"><?= $link->title; ?></a>
+                <?php endforeach; ?>
 
 
             <?php else : ?>
-            <?php foreach ($joanna_footer_menu as $link) : ?>
-            <a title="<?= $link->title; ?>" class="<?= $current_page_id == $link->object_id ? 'underline' : ''; ?>"
-                href="<?= $link->url; ?>"><?= $link->title; ?></a>
-            <?php endforeach; ?>
+                <?php foreach ($joanna_footer_menu as $link) : ?>
+                    <a title="<?= $link->title; ?>" class="<?= $current_page_id == $link->object_id ? 'underline' : ''; ?>" href="<?= $link->url; ?>"><?= $link->title; ?></a>
+                <?php endforeach; ?>
             <?php endif ?>
         </div>
         <div class="info-section-footer">
             <?php if (is_page('kino') || is_page('kino/contact') || is_page('kino/about') || (get_post_type() == 'film')) : ?>
-            <p>BO PERSSON</p>
+                <p>BO PERSSON</p>
             <?php endif ?>
             <p>JOANNA HELANDER </p>
             <p>KINO.KOSZYK@GMAIL.COM</p>
