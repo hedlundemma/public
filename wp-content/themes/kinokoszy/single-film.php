@@ -5,7 +5,7 @@ $articles = get_field('FilmArticles');
 <?php get_header(); ?>
 <section class="hero-section">
     <div class="arrow-container">
-        <img src=" <?php echo get_template_directory_uri(); ?>/assets/images/Group 6.png" alt="">
+        <img src="" <?php echo get_template_directory_uri(); ?>/assets/images/Group 6.png" alt="">
     </div>
     <div class="title-container">
         <h1>
@@ -19,6 +19,7 @@ $articles = get_field('FilmArticles');
 <?php if (have_posts()) : ?>
 
 <?php while (have_posts()) : the_post(); ?>
+
 
 <?php
         $image = get_field('image_film');
@@ -66,30 +67,33 @@ $args = array(
 );
 // The Query
 $the_query = new WP_Query($args); ?>
+<div class="links-wrapper">
+    <div class="single-film-links-container">
+        <div class="arrows-container">
+            <div><img class="left-arrow" src="/wp-content/themes/kinokoszy/assets/images/films/leftarrow.png
+            " alt=""></div>
+            <div><img class="right-arrow" src="/wp-content/themes/kinokoszy/assets/images/films/rightarrow.png
+            " alt=""></div>
+        </div>
+        <?php if ($the_query->have_posts()) :
 
-<div class="single-film-links-container">
-    <?php if ($the_query->have_posts()) :
+            while ($the_query->have_posts()) :
+                $the_query->the_post(); ?>
+        <div class="single-film-link-container">
+            <?php $image = get_field('image_film'); ?>
 
-        while ($the_query->have_posts()) :
-            $the_query->the_post(); ?>
-    <div class="single-film-link-container">
-        <?php $image = get_field('image_film'); ?>
+            <a href="<?php the_permalink() ?>">
+                <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+            </a>
+            <p><span>//</span><span><a href="<?php the_permalink() ?>"><?php the_title() ?></a></span></p>
+        </div>
+        <?php endwhile ?>
 
-        <a href="<?php the_permalink() ?>">
-            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-        </a>
-        <p><span>//</span><span><a href="<?php the_permalink() ?>"><?php the_title() ?></a></span></p>
+
+
+        <?php endif ?>
     </div>
-    <?php endwhile ?>
-
-
-
-    <?php endif ?>
 </div>
 <?php
-// wp_reset_postdata();
-
-
-// $articles = get_field('FilmArticles');
-
+wp_footer();
 get_footer(); ?>

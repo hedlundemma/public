@@ -23,17 +23,6 @@
     <?php endwhile;
     endif; ?>
 
-    </div>
+</div>
 
-    <div id="photo-overlay">
-        <div>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Joanna-croped.jpg" alt="img">
-        </div>
-        <div>
-            <p>test</p>
-            <p></p>
-            <p></p>
-        </div>
-    </div>
-
-    <?php get_footer() ?>
+<?php get_footer() ?>
