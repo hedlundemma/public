@@ -24,6 +24,10 @@ body {
   font-family: "Neue Haas Grotesk-Roman";
 }
 
+h1 {
+  text-transform: uppercase;
+}
+
 /*hero-section*/
 
 .hero-section {

@@ -20,10 +20,10 @@ joannaSection.addEventListener("mouseleave", function (e) {
 
 // need to change url when we deploy
 kinoSection.addEventListener("click", function (e) {
-  window.location.href = "kino/home";
+  window.location.href = "kino";
 });
 
 // need to change url when we deploy
 joannaSection.addEventListener("click", function (e) {
-  window.location.href = "joanna/home";
+  window.location.href = "joanna";
 });

@@ -3,7 +3,7 @@
 <?php get_header() ?>
 <section class="hero-section">
     <div class="arrow-container">
-        <img src="/wp-content/themes/kinokoszy/assets/images/Group 6.png" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Group 6.png" alt="">
     </div>
     <div class="title-container">
         <h1>
@@ -19,7 +19,8 @@
 
 <main class="home-main">
     <p>
-        We are Kino, an independent film company with our lense focused on social injustice and inspiring people. We produces creative documentaries for cinema and television, books and exhibitions.<br><br>
+        We are Kino, an independent film company with our lense focused on social injustice and inspiring people. We
+        produces creative documentaries for cinema and television, books and exhibitions.<br><br>
 
         Founded in 1987. Based in Göteborg, Sweden.
     </p>
@@ -31,7 +32,9 @@
     </section>
 
     <section class="home-content-section home-content-section-books">
-        <h2>Books</h2>
+
+        <h2>BOOKS</h2>
+
     </section>
 
     <h2>Partners</h2>
@@ -64,13 +67,15 @@
         <div>
             <p>Find out news and read more about us on facebook</p>
             <div id="home-news-grid">
-            <div  class="home-news-facebook">
-                <a href="https://sv-se.facebook.com/">
-                    <img src="/wp-content/themes/kinokoszy/assets/images/facebook.png" alt="facebook">
-                </a>
-            </div>
+                <div class="home-news-facebook">
+                    <a href="https://sv-se.facebook.com/">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/facebook.png"
+                            alt="facebook">
+                    </a>
+                </div>
                 <a class="home-news-arrow">
-                    <img class="home-news-arrow-img" src="/wp-content/themes/kinokoszy/assets/images/pil.png" alt="facebook">
+                    <img class="home-news-arrow-img"
+                        src="<?php echo get_template_directory_uri(); ?>/assets/images/Pil.png" alt="facebook">
                 </a>
             </div>
         </div>
