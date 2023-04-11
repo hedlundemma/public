@@ -5,7 +5,7 @@
 <section class="hero-section">
 
     <div class="arrow-container">
-        <img src="/wp-content/themes/kinokoszy/assets/images/Group 6.png" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Group 6.png" alt="">
     </div>
     <div class="title-container">
         <h1>
@@ -28,10 +28,10 @@
 
 
     <div class="flex-image-row">
-        <div class="flex-image-container"><img src="/wp-content/themes/kinokoszy/assets/images/films/Optimized-ach-jakze-szwecja-avdammad.png" alt="" srcset=""></div>
-        <div class="flex-image-container"><img src="/wp-content/themes/kinokoszy/assets/images/films/Optimized-poster_the_return.png" alt="" srcset=""></div>
-        <div class="flex-image-container"><img src="/wp-content/themes/kinokoszy/assets/images/films/Optimized-T8D_affisch.png" alt="" srcset=""></div>
-        <div class="flex-image-container"><img src="/wp-content/themes/kinokoszy/assets/images/films/Optimized-Tvillingarna från Krakow med cellisten.png" alt="" srcset=""></div>
+        <div class="flex-image-container"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/films/Optimized-ach-jakze-szwecja-avdammad.png" alt="" srcset=""></div>
+        <div class="flex-image-container"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/films/Optimized-poster_the_return.png" alt="" srcset=""></div>
+        <div class="flex-image-container"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/films/Optimized-T8D_affisch.png" alt="" srcset=""></div>
+        <div class="flex-image-container"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/films/Optimized-Tvillingarna från Krakow med cellisten.png" alt="" srcset=""></div>
 
     </div>
 
