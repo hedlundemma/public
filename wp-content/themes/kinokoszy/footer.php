@@ -1,5 +1,5 @@
 <?php $joanna_footer_menu = wp_get_nav_menu_items('joanna-footer-menu');
-$kino_footer_menu= wp_get_nav_menu_items('kino-footer-menu');
+$kino_footer_menu = wp_get_nav_menu_items('kino-footer-menu');
 
 ?>
 <footer>
