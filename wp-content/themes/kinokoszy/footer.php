@@ -5,7 +5,8 @@ $kino_footer_menu= wp_get_nav_menu_items('kino-footer-menu');
 <footer>
     <section class="footer-section">
         <div class="logo-footer">
-            <img src="/wp-content/themes/kinokoszy/assets/images/logo.png" alt="logo kinokoszy" width="180px" />
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="logo kinokoszy"
+                width="180px" />
             <h2> KINO</h2>
             <h3> KOSZYK</h3>
 
@@ -43,7 +44,8 @@ $kino_footer_menu= wp_get_nav_menu_items('kino-footer-menu');
         <div class="facebook-logo">
             <a href="https://www.facebook.com/" class="svg">
 
-                <img src="/wp-content/themes/kinokoszy/assets/images/facebook-ikon.svg" alt="facebook logo link" />
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/facebook-ikon.svg"
+                    alt="facebook logo link" /></a>
             </a>
         </div>
 
