@@ -10,7 +10,18 @@
   height: 600px;
 }
 
-#photo-overlay{
+#photo-overlay {
   position: fixed;
-  
+  width: 80vh;
+  height: 80vh;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
+#photo-overlay img {
+  width: 50%;
+}
+
+

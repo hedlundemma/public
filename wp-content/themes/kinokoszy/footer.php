@@ -30,7 +30,7 @@ $kino_footer_menu= wp_get_nav_menu_items('kino-footer-menu');
             <p>BO PERSSON</p>
             <?php endif ?>
             <p>JOANNA HELANDER </p>
-            <p> KINO.KOSZYK@GMAIL.COM</p>
+            <p>KINO.KOSZYK@GMAIL.COM</p>
             <p>TEL: +46 768 32 74 55</p>
         </div>
 
@@ -41,7 +41,7 @@ $kino_footer_menu= wp_get_nav_menu_items('kino-footer-menu');
             <p> Copyright © 2023 · All Rights Reserved</p>
         </div>
         <div class="facebook-logo">
-            <a href="https://www.facebook.com/emma.hedlund.37" class="svg">
+            <a href="https://www.facebook.com/" class="svg">
 
                 <img src="/wp-content/themes/kinokoszy/assets/images/facebook-ikon.svg" alt="facebook logo link" />
             </a>

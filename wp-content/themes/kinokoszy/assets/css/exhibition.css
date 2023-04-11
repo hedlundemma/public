@@ -9,8 +9,8 @@
   text-align: right;
 }
 
-/* grid section for posts */
-.exhibitions-grid {
+/* grid section for posts styled under main.css articles section. */
+/* .exhibitions-grid {
   display: grid;
   grid-template-columns: 45% 45%;
   grid-auto-rows: auto;
@@ -24,7 +24,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 32px 80px;
+  padding: 6% 80px;
   gap: 48px;
   direction: ltr;
 }
@@ -41,6 +41,7 @@
   font-size: 20px;
   line-height: 28px;
 }
+*/
 .exhibition-image-container {
   display: flex;
   justify-content: center;

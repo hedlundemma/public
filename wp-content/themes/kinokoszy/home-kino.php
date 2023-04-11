@@ -72,14 +72,15 @@
             <p>Find out news and read more about us on facebook</p>
             <div id="home-news-grid">
 
-            <div  class="home-news-facebook">
-            <a href="https://sv-se.facebook.com/">
-                    <img src="/wp-content/themes/kinokoszy/assets/images/facebook.png" alt="facebook">
-                </a>
-            </div>
+                <div class="home-news-facebook">
+                    <a href="https://www.facebook.com/">
+                        <img src="/wp-content/themes/kinokoszy/assets/images/facebook.png" alt="facebook">
+                    </a>
+                </div>
 
                 <a class="home-news-arrow">
-                    <img class="home-news-arrow-img" src="/wp-content/themes/kinokoszy/assets/images/pil.png" alt="facebook">
+                    <img class="home-news-arrow-img" src="/wp-content/themes/kinokoszy/assets/images/pil.png"
+                        alt="facebook">
                 </a>
             </div>
         </div>
