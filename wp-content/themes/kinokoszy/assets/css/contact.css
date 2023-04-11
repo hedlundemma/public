@@ -38,7 +38,7 @@ input[type="submit"]:hover {
   margin-left: 4.75rem;
   width: 94rem;
   margin-left: 3.2rem;
-  border-bottom: 1px solid black;
+  border-bottom: 0.06rem solid black;
 }
 .wpcf7-form-control-wrap::before {
   content: "//";

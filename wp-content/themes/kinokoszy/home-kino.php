@@ -28,12 +28,10 @@
     </section>
 
     <section id="home-movie-section">
-        <a href="http://kinokos.local/kino/films/">
+        <a href="films">
             <h2>FILMS</h2>
         </a>
     </section>
-
-
 
     <h2 class="awards-heading">AWARDS</h2>
     <section id="home-kino-awards-section">
@@ -76,14 +74,12 @@
 
                 <div class="home-news-facebook">
                     <a href="https://www.facebook.com/">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/facebook.png"
-                            alt="facebook">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/facebook.png" alt="facebook">
                     </a>
                 </div>
 
                 <a class="home-news-arrow">
-                    <img class="home-news-arrow-img"
-                        src="<?php echo get_template_directory_uri(); ?>/assets/images/Pil.png" alt="facebook">
+                    <img class="home-news-arrow-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Pil.png" alt="facebook">
                 </a>
             </div>
         </div>
