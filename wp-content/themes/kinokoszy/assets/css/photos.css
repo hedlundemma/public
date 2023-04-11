@@ -20,6 +20,10 @@
   transform: translate(-50%, -50%);
 }
 
+.hide{
+  display: none;
+}
+
 #photo-overlay img {
   width: 50%;
 }

@@ -24,15 +24,4 @@
 
 </div>
 
-<div id="photo-overlay">
-    <div>
-        <img src="/wp-content/themes/kinokoszy/assets/images/Joanna-croped.jpg" alt="img">
-    </div>
-    <div>
-        <p>test</p>
-        <p></p>
-        <p></p>
-    </div>
-</div>
-
 <?php get_footer() ?>

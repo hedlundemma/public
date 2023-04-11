@@ -13,6 +13,18 @@ get_header();
         </h1>
     </div>
 </section>
+
+<div id="photo-overlay" class="hide">
+    <div id="photo-overlay-img">
+        <img src="/wp-content/themes/kinokoszy/assets/images/Joanna-croped.jpg" alt="img">
+    </div>
+    <div>
+        <p>test</p>
+        <p></p>
+        <p></p>
+    </div>
+</div>
+
 <?php
 
 while ( have_posts() ) :
@@ -21,3 +33,4 @@ while ( have_posts() ) :
 endwhile;
 
 get_footer();
+wp_footer();
