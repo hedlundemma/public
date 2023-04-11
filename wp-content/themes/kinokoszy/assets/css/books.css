@@ -67,33 +67,7 @@
   color: #000000;
   font-size: 20px;
 }
-/* 
-.featured-film-wrapper {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-height: 40vw;
-}
 
-.featured-film-image-container {
-  width: 100%;
-  max-height: 80%;
-}
-
-.featured-film-image-container img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-
-.featured-film-links {
-  padding-top: 2rem;
-  display: flex;
-  flex-grow: 1;
-  text-transform: uppercase;
-}
- */
 /* styling för single-book*/
 
 .nav-links,
@@ -136,7 +110,6 @@
 
 .single-book-paragraph {
   display: flex;
-
   justify-content: center;
   font-size: 36px;
   flex-direction: column;
@@ -147,14 +120,19 @@
 
 .single-books-container {
   width: 100%;
-  padding: 80px 2rem;
-  border-bottom: 2px solid #000000;
+  padding: 0 2rem 2.25rem 2rem;
 }
 
 .single-books-heading {
+  padding: 5rem 2rem;
+  border-bottom: 2px solid #000000;
+}
+
+.single-books-heading h2 {
   display: flex;
-  font-size: 96px;
+  font-size: 6rem;
   font-family: "Neue Haas Grotesk-Medium";
   padding-right: 2rem;
   justify-content: right;
+  text-transform: uppercase;
 }

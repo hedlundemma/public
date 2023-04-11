@@ -18,7 +18,6 @@
 
     ?>
 
-
         <section class="archive-book-post">
             <div class="books-image-section">
                 <div class="left-book-image-container">
@@ -36,20 +35,21 @@
                 </div>
 
             </div>
-
-            <div class="single-books-container">
-                <h1 class="single-books-heading"><?php the_title(); ?></h1>
-
-            </div>
-            <div class="single-book-paragraph">
-                <p>BY: <?php the_field('writer'); ?></p> <br>
-                <p>PHOTO: <?php the_field('photo_by'); ?></p><br>
-                <p>PUBLISHER: <?php the_field('publisher'); ?></p><br>
-                <p>ISBN: <?php the_field('isbn'); ?></p><br>
-
-
+        </section>
+        <!-- <div class="single-books-container"> -->
+        <section class="single-books-heading-section">
+            <div class="single-books-heading">
+                <h2><?php the_title() ?></h2>
             </div>
         </section>
+
+        <div class="single-book-paragraph">
+            <p>BY: <?php the_field('writer'); ?></p> <br>
+            <p>PHOTO: <?php the_field('photo_by'); ?></p><br>
+            <p>PUBLISHER: <?php the_field('publisher'); ?></p><br>
+            <p>ISBN: <?php the_field('isbn'); ?></p><br>
+        </div>
+        <!-- </div> -->
 
 
 
