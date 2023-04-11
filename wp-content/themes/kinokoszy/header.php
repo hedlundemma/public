@@ -16,8 +16,7 @@ $page_id = $wp_query->get_queried_object_id()
     <header>
         <nav>
             <div>
-                <a href="http://kino-v5.local/kino/"><img src="/wp-content/themes/kinokoszy/assets/images/headerLogo.png" alt=""></a>
-
+                <a href="http://kino-v5.local/kino/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/headerLogo.png" alt=""></a>
             </div>
             <div class="nav-links-container">
 
