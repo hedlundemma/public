@@ -28,16 +28,19 @@
     </section>
 
     <section class="home-content-section home-content-section-photography">
-        <h2>PHOTOGRAPHY</h2>
+        <a href="http://kinokos.local/joanna/photos/">
+            <h2>PHOTOGRAPHY</h2>
+        </a>
     </section>
 
     <section class="home-content-section home-content-section-books">
 
-        <h2>BOOKS</h2>
+        <a href="http://kinokos.local/joanna/books/">
+            <h2>BOOKS</h2><a>
 
     </section>
 
-    <h2>Partners</h2>
+    <h2 class="partners-heading-joanna">PARTNERS</h2>
     <section id="home-partners-section">
         <div class="home-partner-card">
             <p>text</p>
@@ -61,7 +64,7 @@
 
     <section id="home-news-section">
         <div>
-            <h2>KEEP UP WITH <br>OUR LATEST NEWS</h2>
+            <h2>KEEP UP WITH <br>MY LATEST NEWS</h2>
         </div>
         <hr>
         <div>
