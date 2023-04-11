@@ -1,6 +1,7 @@
 <?php
 
 get_header();
+
 ?>
 <section class="hero-section">
     <div class="arrow-container">
