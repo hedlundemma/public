@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
 }
 
 .logo-footer {
@@ -91,7 +90,7 @@
     justify-content: center;
     align-items: flex-start;
     padding: 0px;
-    gap: 10px;
+    gap: 0.625rem;
     margin-left: 1.5rem;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
@@ -102,24 +101,24 @@
     flex-direction: column;
     align-items: flex-end;
     padding: 0px;
-    gap: 10px;
-    line-height: 19px;
+    gap: 0.625rem;
+    line-height: 1.188rem;
     margin-right: 1.5rem;
     margin-top: 1.5rem;
   }
 
   .info-section-footer p {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 450;
-    line-height: 28px;
+    line-height: 1.75rem;
     letter-spacing: 0em;
     text-align: left;
   }
 
   .menu-footer a {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 450;
-    line-height: 28px;
+    line-height: 1.75rem;
     letter-spacing: 0em;
     text-align: left;
   }
@@ -128,10 +127,10 @@
     margin: 1rem;
   }
   .secondary-footer-logo img {
-    width: 60px;
+    width: 3.75rem;
   }
   .copy-section p {
-    font-size: 16px;
+    font-size: 1rem;
     margin-bottom: 1rem;
   }
   .facebook-logo {
@@ -161,11 +160,11 @@
   }
 
   .menu-footer a {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .info-section-footer p {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .lower-footer-section {
     margin-top: 0rem;
@@ -177,7 +176,7 @@
   }
 
   .facebook-logo a img {
-    width: 27px;
+    width: 1.688rem;
   }
 
   .copy-section {
@@ -193,11 +192,11 @@
   }
 
   .secondary-footer-logo img {
-    width: 185px;
+    width: 11.563rem;
   }
 
   .copy-section p {
-    font-size: 10px;
+    font-size: 0.625rem;
     margin-bottom: 1rem;
     margin-left: 1.5rem;
     margin-top: 1rem;

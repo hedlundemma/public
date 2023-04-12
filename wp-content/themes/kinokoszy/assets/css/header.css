@@ -50,7 +50,7 @@ nav img {
 @media screen and (max-width: 1130px) {
   .nav-links-container a,
   .dropdown p {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 450;
     letter-spacing: 0em;
   }
@@ -60,10 +60,10 @@ nav img {
   }
 
   nav img {
-    height: 37px;
+    height: 2.313rem;
   }
   nav {
-    height: 60px;
+    height: 3.75rem;
   }
 }
 
@@ -91,8 +91,8 @@ nav img {
   .dropdown p {
     font-style: normal;
     font-weight: 450;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .nav-links-container {
