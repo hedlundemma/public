@@ -31,6 +31,12 @@ $page_id = $wp_query->get_queried_object_id()
                         <a title="<?= $link->title; ?>" class="<?= $current_page_id == $link->object_id ? 'underline' : ''; ?>" href="<?= $link->url; ?>"><?= $link->title; ?></a>
                     <?php endforeach; ?>
                 <?php endif ?>
+                <div class="x-menu">
+                    <img src="/wp-content/themes/kinokoszy/assets/images/Xmenu.png" alt="">
+                </div>
+            </div>
+            <div class="dropdown">
+                <p>MENU</p>
             </div>
         </nav>
     </header>
