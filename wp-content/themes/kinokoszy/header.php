@@ -16,25 +16,28 @@ $page_id = $wp_query->get_queried_object_id()
     <header>
         <nav>
             <div>
-                <a href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/headerLogo.png"
-                        alt=""></a>
+                <a href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/headerLogo.png" alt=""></a>
             </div>
             <div class="nav-links-container">
 
 
                 <?php if (is_page('kino') || is_page('kino/contact') || is_page('kino/about') || (get_post_type() == 'film')) : ?>
-                <?php foreach ($kino_menu as $link) : ?>
-                <a title="<?= $link->title; ?>" class="<?= $current_page_id == $link->object_id ? 'underline' : ''; ?>"
-                    href="<?= $link->url; ?>"><?= $link->title; ?></a>
-                <?php endforeach; ?>
+                    <?php foreach ($kino_menu as $link) : ?>
+                        <a title="<?= $link->title; ?>" class="<?= $current_page_id == $link->object_id ? 'underline' : ''; ?>" href="<?= $link->url; ?>"><?= $link->title; ?></a>
+                    <?php endforeach; ?>
 
 
                 <?php else : ?>
-                <?php foreach ($joanna_menu as $link) : ?>
-                <a title="<?= $link->title; ?>" class="<?= $current_page_id == $link->object_id ? 'underline' : ''; ?>"
-                    href="<?= $link->url; ?>"><?= $link->title; ?></a>
-                <?php endforeach; ?>
+                    <?php foreach ($joanna_menu as $link) : ?>
+                        <a title="<?= $link->title; ?>" class="<?= $current_page_id == $link->object_id ? 'underline' : ''; ?>" href="<?= $link->url; ?>"><?= $link->title; ?></a>
+                    <?php endforeach; ?>
                 <?php endif ?>
+                <div class="x-menu">
+                    <img src="/wp-content/themes/kinokoszy/assets/images/Xmenu.png" alt="">
+                </div>
+            </div>
+            <div class="dropdown">
+                <p>MENU</p>
             </div>
         </nav>
     </header>
