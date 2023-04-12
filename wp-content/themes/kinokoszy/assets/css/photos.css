@@ -11,7 +11,7 @@
 
 #photos-img-grid img {
   width: 100%;
-  height: 600px;
+  height: 37.5rem;
 }
 
 #photo-overlay {
@@ -63,7 +63,27 @@
   white-space: pre;
 }
 
-.hide{
+#photo-overlay img{
+  padding: 30px 30px 0px 30px;
+  object-fit: contain;
+}
+
+#photo-overlay-nav{
+  display: flex;
+  justify-content: space-around;
+  height: 30px;
+  background-color: white;
+}
+
+#photo-overlay-nav a, #photo-overlay-nav p{
+  font-family: "Neue Haas Grotesk-Roman";
+  font-size: 1.5rem;
+  cursor: pointer;
+  user-select: none;
+  white-space: pre;
+}
+
+.hide {
   display: none;
 }
 
@@ -71,5 +91,3 @@
   width: 100%;
   height: 100%;
 }
-
-

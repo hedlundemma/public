@@ -43,12 +43,13 @@
 </div>
 
 <div class="exhibition-image-container">
-    <img src="/wp-content/themes/kinokoszy/assets/images/teater.jpg" alt="" />
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teater.jpg" alt="" />
 
-    <img src="/wp-content/themes/kinokoszy/assets/images/arvikaBib.jpg" alt="" />
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/arvikaBib.jpg" alt="" />
 
 </div>
 
 
 
-<?php get_footer() ?>
+<?php wp_footer();
+get_footer(); ?>

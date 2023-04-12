@@ -91,9 +91,20 @@ function custom_styles()
 
 function scripts()
 {
-    if (!is_page(180)) {
-    wp_enqueue_script('front-page-script', get_template_directory_uri() . '/assets/js/front-page.js', array(), false, true);
-    wp_enqueue_script('single-film-script', get_template_directory_uri() . '/assets/js/single-film.js', array(), false, true);
+
+    if (is_home()) {
+        wp_enqueue_script('front-page-script', get_template_directory_uri() . '/assets/js/front-page.js', array(), false, true);
+    }
+
+
+    if (is_singular('film')) {
+        wp_enqueue_script('single-film-script', get_template_directory_uri() . '/assets/js/single-film.js', array(), false, true);
+    }
+    if (is_page('photos')) {
+        wp_enqueue_script('photos', get_template_directory_uri() . '/assets/js/photos.js', array(), false, true);
+    }
+    if (!is_home()) {
+        wp_enqueue_script('header-script', get_template_directory_uri() . '/assets/js/header.js', array(), false, true);
     }
     else{
         wp_enqueue_script('photos', get_template_directory_uri() . '/assets/js/photos.js', array(), false, true);

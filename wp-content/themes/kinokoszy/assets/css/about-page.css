@@ -1,11 +1,12 @@
 .about-heading {
-  padding: 80px 2rem;
-  border-bottom: 2px solid #000000;
+  padding: 5rem 2rem;
+  border-bottom: 0.125rem solid #000000;
 }
+
 .about-heading h2 {
   font-family: "Neue Haas Grotesk-Medium";
-  font-size: 96px;
-  line-height: 90px;
+  font-size: 6rem;
+  line-height: 5.625rem;
   text-align: right;
   text-transform: uppercase;
 }
