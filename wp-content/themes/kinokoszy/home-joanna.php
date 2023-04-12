@@ -63,20 +63,22 @@
     </section>
 
     <section id="home-news-section">
-        <div>
+        <div class="latest-news-section">
             <h2>KEEP UP WITH <br>MY LATEST NEWS</h2>
         </div>
-        <hr>
+
         <div>
             <p>Find out news and read more about us on facebook</p>
             <div id="home-news-grid">
                 <div class="home-news-facebook">
                     <a href="https://sv-se.facebook.com/">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/facebook.png" alt="facebook">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/facebook.png"
+                            alt="facebook">
                     </a>
                 </div>
                 <a class="home-news-arrow">
-                    <img class="home-news-arrow-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/Pil.png" alt="facebook">
+                    <img class="home-news-arrow-img"
+                        src="<?php echo get_template_directory_uri(); ?>/assets/images/Pil.png" alt="facebook">
                 </a>
             </div>
         </div>
