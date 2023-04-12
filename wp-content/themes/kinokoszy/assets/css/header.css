@@ -37,6 +37,7 @@ nav img {
   font-size: 1.25rem;
   font-family: "Neue Haas Grotesk-Roman";
 }
+
 .nav-links-container a:hover {
   color: rgba(255, 255, 255, 1);
   color: lightskyblue;
