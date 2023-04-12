@@ -27,3 +27,12 @@
   width: 100%;
   padding: 7.5rem 0 11rem 0;
 }
+
+@media screen and (max-width: 1130px) {
+  figure figure:last-child {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+}
