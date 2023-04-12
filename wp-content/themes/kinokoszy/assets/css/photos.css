@@ -17,7 +17,7 @@
 #photo-overlay {
   position: fixed;
   width: 70vw;
-  height: 90vh;
+  height: 800px;
   background-color: white;
   top: 50%;
   left: 50%;
@@ -25,6 +25,8 @@
   z-index: 1;
   background-color: grey;
 }
+
+
 
 #photo-overlay-close {
   position: absolute;
@@ -92,4 +94,10 @@
 #photo-overlay-img img {
   width: 100%;
   height: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  #photo-overlay {
+    background-color: rebeccapurple;
+  }
 }
