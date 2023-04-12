@@ -56,16 +56,13 @@
                 <?php endif; ?>
 
                 <div class="featured-film-links">
-                    <a href="<?php the_permalink(); ?>">
-                        <?php the_title() ?>
-                    </a>
+                    <h4><?php the_title() ?></h4>
 
-                    <?php
 
-                    $link = get_field('url');
-                    if ($link) : ?>
-                        <a class="button" href="<?php echo esc_url($link); ?>">VIEW TRAILER</a>
-                    <?php endif; ?>
+                    <div class="featured-film-paragraph">
+                        <p>//</p>
+                        <a href="<?php the_permalink(); ?>">INFO</a>
+                    </div>
                 </div>
             </div>
     <?php
