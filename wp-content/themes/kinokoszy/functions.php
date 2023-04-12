@@ -85,7 +85,9 @@ function custom_styles()
     wp_enqueue_style('home-kino', get_template_directory_uri() . '/assets/css/home-kino.css');
     wp_enqueue_style('film', get_template_directory_uri() . '/assets/css/film.css');
     wp_enqueue_style('books', get_template_directory_uri() . '/assets/css/books.css');
-    wp_enqueue_style('photos', get_template_directory_uri() . '/assets/css/photos.css');
+    if (is_page('photos')) {
+        wp_enqueue_style('photos', get_template_directory_uri() . '/assets/css/photos.css');        
+    }
     wp_enqueue_style('about-page', get_template_directory_uri() . '/assets/css/about-page.css');
 }
 
