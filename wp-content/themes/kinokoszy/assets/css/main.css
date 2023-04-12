@@ -101,5 +101,48 @@ h1 {
   line-height: 28px;
 }
 
-@media only screen and (max-width: 1200px) {
+@media (max-width: 900px) {
+  .title-container h1 {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Neue Haas Grotesk-Roman";
+
+    word-break: break-all;
+
+    font-size: 72px;
+    font-weight: 450;
+    line-height: 86px;
+    letter-spacing: 0em;
+  }
+
+  .arrow-container img {
+    position: absolute;
+    height: 29.5px;
+    bottom: 29px;
+    right: 1rem;
+    /* margin: auto 0; */
+  }
+}
+
+@media (max-width: 480px) {
+  .title-container h1 {
+    color: rgba(255, 255, 255, 1);
+    font-family: "Neue Haas Grotesk-Roman";
+    text-align: right;
+    margin-right: 2rem;
+
+    word-break: break-all;
+
+    font-size: 48px;
+    font-weight: 450;
+    line-height: 44px;
+    letter-spacing: 0em;
+  }
+
+  .arrow-container img {
+    position: absolute;
+    height: 22px;
+    bottom: 12px;
+    right: 1rem;
+    /* margin: auto 0; */
+  }
 }

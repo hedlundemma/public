@@ -37,5 +37,5 @@
     </article>
 </section>
 <?php
-
+wp_footer();
 get_footer(); ?>

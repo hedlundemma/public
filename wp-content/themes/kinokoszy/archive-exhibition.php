@@ -24,12 +24,12 @@
     <?php if (have_posts()) : ?>
 
 
-    <?php while (have_posts()) : the_post(); ?>
-    <div class="articles-post">
-        <h3><?php the_title(); ?></h3>
-        <p><?php the_field('exhibition_paragraph') ?>
-        </p>
-    </div>
+        <?php while (have_posts()) : the_post(); ?>
+            <div class="articles-post">
+                <h3><?php the_title(); ?></h3>
+                <p><?php the_field('exhibition_paragraph') ?>
+                </p>
+            </div>
 
 
 
@@ -51,4 +51,5 @@
 
 
 
-<?php get_footer() ?>
+<?php wp_footer();
+get_footer(); ?>

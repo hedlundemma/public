@@ -52,11 +52,19 @@ nav img {
     font-weight: 450;
     line-height: 28px;
     letter-spacing: 0em;
-    text-align: left;
+    /* text-align: left; */
   }
+
 
   .nav-links-container {
     gap: 1rem;
+  }
+
+  nav img {
+    height: 37px;
+  }
+  nav {
+    height: 60px;
   }
 }
 
