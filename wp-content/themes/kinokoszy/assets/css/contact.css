@@ -130,3 +130,98 @@ input[type="submit"]:hover {
   width: 30rem;
   object-fit: cover;
 }
+
+@media screen and (max-width: 1130px)  {
+
+  .contact-heading-section h2 {
+    font-size: 4rem;
+    line-height: 5.6rem;
+  }
+
+  .wpcf7-form-control-wrap {
+    margin-bottom: 2rem;
+    margin-left: 4.75rem;
+    width: 55rem;
+    margin-left: 3.2rem;
+    margin-top: 1rem;
+  }
+
+  .images-section,
+.image-section-only-joanna {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+  margin-top: 6.5rem;
+}
+
+.contact-heading-section {
+  padding: 1rem 1rem;
+  border-bottom: 0.125rem solid #000000;
+  margin-bottom: 2rem;
+}
+  
+}
+
+@media screen and (max-width: 740px)  {
+
+  .contact-heading-section h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .wpcf7-form-control-wrap {
+     margin-bottom: 1rem;
+    margin-left: 4.75rem;
+    width: 26rem;
+    margin-left: 3.2rem;
+    
+    margin-top: 1rem;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="textarea your-message"] {
+    font-size: 0.8rem;
+    margin-left: 0.9rem;
+    
+  }
+
+  .wpcf7-form-control-wrap::before {
+   margin-right: 0.9rem;
+  font-size: 0.8rem;
+  }
+
+  input[type="submit"]{
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    width: 4.2rem;
+  }
+
+  .images-section,
+  .image-section-only-joanna {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 2.9rem;
+  }
+  
+  .images-section,
+  .image-section-only-joanna p {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+  }
+
+.image-container-one,
+.image-container-two {
+  width: 9rem;
+  object-fit: cover;
+}
+
+.images-section img {
+  margin-bottom: 1rem;
+  
+}
+
+}
