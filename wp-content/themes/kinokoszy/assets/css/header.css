@@ -1,6 +1,6 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0rem;
+  padding: 0rem;
   box-sizing: border-box;
 }
 .dropdown {
@@ -11,7 +11,7 @@
 
 nav {
   background-color: black;
-  height: 93px;
+  height: 5.813rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -25,7 +25,7 @@ nav img {
 .nav-links-container {
   display: flex;
   justify-content: flex-end;
-  gap: 48px;
+  gap: 3rem;
   margin-right: 1rem;
   z-index: 100;
 }
@@ -34,7 +34,7 @@ nav img {
 .dropdown p {
   color: rgba(255, 255, 255, 1);
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: "Neue Haas Grotesk-Roman";
 }
 .nav-links-container a:hover {

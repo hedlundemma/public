@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 4rem;
+  
 }
 
 .logo-footer {
@@ -12,8 +12,8 @@
 }
 
 .footer-section h2 {
-  font-size: 75px;
-  line-height: 32.4px;
+  font-size: 4.688rem;
+  line-height: 2.025rem;
   color: white;
   font-family: "Neue Haas Grotesk-Medium";
   letter-spacing: 0.4rem;
@@ -21,20 +21,20 @@
 }
 
 .footer-section h3 {
-  font-size: 41px;
-  line-height: 32.4px;
+  font-size: 2.563rem;
+  line-height: 2.025rem;
   color: white;
   margin-top: 1.25rem;
   font-family: "Neue Haas Grotesk-Medium";
   letter-spacing: 0.4rem;
-  line-height: 32.5px;
+  line-height: 2.031rem;
   margin-bottom: 2rem;
 }
 
 .info-section-footer p {
   color: white;
-  font-size: 20px;
-  line-height: 62px;
+  font-size: 1.25rem;
+  line-height: 3.875rem;
   text-align: right;
   font-family: "Neue Haas Grotesk-Roman";
 }
@@ -43,8 +43,8 @@
   color: white;
   text-decoration: none;
   font-family: "Neue Haas Grotesk-Roman";
-  line-height: 28px;
-  font-size: 20px;
+  line-height: 1.75rem;
+  font-size: 1.25rem;
 }
 
 .menu-footer {
@@ -71,7 +71,7 @@
   color: white;
   margin-top: 4rem;
   margin-left: 2rem;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: "Neue Haas Grotesk-Roman";
 }
 .facebook-logo {

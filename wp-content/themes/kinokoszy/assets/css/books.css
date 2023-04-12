@@ -65,7 +65,7 @@
   text-decoration: none;
   font-family: "Neue Haas Grotesk-Roman";
   color: #000000;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 /* styling för single-book*/
@@ -77,6 +77,7 @@
   justify-content: space-between;
   width: 100%;
 }
+
 .navigation,
 .post-navigation {
   background-color: white;
@@ -89,8 +90,8 @@
 .navigation,
 .post-navigation a {
   text-decoration: none;
-  color: black;
-  font-size: 36px;
+  color: #000000;
+  font-size: 2.25rem;
   font-family: "Neue Haas Grotesk-Light";
 }
 
@@ -111,7 +112,7 @@
 .single-book-paragraph {
   display: flex;
   justify-content: center;
-  font-size: 36px;
+  font-size: 2.25rem;
   flex-direction: column;
   margin-right: 6.5rem;
   margin-left: 6.5rem;
@@ -125,7 +126,7 @@
 
 .single-books-heading {
   padding: 5rem 2rem;
-  border-bottom: 2px solid #000000;
+  border-bottom: 0.125rem solid #000000;
 }
 
 .single-books-heading h2 {

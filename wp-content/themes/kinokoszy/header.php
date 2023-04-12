@@ -3,7 +3,6 @@
 $joanna_menu = wp_get_nav_menu_items('joanna-nav-menu');
 $page_id = $wp_query->get_queried_object_id()
 
-
 ?>
 
 <head>
@@ -43,12 +42,3 @@ $page_id = $wp_query->get_queried_object_id()
     </header>
 
     <?php
-
-
-
-    // <?php if (is_front_page()) {
-    //     wp_nav_menu(array('theme_location' => 'kino-nav-menu', 'menu_id' => 'kino-nav-menu'));
-    // } else {
-    //     wp_nav_menu(array('theme_location' => 'joanna-nav-menu', 'menu_id' => 'joanna-nav-menu'));
-    // }
-    // 
