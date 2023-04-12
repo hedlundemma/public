@@ -25,9 +25,9 @@ nav img {
 .nav-links-container {
   display: flex;
   justify-content: flex-end;
-
   gap: 3rem;
-  margin-right: 2rem;
+  margin-right: 1rem;
+  z-index: 100;
 }
 
 .nav-links-container a,
@@ -46,14 +46,13 @@ nav img {
   display: none;
   cursor: pointer;
 }
-@media (max-width: 1130px) {
+
+@media screen and (max-width: 1130px) {
   .nav-links-container a,
   .dropdown p {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 450;
-    /* line-height: 28px; */
     letter-spacing: 0em;
-    /* text-align: left; */
   }
 
   .nav-links-container {
@@ -61,14 +60,14 @@ nav img {
   }
 
   nav img {
-    height: 37px;
+    height: 2.313rem;
   }
   nav {
-    height: 60px;
+    height: 3.75rem;
   }
 }
 
-@media (max-width: 740px) {
+@media screen and (max-width: 740px) {
   .dropdown {
     display: flex;
     padding-right: 1rem;
@@ -92,8 +91,8 @@ nav img {
   .dropdown p {
     font-style: normal;
     font-weight: 450;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .nav-links-container {

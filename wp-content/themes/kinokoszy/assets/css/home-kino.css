@@ -7,9 +7,15 @@
 }
 
 #home-news-section {
-  font-size: 4rem;
+ text-align: right;
+ margin-bottom: 7rem;
+}
+
+.latest-news-section h2{
+  font-size: 5rem;
   margin: 3rem 2rem;
-  text-align: right;
+  font-weight: 800;
+
 }
 
 .home-partner-card {
@@ -142,6 +148,12 @@
   animation: roll 10s linear infinite;
 }
 
+.latest-news-section{
+  border-bottom: 0.125rem solid black;
+  
+  
+}
+
 @keyframes roll {
   0% {
     transform: translate3d(0, 0, 0);
@@ -149,4 +161,58 @@
   100% {
     transform: translate3d(-1233px, 0, 0); /* The image width */
   }
+}
+
+@media screen and (max-width: 1130px){
+
+  .home-news-arrow-img {
+    display:none;
+  }
+
+  #home-news-section p {
+    display: none;
+  }
+
+  #home-movie-section{
+    background-image: url("../images/watching-the-moon-tablet.png");
+    font-size: 6rem;
+  }
+
+  .home-news-facebook {
+    grid-column-end: 7;
+  margin-top: 3rem;
+
+
+
+  }
+
+}
+
+@media screen and (max-width: 500px){
+
+  .home-news-facebook {
+    grid-column-end: 5;
+  margin-top: 3rem;
+}
+
+#home-movie-section{
+  background-image: url("../images/watching-the-moon-mobile.png");
+  
+}
+
+#home-movie-section a{
+  font-size: 2.25rem;
+
+}
+
+#home-partners-section {
+  
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+
+
 }

@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
 }
 
 .logo-footer {
@@ -76,4 +75,130 @@
 }
 .facebook-logo {
   margin: 2rem;
+}
+.secondary-footer-logo {
+  display: none;
+}
+@media screen and (max-width: 1130px) {
+  .logo-footer {
+    display: none;
+  }
+
+  .menu-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 0.625rem;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .info-section-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 0.625rem;
+    line-height: 1.188rem;
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .info-section-footer p {
+    font-size: 1rem;
+    font-weight: 450;
+    line-height: 1.75rem;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .menu-footer a {
+    font-size: 1rem;
+    font-weight: 450;
+    line-height: 1.75rem;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .secondary-footer-logo {
+    display: block;
+    margin: 1rem;
+  }
+  .secondary-footer-logo img {
+    width: 3.75rem;
+  }
+  .copy-section p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .facebook-logo {
+    margin: 1rem;
+  }
+  .copy-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer-section {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 4rem;
+  }
+
+  .info-section-footer {
+    text-align: left;
+    align-items: flex-start;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .menu-footer a {
+    font-size: 1.25rem;
+  }
+
+  .info-section-footer p {
+    font-size: 1.25rem;
+  }
+  .lower-footer-section {
+    margin-top: 0rem;
+    flex-direction: column;
+  }
+  .facebook-logo {
+    margin: 1.5rem;
+    order: 1;
+  }
+
+  .facebook-logo a img {
+    width: 1.688rem;
+  }
+
+  .copy-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    order: 3;
+  }
+  .secondary-footer-logo {
+    display: block;
+    margin: 0.3rem;
+    order: 2;
+  }
+
+  .secondary-footer-logo img {
+    width: 11.563rem;
+  }
+
+  .copy-section p {
+    font-size: 0.625rem;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+  }
 }
