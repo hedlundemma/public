@@ -28,14 +28,14 @@
     </section>
 
     <section class="home-content-section home-content-section-photography">
-        <a href="http://kinokos.local/joanna/photos/">
+        <a href="photos">
             <h2>PHOTOGRAPHY</h2>
         </a>
     </section>
 
     <section class="home-content-section home-content-section-books">
 
-        <a href="http://kinokos.local/joanna/books/">
+        <a href="books">
             <h2>BOOKS</h2><a>
 
     </section>

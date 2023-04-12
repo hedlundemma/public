@@ -28,12 +28,10 @@
     </section>
 
     <section id="home-movie-section">
-        <a href="http://kinokos.local/kino/films/">
+        <a href="films">
             <h2>FILMS</h2>
         </a>
     </section>
-
-
 
     <h2 class="awards-heading">AWARDS</h2>
     <section id="home-kino-awards-section">
