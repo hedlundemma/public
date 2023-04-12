@@ -101,7 +101,7 @@ h1 {
   line-height: 28px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1130px) {
   .title-container h1 {
     color: rgba(255, 255, 255, 1);
     font-family: "Neue Haas Grotesk-Roman";
