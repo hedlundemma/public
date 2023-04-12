@@ -1,4 +1,4 @@
-.wp-block-gallery{
+.wp-block-gallery {
   margin: 3.125rem;
 }
 
@@ -16,17 +16,15 @@
 
 #photo-overlay {
   position: fixed;
-  width: 70vw;
-  height: 90vh;
   background-color: white;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -53%);
   z-index: 1;
-  background-color: grey
+  background-color: grey;
 }
 
-#photo-overlay-close{
+#photo-overlay-close {
   position: absolute;
   right: 0;
   top: 0;
@@ -36,26 +34,27 @@
   cursor: pointer;
 }
 
-#photo-overlay-close svg{
+#photo-overlay-close svg {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-#photo-overlay img{
+#photo-overlay img {
   padding: 1.875rem 1.875rem 0 1.875rem;
   object-fit: contain;
 }
 
-#photo-overlay-nav{
+.photo-overlay-nav {
   display: flex;
   justify-content: space-around;
   height: 1.875rem;
   background-color: white;
 }
 
-#photo-overlay-nav a, #photo-overlay-nav p{
+.photo-overlay-nav a,
+.photo-overlay-nav p {
   font-family: "Neue Haas Grotesk-Roman";
   font-size: 1.5rem;
   cursor: pointer;
@@ -63,19 +62,20 @@
   white-space: pre;
 }
 
-#photo-overlay img{
+#photo-overlay img {
   padding: 1.875rem 1.875rem 0 1.875rem;
   object-fit: contain;
 }
 
-#photo-overlay-nav{
+.photo-overlay-nav {
   display: flex;
   justify-content: space-around;
   height: 1.875rem;
   background-color: white;
 }
 
-#photo-overlay-nav a, #photo-overlay-nav p{
+.photo-overlay-nav a,
+.photo-overlay-nav p {
   font-family: "Neue Haas Grotesk-Roman";
   font-size: 1.5rem;
   cursor: pointer;
@@ -87,7 +87,50 @@
   display: none;
 }
 
-#photo-overlay-img, #photo-overlay-img img {
+#photo-overlay-img,
+#photo-overlay-img img {
   width: 100%;
   height: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  #photo-overlay {
+    width: 90vw;
+    height: 70vh;
+  }
+
+  .photo-overlay-nav a,
+  .photo-overlay-nav p {
+    font-family: "Neue Haas Grotesk-Roman";
+    font-size: 2rem;
+    display: inline-block;
+    line-height: 5rem;
+  }
+
+  .photo-overlay-nav {
+    display: none;
+  }
+
+  .photo-overlay-nav {
+    height: 5rem;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  #photo-overlay {
+    width: 70vw;
+    height: 90vh;
+  }
+
+  .mobile {
+    display: none;
+  }
 }

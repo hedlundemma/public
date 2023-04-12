@@ -28,6 +28,18 @@ h1 {
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 1130px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 10px;
+  }
+}
+
 /*hero-section*/
 
 .hero-section {
