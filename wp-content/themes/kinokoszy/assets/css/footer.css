@@ -127,7 +127,7 @@
     margin: 1rem;
   }
   .secondary-footer-logo img {
-    width: 3.75rem;
+    width: 4rem;
   }
   .copy-section p {
     font-size: 1rem;
@@ -135,6 +135,7 @@
   }
   .facebook-logo {
     margin: 1rem;
+    margin-top: 0.8rem;
   }
   .copy-section {
     display: flex;
