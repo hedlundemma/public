@@ -27,6 +27,7 @@ nav img {
   justify-content: flex-end;
   gap: 48px;
   margin-right: 1rem;
+  z-index: 100;
 }
 
 .nav-links-container a,
@@ -45,14 +46,13 @@ nav img {
   display: none;
   cursor: pointer;
 }
-@media (max-width: 1130px) {
+
+@media screen and (max-width: 1130px) {
   .nav-links-container a,
   .dropdown p {
     font-size: 16px;
     font-weight: 450;
-    /* line-height: 28px; */
     letter-spacing: 0em;
-    /* text-align: left; */
   }
 
   .nav-links-container {
@@ -67,7 +67,7 @@ nav img {
   }
 }
 
-@media (max-width: 740px) {
+@media screen and (max-width: 740px) {
   .dropdown {
     display: flex;
     padding-right: 1rem;

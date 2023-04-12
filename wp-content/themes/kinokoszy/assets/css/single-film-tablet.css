@@ -1,0 +1,49 @@
+@media screen and (max-width: 1130px) {
+  .single-film-heading h2 {
+    max-width: 60%;
+    text-transform: uppercase;
+    float: right;
+    direction: ltr;
+
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 90px;
+    letter-spacing: 0em;
+    text-align: right;
+  }
+
+  .articles-grid {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-auto-rows: auto;
+    margin-top: 2rem;
+    justify-content: center;
+    grid-column-gap: 4.5rem;
+    direction: rtl;
+    padding: 0px 1rem;
+  }
+
+  .single-film-paragraph {
+    /* font-family: Neue Haas Grotesk Display Std; */
+    font-size: 36px;
+    font-weight: 450;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .articles-post {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 6% 0px;
+    gap: 48px;
+    direction: ltr;
+  }
+
+  .articles-post p {
+    font-family: "Neue Haas Grotesk-Roman";
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
