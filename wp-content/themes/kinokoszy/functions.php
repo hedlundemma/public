@@ -118,5 +118,11 @@ function scripts()
         wp_enqueue_script('photos', get_template_directory_uri() . '/assets/js/photos.js', array(), false, true);
     }
 }
+
+function add_viewport_meta_tag() {
+    echo '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
+}
+
+add_action('wp_head', 'add_viewport_meta_tag');
 add_action('wp_enqueue_scripts', 'custom_styles');
 add_action('wp_enqueue_scripts', 'scripts');
