@@ -1,6 +1,6 @@
 @media screen and (max-width: 1130px) {
   .single-film-heading h2 {
-    max-width: 60%;
+    /* max-width: 60%; */
     text-transform: uppercase;
     float: right;
     direction: ltr;
@@ -11,6 +11,9 @@
     letter-spacing: 0em;
     text-align: right;
   }
+  .single-film-heading {
+    padding: 1rem 2rem 2rem 1.5rem;
+  }
 
   .articles-grid {
     display: grid;
@@ -18,7 +21,7 @@
     grid-auto-rows: auto;
     margin-top: 2rem;
     justify-content: center;
-    grid-column-gap: 4.5rem;
+    grid-column-gap: 3.5rem;
     direction: rtl;
     padding: 0px 1rem;
   }
@@ -112,5 +115,28 @@
     line-height: 1.25rem;
     letter-spacing: 0em;
     text-align: left;
+  }
+
+  .single-film-heading {
+    padding: 1.5rem 1rem;
+  }
+
+  .single-film-heading h2 {
+    /* max-width: 60%; */
+    /* text-transform: uppercase;
+    float: right;
+    direction: ltr;
+
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 5.625rem;
+    letter-spacing: 0em;
+    text-align: right; */
+
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: right;
   }
 }

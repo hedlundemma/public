@@ -2,7 +2,7 @@
   padding: 5rem 2rem;
   border-bottom: 0.125rem solid #000000;
 }
-.exhibitions .exhibition-heading h2 {
+.exhibition-heading h2 {
   font-family: "Neue Haas Grotesk-Medium";
   font-size: 6rem;
   line-height: 5.625rem;
@@ -45,6 +45,9 @@
     line-height: 90px;
     letter-spacing: 0em;
   }
+  .exhibition-heading {
+    padding: 1rem 2rem 2rem 1.5rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -54,6 +57,10 @@
     line-height: 32px;
     letter-spacing: 0em;
     text-align: right;
+  }
+
+  .exhibition-heading {
+    padding: 1.5rem 1rem;
   }
 
   .articles-post h3 {
