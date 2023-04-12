@@ -89,6 +89,10 @@ function custom_styles()
         wp_enqueue_style('photos', get_template_directory_uri() . '/assets/css/photos.css');        
     }
     wp_enqueue_style('about-page', get_template_directory_uri() . '/assets/css/about-page.css');
+
+    if (is_singular('film')) {
+        wp_enqueue_style('film-grid-tablet', get_template_directory_uri() . '/assets/css/single-film-tablet.css');
+    }
 }
 
 function scripts()
