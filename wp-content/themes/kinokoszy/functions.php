@@ -77,7 +77,6 @@ function custom_styles()
 {
     wp_enqueue_style('style', get_stylesheet_uri());
     wp_enqueue_style('main', get_template_directory_uri() . '/assets/css/main.css');
-    wp_enqueue_style('exhibition', get_template_directory_uri() . '/assets/css/exhibition.css');
     wp_enqueue_style('header', get_template_directory_uri() . '/assets/css/header.css');
     wp_enqueue_style('footer', get_template_directory_uri() . '/assets/css/footer.css');
     wp_enqueue_style('contact', get_template_directory_uri() . '/assets/css/contact.css');
@@ -86,12 +85,16 @@ function custom_styles()
     wp_enqueue_style('film', get_template_directory_uri() . '/assets/css/film.css');
     wp_enqueue_style('books', get_template_directory_uri() . '/assets/css/books.css');
     if (is_page('photos')) {
-        wp_enqueue_style('photos', get_template_directory_uri() . '/assets/css/photos.css');        
+        wp_enqueue_style('photos', get_template_directory_uri() . '/assets/css/photos.css');
     }
     wp_enqueue_style('about-page', get_template_directory_uri() . '/assets/css/about-page.css');
 
     if (is_singular('film')) {
         wp_enqueue_style('film-grid-tablet', get_template_directory_uri() . '/assets/css/single-film-tablet.css');
+    }
+
+    if (is_archive("exhibition")) {
+        wp_enqueue_style('exhibition', get_template_directory_uri() . '/assets/css/exhibition.css');
     }
 }
 
@@ -111,12 +114,9 @@ function scripts()
     }
     if (!is_home()) {
         wp_enqueue_script('header-script', get_template_directory_uri() . '/assets/js/header.js', array(), false, true);
-    }
-    else{
+    } else {
         wp_enqueue_script('photos', get_template_directory_uri() . '/assets/js/photos.js', array(), false, true);
     }
-
-
 }
 
 function add_viewport_meta_tag() {
