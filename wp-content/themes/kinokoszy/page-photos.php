@@ -1,4 +1,3 @@
-<?php /* Template Name: Photos*/ ?>
 <?php
 get_header();
 ?>
