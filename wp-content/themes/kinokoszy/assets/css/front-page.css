@@ -1,51 +1,108 @@
+@media only screen and (min-width: 767px) {
+  #front-page-main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    transition: 300ms;
+    font-family: "Neue Haas Grotesk-Medium";
+    color: white;
+    flex-direction: row;
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    bottom: 0rem;
+    left: 0rem;
+  }
+
+  #front-page-kino-section {
+    grid-column: 1;
+  }
+
+  #front-page-joanna-section {
+    grid-column: 2;
+  }
+
+  #front-page-main:has(#front-page-kino-section:hover) {
+    grid-template-columns: 60% 40%;
+  }
+  
+  #front-page-main:has(#front-page-joanna-section:hover) {
+    grid-template-columns: 40% 60%;
+  }
+
+  #front-page-main h2 {
+    font-size: 6rem;
+    width: 23.5rem;
+    margin-left: 3.75rem;
+    margin-top: 4.875rem;
+  }
+
+  #wall {
+    position: absolute;
+    height: 100%;
+    width: 12.5rem;
+    z-index: 1;
+  
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #front-page-main {
+    display: grid;
+    grid-template-rows: 50% 50%;
+
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    bottom: 0rem;
+    left: 0rem;
+  }
+
+  #front-page-kino-section h2{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+  }    
+  #front-page-kino-section {
+    grid-row: 1;
+  }
+
+  #front-page-joanna-section {
+    background-size: cover;
+    grid-row: 2;
+  }
+
+  #front-page-joanna-section h2{
+    position: absolute;
+    bottom: 2rem;
+    right: 10.5rem;
+  }
+
+  #front-page-main h2 {
+    font-size: 2rem;
+    color: white;
+    width: 2rem;
+  }
+}
+
 body {
   margin: 0;
 }
 
-#front-page-main h2 {
-  font-size: 6rem;
-  width: 23.5rem;
-  margin-left: 3.75rem;
-  margin-top: 4.875rem;
-}
 
-#front-page-main {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  transition: 300ms;
-  font-family: "Neue Haas Grotesk-Medium";
-  color: white;
-  flex-direction: row;
-  position: absolute;
-  top: 0rem;
-  right: 0rem;
-  bottom: 0rem;
-  left: 0rem;
-}
 
 #front-page-kino-section {
   width: 100%;
   background-image: url("../images/KINO.png");
   background-repeat: no-repeat;
   background-size: cover;
-
-  grid-column: 1;
-}
-
-#front-page-main:has(#front-page-kino-section:hover) {
-  grid-template-columns: 60% 40%;
-}
-
-#front-page-main:has(#front-page-joanna-section:hover) {
-  grid-template-columns: 40% 60%;
 }
 
 #front-page-joanna-section {
   width: 100%;
   background-image: url("../images/Joanna-croped.jpg");
   background-repeat: no-repeat;
-
-  grid-column: 2;
 }
 
 #front-page-kino-section,
@@ -55,14 +112,4 @@ body {
 
 .blur {
   filter: blur(8px);
-}
-
-#wall {
-  position: absolute;
-  height: 100%;
-  width: 12.5rem;
-  z-index: 1;
-
-  left: 50%;
-  transform: translate(-50%, 0);
 }

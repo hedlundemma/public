@@ -31,6 +31,10 @@ photoOverlayPrevious.forEach((node) => {
   });
 });
 
+photoOverlayClose.addEventListener("click", (e) => {
+    overlay.classList.toggle("hide");
+  });
+
 function nav(dir) {
   currentImgIndex += dir;
   currentImgIndex = wrap(currentImgIndex, 0, galleryImages.length - 1);
