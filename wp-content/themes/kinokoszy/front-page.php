@@ -10,6 +10,9 @@
     <div id="front-page-kino-section">
         <h2>KINO KOSZYK</h2>
     </div>
+    <div id="front-page-mobile-label">
+        <h2>CHOOSE A SITE</h2>
+    </div>
     <div id="front-page-joanna-section">
         <h2>JOANNA HELANDER</h2>
     </div>

@@ -2,9 +2,7 @@ const main = document.querySelector("#front-page-main");
 const kinoSection = document.querySelector("#front-page-kino-section");
 const joannaSection = document.querySelector("#front-page-joanna-section");
 
-console.log(/mobi/.test(navigator.userAgent));
-
-if (!/mobi/.test(navigator.userAgent)) {
+if (!/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
 
   kinoSection.addEventListener("mouseenter", function (e) {
     joannaSection.classList.add("blur");

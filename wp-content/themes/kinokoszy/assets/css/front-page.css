@@ -1,4 +1,4 @@
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 992px) {
   #front-page-main {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -47,10 +47,10 @@
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 992px) {
   #front-page-main {
     display: grid;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 40% 1fr 40%;
 
     position: absolute;
     top: 0rem;
@@ -68,9 +68,23 @@
     grid-row: 1;
   }
 
+  #front-page-mobile-label{
+    background-color: #000000;
+    grid-row: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  #front-page-mobile-label h2{
+    width: auto !important;
+  }
+  
   #front-page-joanna-section {
     background-size: cover;
-    grid-row: 2;
+    grid-row: 3;
   }
 
   #front-page-joanna-section h2{
@@ -89,8 +103,6 @@
 body {
   margin: 0;
 }
-
-
 
 #front-page-kino-section {
   width: 100%;
