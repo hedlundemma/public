@@ -273,7 +273,7 @@
   width: 96vw;
   z-index: 100;
   left: 2vw;
-  bottom: -10%;
+  bottom: -8%;
   /* transform: translateY(-50%); */
 }
 
@@ -295,7 +295,7 @@
 .left-arrow {
   cursor: pointer;
   transition: 0.3s;
-  height: 25px;
+  height: 1.563rem;
 }
 
 .left-arrow:hover,
@@ -306,9 +306,9 @@
 .single-film-link-container p {
   text-decoration: none;
   color: #000000;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 450;
-  line-height: 28px;
+  line-height: 1.75rem;
   letter-spacing: 0em;
   text-align: right;
 

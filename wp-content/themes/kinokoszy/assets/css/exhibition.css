@@ -40,9 +40,9 @@
   }
 
   .exhibition-heading h2 {
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 500;
-    line-height: 90px;
+    line-height: 5.625rem;
     letter-spacing: 0em;
   }
   .exhibition-heading {
@@ -52,9 +52,9 @@
 
 @media screen and (max-width: 480px) {
   .exhibition-heading h2 {
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 500;
-    line-height: 32px;
+    line-height: 2rem;
     letter-spacing: 0em;
     text-align: right;
   }
@@ -64,17 +64,17 @@
   }
 
   .articles-post h3 {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 1.5rem;
     letter-spacing: 0em;
     text-align: left;
   }
 
   .articles-post p {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 450;
-    line-height: 20px;
+    line-height: 1.25rem;
     letter-spacing: 0em;
     text-align: left;
   }

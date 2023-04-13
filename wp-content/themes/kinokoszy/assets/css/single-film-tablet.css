@@ -118,7 +118,7 @@
     font-weight: 450;
     line-height: 1.25rem;
     letter-spacing: 0em;
-
+    max-width: 64vw;
   }
 
   .single-film-heading {
@@ -126,20 +126,9 @@
   }
 
   .single-film-heading h2 {
-    /* max-width: 60%; */
-    /* text-transform: uppercase;
-    float: right;
-    direction: ltr;
-
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: 500;
-    line-height: 5.625rem;
-    letter-spacing: 0em;
-    text-align: right; */
-
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 32px;
+    line-height: 2rem;
     letter-spacing: 0em;
     text-align: right;
   }
