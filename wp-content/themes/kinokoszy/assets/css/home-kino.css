@@ -4,6 +4,8 @@
   grid-gap: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
+ 
+  
 }
 
 #home-news-section {
@@ -12,14 +14,34 @@
 }
 
 .latest-news-section h2 {
+  font-family: "Neue Haas Grotesk-Medium";
   font-size: 5rem;
   margin: 3rem 2rem;
-  font-weight: 800;
 }
 
+
+.partners-span{
+  font-size: 2.25rem;
+  font-family: "Neue Haas Grotesk-Medium";
+  
+
+}
+
+
 .home-partner-card {
+  display:flex;
   height: 14.625rem;
-  background-color: grey;
+ border: 2px solid black;
+ justify-content: center;
+ align-items: center;
+ padding: 1rem 1rem;
+
+ 
+}
+.home-partner-card  img{
+  width: 100%;
+  object-fit: contain;
+  height: 100%;
 }
 
 .home-main p {
@@ -56,6 +78,7 @@
 /* Kom ihåg att döpa om namnet till korrekt tema vid deploy*/
 .home-content-section-photography {
   background-image: url("../images/Magda.1.jpg");
+  background-position: center center;
   background-size: cover;
 }
 
@@ -67,6 +90,7 @@
 }
 
 .home-content-section h2 {
+  font-family: "Neue Haas Grotesk-Medium";
   color: white;
   position: absolute;
   font-size: 4rem;
@@ -113,7 +137,6 @@
 }
 
 .awards-heading {
-  /* font-family: Neue Haas Grotesk Display Pro; */
   font-size: 2.25rem;
   font-weight: 500;
   line-height: 2.5rem;
@@ -132,6 +155,7 @@
   margin-left: 2.6rem;
   margin-bottom: 3.25rem;
   font-weight: 500;
+  margin-top: 2rem;
 }
 
 .partners-heading-joanna {
@@ -162,6 +186,12 @@
 }
 
 @media screen and (max-width: 1130px) {
+  .latest-news-section h2 {
+    font-size: 4rem;
+    line-height: 5.6rem;
+    margin: 3rem 1rem 1.5rem 1rem;
+  }
+
   .home-news-arrow-img {
     display: none;
   }
@@ -179,9 +209,18 @@
     grid-column-end: 7;
     margin-top: 3rem;
   }
+  .partners-span{
+    font-size: 1.8rem;
+  }
 }
 
 @media screen and (max-width: 500px) {
+  .home-main p {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin: 2rem 1.5rem 2rem 1.5rem;
+  }
+
   .home-news-facebook {
     grid-column-end: 5;
     margin-top: 3rem;
@@ -191,7 +230,12 @@
     background-image: url("../images/watching-the-moon-mobile.png");
   }
 
-  #home-movie-section a {
+  .home-content-section-photography {
+    background-image: url("../images/Magda_1_beskuren-min.png");
+  }
+
+  #home-movie-section a,
+  .home-content-section h2 {
     font-size: 2.25rem;
   }
 
@@ -200,5 +244,13 @@
     grid-gap: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+
+  .latest-news-section h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .partners-span{
+    font-size: 1.5rem;
   }
 }
