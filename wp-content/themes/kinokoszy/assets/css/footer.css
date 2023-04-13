@@ -10,6 +10,11 @@
   margin-left: 2.1rem;
 }
 
+/* Replacement for Kino logo on Joanna's pages */
+.secondary-footer-logo-placeholder {
+  width: 20%;
+}
+
 .footer-section h2 {
   font-size: 4.688rem;
   line-height: 2.025rem;
@@ -86,6 +91,10 @@
 }
 @media screen and (max-width: 1130px) {
   .logo-footer {
+    display: none;
+  }
+
+  .secondary-footer-logo-placeholder {
     display: none;
   }
 
