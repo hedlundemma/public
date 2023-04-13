@@ -7,15 +7,14 @@
 }
 
 #home-news-section {
- text-align: right;
- margin-bottom: 7rem;
+  text-align: right;
+  margin-bottom: 7rem;
 }
 
-.latest-news-section h2{
+.latest-news-section h2 {
   font-size: 5rem;
   margin: 3rem 2rem;
   font-weight: 800;
-
 }
 
 .home-partner-card {
@@ -51,7 +50,7 @@
   position: relative;
   margin-top: 2rem;
   width: 100%;
-  height: 25rem;
+  height: 31.5rem;
 }
 
 /* Kom ihåg att döpa om namnet till korrekt tema vid deploy*/
@@ -62,7 +61,8 @@
 
 /* Kom ihåg att döpa om namnet till korrekt tema vid deploy*/
 .home-content-section-books {
-  background-image: url("../images/Magda.1.jpg");
+  background-image: url("../images/books/Photo\ 1-3.png");
+  background-position: center center;
   background-size: cover;
 }
 
@@ -148,10 +148,8 @@
   animation: roll 10s linear infinite;
 }
 
-.latest-news-section{
+.latest-news-section {
   border-bottom: 0.125rem solid black;
-  
-  
 }
 
 @keyframes roll {
@@ -163,56 +161,44 @@
   }
 }
 
-@media screen and (max-width: 1130px){
-
+@media screen and (max-width: 1130px) {
   .home-news-arrow-img {
-    display:none;
+    display: none;
   }
 
   #home-news-section p {
     display: none;
   }
 
-  #home-movie-section{
+  #home-movie-section {
     background-image: url("../images/watching-the-moon-tablet.png");
     font-size: 6rem;
   }
 
   .home-news-facebook {
     grid-column-end: 7;
-  margin-top: 3rem;
-
-
-
+    margin-top: 3rem;
   }
-
 }
 
-@media screen and (max-width: 500px){
-
+@media screen and (max-width: 500px) {
   .home-news-facebook {
     grid-column-end: 5;
-  margin-top: 3rem;
-}
+    margin-top: 3rem;
+  }
 
-#home-movie-section{
-  background-image: url("../images/watching-the-moon-mobile.png");
-  
-}
+  #home-movie-section {
+    background-image: url("../images/watching-the-moon-mobile.png");
+  }
 
-#home-movie-section a{
-  font-size: 2.25rem;
+  #home-movie-section a {
+    font-size: 2.25rem;
+  }
 
-}
-
-#home-partners-section {
-  
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-
-
+  #home-partners-section {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }

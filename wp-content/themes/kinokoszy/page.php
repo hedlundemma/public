@@ -2,7 +2,9 @@
 
 get_header();
 
+
 ?>
+
 <section class="hero-section">
     <div class="arrow-container">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Group 6.png" alt="">
@@ -24,10 +26,16 @@ get_header();
             <rect x="0.626953" y="1.95117" width="2" height="23" transform="rotate(-45 0.626953 1.95117)" fill="black"/>
         </svg>
     </div>
-    <div id="photo-overlay-nav">
-            <a id="photo-overlay-nav-previous">&lt&lt       PREVIOUS PHOTO</a>
+    <div class="photo-overlay-nav desktop">
+            <a class="photo-overlay-nav-previous desktop">&lt&lt       PREVIOUS PHOTO</a>
             <p>//</p>
-            <a id="photo-overlay-nav-next">NEXT PHOTO       &gt&gt</a>
+            <a class="photo-overlay-nav-next">NEXT PHOTO       &gt&gt</a>
+    </div>
+
+    <div class="photo-overlay-nav mobile">
+            <a class="photo-overlay-nav-previous">PREVIOUS</a>
+            <p>//</p>
+            <a class="photo-overlay-nav-next">NEXT</a>
     </div>
 </div>
 

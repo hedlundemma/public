@@ -1,15 +1,18 @@
 @media screen and (max-width: 1130px) {
   .single-film-heading h2 {
-    max-width: 60%;
+    /* max-width: 60%; */
     text-transform: uppercase;
     float: right;
     direction: ltr;
 
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 500;
-    line-height: 90px;
+    line-height: 5.625rem;
     letter-spacing: 0em;
     text-align: right;
+  }
+  .single-film-heading {
+    padding: 1rem 2rem 2rem 1.5rem;
   }
 
   .articles-grid {
@@ -18,16 +21,16 @@
     grid-auto-rows: auto;
     margin-top: 2rem;
     justify-content: center;
-    grid-column-gap: 4.5rem;
+    grid-column-gap: 3.5rem;
     direction: rtl;
     padding: 0px 1rem;
   }
 
   .single-film-paragraph {
     /* font-family: Neue Haas Grotesk Display Std; */
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 450;
-    line-height: 44px;
+    line-height: 2.75rem;
     letter-spacing: 0em;
     text-align: left;
   }
@@ -37,13 +40,96 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 6% 0px;
-    gap: 48px;
+    gap: 3rem;
     direction: ltr;
   }
 
   .articles-post p {
     font-family: "Neue Haas Grotesk-Roman";
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  .single-film-link-container a,
+  .single-film-link-container p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .articles-grid {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    justify-content: center;
+    direction: rtl;
+    padding: 0px 1rem;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+  }
+
+  .single-film-paragraph {
+    font-size: 1rem;
+    font-weight: 450;
+    line-height: 1.25rem;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .articles-post p {
+    font-size: 0.875rem;
+    font-weight: 450;
+    line-height: 1.25rem;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .articles-post h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .articles-post {
+    gap: 0.625rem;
+  }
+
+  .arrows-container {
+    display: none;
+  }
+
+  .single-film-links-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .single-film-link-container a img {
+    height: 110vw;
+    width: 64vw;
+    object-fit: cover;
+  }
+
+  .single-film-link-container a,
+  .single-film-link-container p {
+    font-size: 0.875rem;
+    font-weight: 450;
+    line-height: 1.25rem;
+    letter-spacing: 0em;
+    max-width: 64vw;
+  }
+
+  .single-film-heading {
+    padding: 1.5rem 1rem;
+  }
+
+  .single-film-heading h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing: 0em;
+    text-align: right;
   }
 }

@@ -28,7 +28,8 @@ h1 {
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 1130px) {
+/* MV: Experimented with REM-sizes here. Very useful but not feasible so far into this project. */
+/* @media screen and (max-width: 1130px) {
   html {
     font-size: 13px;
   }
@@ -38,7 +39,7 @@ h1 {
   html {
     font-size: 10px;
   }
-}
+} */
 
 /*hero-section*/
 

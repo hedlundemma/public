@@ -41,7 +41,7 @@
         </div>
     </section>
 
-    <h2 class="partners-heading">PARTNERS</h2>
+    <!-- <h2 class="partners-heading">PARTNERS</h2>
     <section id="home-partners-section">
         <div class="home-partner-card">
             <p>text</p>
@@ -61,7 +61,7 @@
         <div class="home-partner-card">
             <p>text</p>
         </div>
-    </section>
+    </section> -->
 
     <section id="home-news-section">
         <div class="latest-news-section">
