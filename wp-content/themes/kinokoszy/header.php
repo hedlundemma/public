@@ -21,8 +21,9 @@ $page_id = $wp_query->get_queried_object_id()
                 <?php if (is_page('kino') || is_page('kino/contact') || is_page('kino/about') || (get_post_type() == 'film')) : ?>
                 <a href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/headerLogo.png"
                         alt=""></a>
+                <?php endif?>
             </div>
-            <?php endif?>
+
             <div class="nav-links-container">
 
 
