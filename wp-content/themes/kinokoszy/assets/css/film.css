@@ -59,7 +59,7 @@
 /* This is the section with shortcut posts to individual film pages ---> */
 
 .featured-films-section {
-  padding: 7.25rem 2rem 10rem 2rem;
+  padding: 7.25rem 2rem 7.25rem 2rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.625rem;
@@ -235,7 +235,8 @@
   object-fit: cover;
 }
 
-.single-film-director, .single-film-paragraph {
+.single-film-director,
+.single-film-paragraph {
   padding: 6% 6% 3% 6%;
   display: flex;
   font-size: 2.25rem;
@@ -301,7 +302,6 @@
 .right-arrow:hover {
   scale: 1.4;
 }
-
 
 .title-links {
   display: flex;
