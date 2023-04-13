@@ -125,6 +125,8 @@
 .single-books-heading {
   padding: 5rem 2rem;
   border-bottom: 0.125rem solid #000000;
+  text-align: right;
+  
 }
 
 .single-books-heading h2 {

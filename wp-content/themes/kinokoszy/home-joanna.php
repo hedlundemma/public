@@ -40,27 +40,7 @@
 
     </section>
 
-    <!-- <h2 class="partners-heading-joanna">PARTNERS</h2>
-    <section id="home-partners-section">
-        <div class="home-partner-card">
-            <p>text</p>
-        </div>
-        <div class="home-partner-card">
-            <p>text</p>
-        </div>
-        <div class="home-partner-card">
-            <p>text</p>
-        </div>
-        <div class="home-partner-card">
-            <p>text</p>
-        </div>
-        <div class="home-partner-card">
-            <p>text</p>
-        </div>
-        <div class="home-partner-card">
-            <p>text</p>
-        </div>
-    </section> -->
+
 
     <section id="home-news-section">
         <div class="latest-news-section">

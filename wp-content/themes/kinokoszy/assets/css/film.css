@@ -47,7 +47,7 @@
 
 .flex-image-container img {
   width: auto;
-  height: auto;
+  height: 100%;
 }
 
 .flex-image-container:hover {
@@ -244,6 +244,14 @@
   font-weight: 500;
   line-height: 2.75rem;
   letter-spacing: 0em;
+  text-align: left;
+}
+
+.single-film-director {
+  padding: 6% 6% 3%;
+  display: flex;
+  font-size: 2.25rem;
+
   text-align: left;
 }
 

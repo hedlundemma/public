@@ -14,14 +14,23 @@
   height: 37.5rem;
 }
 
+img:hover{
+  cursor: pointer;
+  transform: scale(1.02);
+  box-shadow: 0 0 10px rgba(0,0,0,05);
+  z-index: 1;
+}
+
+
+
 #photo-overlay {
   position: fixed;
   background-color: white;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -53%);
-  z-index: 1;
-  background-color: grey;
+  z-index: 2;
+  background-color:  white;
 }
 
 #photo-overlay-close {
@@ -50,7 +59,7 @@
   display: flex;
   justify-content: space-around;
   height: 1.875rem;
-  background-color: white;
+  background-color: grey;
 }
 
 .photo-overlay-nav a,

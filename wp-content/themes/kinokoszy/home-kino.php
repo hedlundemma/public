@@ -41,27 +41,27 @@
         </div>
     </section>
 
-    <!-- <h2 class="partners-heading">PARTNERS</h2>
+    <h2 class="partners-heading">PARTNERS</h2>
     <section id="home-partners-section">
         <div class="home-partner-card">
-            <p>text</p>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/SFI_logo_sve_s.jpg" alt="">
         </div>
         <div class="home-partner-card">
-            <p>text</p>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/nedladdning.png" alt="">
         </div>
         <div class="home-partner-card">
-            <p>text</p>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/filmivast.png" alt="">
         </div>
         <div class="home-partner-card">
-            <p>text</p>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/arte_logo.png" alt="">
         </div>
         <div class="home-partner-card">
-            <p>text</p>
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/ARS-CAM-logo-OK.jpg" alt="">
         </div>
         <div class="home-partner-card">
-            <p>text</p>
+            <span class="partners-span">SZYMBORSKA<br>STIFTELSEN</span>
         </div>
-    </section> -->
+    </section>
 
     <section id="home-news-section">
         <div class="latest-news-section">
