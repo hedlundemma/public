@@ -16,7 +16,12 @@
 
 img:hover{
   cursor: pointer;
+  transform: scale(1.02);
+  box-shadow: 0 0 10px rgba(0,0,0,05);
+  z-index: 1;
 }
+
+
 
 #photo-overlay {
   position: fixed;
@@ -24,7 +29,7 @@ img:hover{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -53%);
-  z-index: 1;
+  z-index: 2;
   background-color:  white;
 }
 
