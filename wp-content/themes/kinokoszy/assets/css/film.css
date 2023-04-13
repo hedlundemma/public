@@ -235,20 +235,8 @@
   object-fit: cover;
 }
 
-.single-film-paragraph {
+.single-film-director, .single-film-paragraph {
   padding: 6% 6% 3% 6%;
-  display: flex;
-  justify-content: center;
-  text-align: left;
-  font-size: 2.25rem;
-  font-weight: 500;
-  line-height: 2.75rem;
-  letter-spacing: 0em;
-  text-align: left;
-}
-
-.single-film-director {
-  padding: 6% 6% 3%;
   display: flex;
   font-size: 2.25rem;
 
@@ -322,9 +310,10 @@
   text-transform: uppercase;
 }
 
-.single-film-link-container a {
-  word-wrap: break-word;
-  word-break: break-word;
+.single-film-link-container p span a {
+  /* word-wrap: break-word;
+  word-break: break-word; */
+  display: block;
 }
 .slashes-span {
   margin-right: 5vw;
