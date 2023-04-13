@@ -26,7 +26,8 @@
     padding: 0px 1rem;
   }
 
-  .single-film-paragraph {
+  .single-film-paragrap,
+  .single-film-director {
     /* font-family: Neue Haas Grotesk Display Std; */
     font-size: 2.25rem;
     font-weight: 450;
@@ -68,7 +69,8 @@
     margin-right: 3.5rem;
   }
 
-  .single-film-paragraph {
+  .single-film-paragraph,
+  .single-film-director {
     font-size: 1rem;
     font-weight: 450;
     line-height: 1.25rem;
