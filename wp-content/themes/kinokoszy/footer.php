@@ -10,9 +10,10 @@ $kino_footer_menu = wp_get_nav_menu_items('kino-footer-menu');
                 width="180px" />
             <h2> KINO</h2>
             <h3> KOSZYK</h3>
+            <?php endif?>
 
         </div>
-        <?php endif?>
+
         <div class="menu-footer">
             <?php if (is_page('kino') || is_page('kino/contact') || is_page('kino/about') || (get_post_type() == 'film')) : ?>
             <?php foreach ($kino_footer_menu as $link) : ?>
@@ -42,8 +43,9 @@ $kino_footer_menu = wp_get_nav_menu_items('kino-footer-menu');
         <?php if (is_page('kino') || is_page('kino/contact') || is_page('kino/about') || (get_post_type() == 'film')) : ?>
         <div class="secondary-footer-logo">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/seclogo.png" alt="logo kinokoszy" />
+            <?php endif?>
         </div>
-        <?php endif?>
+
 
         <div class="copy-section">
             <p> Copyright © 2023 · All Rights Reserved</p>

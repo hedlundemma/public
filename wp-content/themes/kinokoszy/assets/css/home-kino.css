@@ -4,6 +4,8 @@
   grid-gap: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
+ 
+  
 }
 
 #home-news-section {
@@ -17,9 +19,29 @@
   margin: 3rem 2rem;
 }
 
+
+.partners-span{
+  font-size: 2.25rem;
+  font-family: "Neue Haas Grotesk-Medium";
+  
+
+}
+
+
 .home-partner-card {
+  display:flex;
   height: 14.625rem;
-  background-color: grey;
+ border: 2px solid black;
+ justify-content: center;
+ align-items: center;
+ padding: 1rem 1rem;
+
+ 
+}
+.home-partner-card  img{
+  width: 100%;
+  object-fit: contain;
+  height: 100%;
 }
 
 .home-main p {
@@ -186,9 +208,12 @@
     grid-column-end: 7;
     margin-top: 3rem;
   }
+  .partners-span{
+    font-size: 1.8rem;
+  }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .home-main p {
     font-size: 1rem;
     line-height: 1.25rem;
@@ -223,5 +248,8 @@
   .latest-news-section h2 {
     font-size: 2rem;
     line-height: 2rem;
+  }
+  .partners-span{
+    font-size: 1.5rem;
   }
 }
