@@ -48,7 +48,7 @@
     padding: 3rem 0 5.5rem 0;
   }
 
-  /* Hides the last picture in every image gallery */
+  /* Hides the last picture in every image gallery on this page */
   figure figure:last-child {
     display: none !important;
   }

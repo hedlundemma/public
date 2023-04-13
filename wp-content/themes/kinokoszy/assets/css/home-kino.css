@@ -12,9 +12,9 @@
 }
 
 .latest-news-section h2 {
+  font-family: "Neue Haas Grotesk-Medium";
   font-size: 5rem;
   margin: 3rem 2rem;
-  font-weight: 800;
 }
 
 .home-partner-card {
@@ -56,6 +56,7 @@
 /* Kom ihåg att döpa om namnet till korrekt tema vid deploy*/
 .home-content-section-photography {
   background-image: url("../images/Magda.1.jpg");
+  background-position: center center;
   background-size: cover;
 }
 
@@ -67,6 +68,7 @@
 }
 
 .home-content-section h2 {
+  font-family: "Neue Haas Grotesk-Medium";
   color: white;
   position: absolute;
   font-size: 4rem;
@@ -113,7 +115,6 @@
 }
 
 .awards-heading {
-  /* font-family: Neue Haas Grotesk Display Pro; */
   font-size: 2.25rem;
   font-weight: 500;
   line-height: 2.5rem;
@@ -162,6 +163,12 @@
 }
 
 @media screen and (max-width: 1130px) {
+  .latest-news-section h2 {
+    font-size: 4rem;
+    line-height: 5.6rem;
+    margin: 3rem 1rem 1.5rem 1rem;
+  }
+
   .home-news-arrow-img {
     display: none;
   }
@@ -181,7 +188,13 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
+  .home-main p {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin: 2rem 1.5rem 2rem 1.5rem;
+  }
+
   .home-news-facebook {
     grid-column-end: 5;
     margin-top: 3rem;
@@ -191,7 +204,12 @@
     background-image: url("../images/watching-the-moon-mobile.png");
   }
 
-  #home-movie-section a {
+  .home-content-section-photography {
+    background-image: url("../images/Magda_1_beskuren-min.png");
+  }
+
+  #home-movie-section a,
+  .home-content-section h2 {
     font-size: 2.25rem;
   }
 
@@ -200,5 +218,10 @@
     grid-gap: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+
+  .latest-news-section h2 {
+    font-size: 2rem;
+    line-height: 2rem;
   }
 }
