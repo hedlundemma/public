@@ -78,7 +78,10 @@ $the_query = new WP_Query($args); ?>
                     <a href="<?php the_permalink() ?>">
                         <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
                     </a>
-                    <p><span class="slashes-span">//</span><span><a href="<?php the_permalink() ?>"><?php the_title() ?></a></span></p>
+                    <div class="title-links">
+                        <p>//</p><a href="<?php the_permalink(); ?>"><?php the_title() ?></a>
+                    </div>
+                    <a href=""></a>
                 </div>
             <?php endwhile ?>
 

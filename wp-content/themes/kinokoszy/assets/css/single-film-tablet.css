@@ -49,8 +49,9 @@
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
-  .single-film-link-container a,
-  .single-film-link-container p {
+
+  .single-film-link-container .title-links a,
+  .single-film-link-container .title-links p {
     font-size: 1rem;
   }
 }
@@ -104,6 +105,7 @@
     align-items: center;
     flex-direction: column;
     gap: 1.25rem;
+    overflow-x: unset;
   }
 
   .single-film-link-container a img {
@@ -111,9 +113,12 @@
     width: 64vw;
     object-fit: cover;
   }
+  .single-film-link-container {
+    width: 64vw;
+  }
 
-  .single-film-link-container a,
-  .single-film-link-container p {
+  .single-film-link-container .title-links a,
+  .single-film-link-container .title-links p {
     font-size: 0.875rem;
     font-weight: 450;
     line-height: 1.25rem;
@@ -131,9 +136,5 @@
     line-height: 2rem;
     letter-spacing: 0em;
     text-align: right;
-  }
-
-  .slashes-span {
-    margin-right: 8vw;
   }
 }
