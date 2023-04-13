@@ -10,6 +10,7 @@ $page_id = $wp_query->get_queried_object_id()
     <meta name="description"
         content="A web page for Kinokoszy and Joanna Helander with their films, mobvies, books and exhibitions">
     <?php wp_head(); ?>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
