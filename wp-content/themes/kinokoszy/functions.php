@@ -13,15 +13,15 @@ add_action('init', function () {
         'supports' => array('custom-field', 'title')
     ));
 
-    register_post_type('photo', array(
-        'labels' => array(
-            'name' => __('Photo'),
-        ),
-        'rewrite' => array('slug' => 'joanna/photos'),
-        'public' => true,
-        'has_archive' => true,
-        'supports' => array('custom-field')
-    ));
+    // register_post_type('photo', array(
+    //     'labels' => array(
+    //         'name' => __('Photo'),
+    //     ),
+    //     'rewrite' => array('slug' => 'joanna/photos'),
+    //     'public' => true,
+    //     'has_archive' => true,
+    //     'supports' => array('custom-field')
+    // ));
 
     register_post_type('film,', array(
         'labels' => array(
