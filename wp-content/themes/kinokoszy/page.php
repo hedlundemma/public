@@ -19,7 +19,7 @@ get_header();
 
 <div id="photo-overlay" class="hide">
     <div id="photo-overlay-img">
-        <img src="/wp-content/themes/kinokoszy/assets/images/Joanna-croped.jpg" alt="img">
+        <img src="" alt="img">
     </div>
     <div id="photo-overlay-close">
         <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
