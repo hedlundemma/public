@@ -132,4 +132,8 @@
     letter-spacing: 0em;
     text-align: right;
   }
+
+  .slashes-span {
+    margin-right: 8vw;
+  }
 }
