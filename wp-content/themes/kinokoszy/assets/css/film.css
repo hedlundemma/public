@@ -247,6 +247,15 @@
   text-align: left;
 }
 
+.single-film-director {
+  padding: 6% 6% 3%;
+  display: flex;
+  font-size: 2.25rem;
+
+  text-align: left;
+
+}
+
 /* Links section */
 .single-film-links-container {
   display: flex;
