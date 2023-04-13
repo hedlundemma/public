@@ -31,8 +31,9 @@ $articles = get_field('FilmArticles');
                 <h2><?php the_title() ?></h2>
             </div>
         </section>
-        <p class="single-film-director">DIRECTORS: <br> <?php the_field("directors") ?>
-        <p class="single-film-paragraph">ABOUT: <br> <?php the_field('film_paragraph') ?>
+
+        <p class="single-film-paragraph"><?php the_field('film_paragraph') ?>
+        <p class="single-film-director">Directors: <br> <?php the_field("directors") ?>
         <div class="articles-grid">
             <?php if (!empty($articles)) :
                 foreach ($articles as $featured_post) :

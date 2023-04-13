@@ -235,20 +235,8 @@
   object-fit: cover;
 }
 
-.single-film-paragraph {
+.single-film-director, .single-film-paragraph {
   padding: 6% 6% 3% 6%;
-  display: flex;
-  justify-content: center;
-  text-align: left;
-  font-size: 2.25rem;
-  font-weight: 500;
-  line-height: 2.75rem;
-  letter-spacing: 0em;
-  text-align: left;
-}
-
-.single-film-director {
-  padding: 6% 6% 3%;
   display: flex;
   font-size: 2.25rem;
 
