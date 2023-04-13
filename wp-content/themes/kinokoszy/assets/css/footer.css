@@ -46,6 +46,11 @@
   font-size: 1.25rem;
 }
 
+.menu-footer a:hover {
+  color: rgba(255, 255, 255, 1);
+  color: lightskyblue;
+}
+
 .menu-footer {
   display: grid;
   grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr;
