@@ -13,6 +13,16 @@ add_action('init', function () {
         'supports' => array('custom-field', 'title')
     ));
 
+    // register_post_type('photo', array(
+    //     'labels' => array(
+    //         'name' => __('Photo'),
+    //     ),
+    //     'rewrite' => array('slug' => 'joanna/photos'),
+    //     'public' => true,
+    //     'has_archive' => true,
+    //     'supports' => array('custom-field')
+    // ));
+
     register_post_type('film,', array(
         'labels' => array(
             'name' => __('Film'),
@@ -91,7 +101,7 @@ function custom_styles()
 function scripts()
 {
 
-    if (is_home()) {
+    if (is_front_page()) {
         wp_enqueue_script('front-page-script', get_template_directory_uri() . '/assets/js/front-page.js', array(), false, true);
     }
 

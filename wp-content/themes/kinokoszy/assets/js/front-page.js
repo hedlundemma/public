@@ -30,3 +30,5 @@ kinoSection.addEventListener("click", function (e) {
 joannaSection.addEventListener("click", function (e) {
   window.location.href = "joanna";
 });
+
+
