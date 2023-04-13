@@ -101,7 +101,7 @@ function custom_styles()
 function scripts()
 {
 
-    if (is_home()) {
+    if (is_front_page()) {
         wp_enqueue_script('front-page-script', get_template_directory_uri() . '/assets/js/front-page.js', array(), false, true);
     }
 
