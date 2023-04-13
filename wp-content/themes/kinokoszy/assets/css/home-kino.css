@@ -214,7 +214,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
   .home-main p {
     font-size: 1rem;
     line-height: 1.25rem;
