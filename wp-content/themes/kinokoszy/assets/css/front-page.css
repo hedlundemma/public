@@ -2,6 +2,7 @@
   #front-page-main {
     display: grid;
     grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
     transition: 300ms;
     font-family: "Neue Haas Grotesk-Medium";
     color: white;
@@ -44,6 +45,10 @@
   
     left: 50%;
     transform: translate(-50%, 0);
+  }
+
+  #front-page-mobile-label{
+    display: none;
   }
 }
 
