@@ -49,6 +49,10 @@
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+  .single-film-link-container a,
+  .single-film-link-container p {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -114,7 +118,7 @@
     font-weight: 450;
     line-height: 1.25rem;
     letter-spacing: 0em;
-    text-align: left;
+
   }
 
   .single-film-heading {

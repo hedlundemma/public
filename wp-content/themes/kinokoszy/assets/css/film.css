@@ -270,11 +270,11 @@
   position: absolute;
   display: flex;
   justify-content: space-between;
-  width: 90vw;
+  width: 96vw;
   z-index: 100;
-  left: 5vw;
-  top: 50%;
-  transform: translateY(-50%);
+  left: 2vw;
+  bottom: -10%;
+  /* transform: translateY(-50%); */
 }
 
 .single-film-link-container a img {
@@ -295,9 +295,22 @@
 .left-arrow {
   cursor: pointer;
   transition: 0.3s;
+  height: 25px;
 }
 
 .left-arrow:hover,
 .right-arrow:hover {
-  scale: 1.25;
+  scale: 1.4;
+}
+.single-film-link-container a,
+.single-film-link-container p {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 450;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: right;
+
+  text-transform: uppercase;
 }
